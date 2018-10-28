@@ -1,0 +1,74 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: frontpage.aux
+A level-1 auxiliary file: empty_page.aux
+A level-1 auxiliary file: eid_erkl.aux
+Already encountered file empty_page.aux
+---line 10 of file main.aux
+ : \@input{empty_page.aux
+ :                       }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: abstract.aux
+Already encountered file empty_page.aux
+---line 12 of file main.aux
+ : \@input{empty_page.aux
+ :                       }
+I'm skipping whatever remains of this command
+Already encountered file empty_page.aux
+---line 13 of file main.aux
+ : \@input{empty_page.aux
+ :                       }
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: nomenklatur.aux
+A level-1 auxiliary file: einleitung.aux
+A level-1 auxiliary file: theorie.aux
+A level-1 auxiliary file: methode.aux
+A level-1 auxiliary file: ergebnis.aux
+A level-1 auxiliary file: zsfassung.aux
+The style file: plain.bst
+A level-1 auxiliary file: anhang1.aux
+A level-1 auxiliary file: anhang2.aux
+Database file #1: lit_all.bib
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            544 strings with 4987 characters,
+and the built_in function-call counts, 1209 in all, are:
+= -- 119
+> -- 57
+< -- 1
++ -- 23
+- -- 18
+* -- 64
+:= -- 235
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 25
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 49
+empty$ -- 89
+format.name$ -- 18
+if$ -- 242
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 4
+newline$ -- 29
+num.names$ -- 10
+pop$ -- 24
+preamble$ -- 1
+purify$ -- 19
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 25
+swap$ -- 3
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 0
+while$ -- 10
+width$ -- 6
+write$ -- 61
+(There were 3 error messages)

@@ -2,7 +2,7 @@
 %  LaTeX 2e - Dokument
 %  Editor: Dragan Kozulovic
 % ==========================
-\documentclass[11pt,a4paper,fleqn,twoside]{report}
+\documentclass[11pt,a4paper,fleqn,twoside]{scrreprt}
 \usepackage[dvips,final]{graphicx}               %% epsfig -> tex-bilder
 \usepackage[latin1]{inputenc}                    %% ISO-Text mit Umlauten
 \usepackage[T1]{fontenc}                         %% Zeichensatz mit Umlauten
@@ -19,30 +19,28 @@
 
 
 % Einzubindende Dateien 
-\includeonly{00_frontpage,
-             00_empty_page,
-	     00_eid_erkl,
-	     00_abstract,
-	     00_nomenklatur,
-	     01_einleitung,
-	     02_grundlagen,
-	     03_rotierendewalzen,
-	     04_widerstandsbestimmung,
-	     05_windkanalversuche,
-	     06_versuchsauswertung,
-	     07_fazit,
+\includeonly{frontpage,
+             empty_page,
+	     eid_erkl,
+	     abstract,
+	     nomenklatur,
+	     einleitung,
+	     theorie,
+	     methode,
+	     ergebnis,
+	     zsfassung,
 	     anhang1,
 	     anhang2}
 \graphicspath{{figures/}}                         %% Pfad fuer einzubindende Graphiken
 
 
 % Seiten-Layout
-\oddsidemargin   0.0cm                           %% Anpassung DIN A4-Format (symmetrisch)
-\evensidemargin  0.0cm                           %% Anpassung DIN A4-Format (symmetrisch)
-\topmargin      -1.0cm         
-\textheight     25.0cm
-\textwidth      16.0cm
-\pagestyle{fancy}
+% \oddsidemargin   0.0cm                           %% Anpassung DIN A4-Format (symmetrisch)
+% \evensidemargin  0.0cm                           %% Anpassung DIN A4-Format (symmetrisch)
+% \topmargin      -1.0cm         
+% \textheight     25.0cm
+% \textwidth      16.0cm
+% \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
 \fancyhf{}                                %Clears all header and footer fields, in preparation.
@@ -60,12 +58,15 @@
 
 % Trennungskorrekturen
 \hyphenation{Auf-triebs-pro-ble-me}
+\hyphenation{Im-puls-er-hal-tungs-glei-chun-gen}
+\hyphenation{Schl\" u-ssel-in-for-ma-tion}
+%\hyphenation{}
 %\hyphenation{}
 %\hyphenation{}
 
 
 % Umbenennungen (babel) (siehe LaTeX-Begleiter, Abschn. 9.2.3)
-%\addto\extrasgerman{\renewcommand{\figurename}{Abb.}}
+\addto\extrasgerman{\renewcommand{\figurename}{Abb.}}
 
 
 % Listen
@@ -79,20 +80,20 @@
 
 \begin{document}
 % Titelseite
-\include{00_frontpage}
-\include{00_empty_page}
+\include{frontpage}
+\include{empty_page}
 
 \pagenumbering{roman}\setcounter{page}{1} 
 
 
 %% Eidesstattliche Erklaerung (fuer DA, MA und BA)
-%\include{eid_erkl}
-%\include{empty_page}
+\include{eid_erkl}
+\include{empty_page}
 
 
 % Uebersicht
-\include{00_abstract}
-\include{00_empty_page}
+\include{abstract}
+\include{empty_page}
 
 
 % Inhaltsverzeichnis
@@ -104,27 +105,25 @@
    \tableofcontents
 }
 % ATTENTION: comment out if contents sides are even number
-\include{00_empty_page}
+\include{empty_page}
 
 
 % Nomenklatur
 \newpage
 \fancyhead[RE]{Nomenklatur}
 \fancyhead[LO]{Nomenklatur}
-\include{00_nomenklatur}
+\include{nomenklatur}
 
 
 % alle Kapitel
 \pagenumbering{arabic}\setcounter{page}{1}
 \fancyhead[RE]{\nouppercase{\leftmark}}
 \fancyhead[LO]{\rightmark}
-\include{01_einleitung}
-\include{02_grundlagen}
-\include{03_rotierendewalzen}
-\include{04_widerstandsbestimmung}
-\include{05_windkanalversuche}
-\include{06_versuchsauswertung}
-\include{07_fazit}
+\include{einleitung}
+\include{theorie}
+\include{methode}
+\include{ergebnis}
+\include{zsfassung}
 
 
 % Literaturverzeichnis
