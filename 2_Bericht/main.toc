@@ -10,6 +10,8 @@
 \contentsline {section}{\numberline {3.2}Konstruktion}{3}
 \contentsline {section}{\numberline {3.3}Motor}{3}
 \contentsline {chapter}{\numberline {4}Widerstandsbestimmung}{4}
+\contentsline {section}{\numberline {4.1}mathematisches Modell}{4}
+\contentsline {section}{\numberline {4.2}Implementierung}{4}
 \contentsline {chapter}{\numberline {5}Windkanalversuche}{5}
 \contentsline {section}{\numberline {5.1}Windkanal}{5}
 \contentsline {section}{\numberline {5.2}Versuchsaufbau}{5}
