@@ -7,8 +7,6 @@
 \usepackage[latin1]{inputenc}                    %% ISO-Text mit Umlauten
 \usepackage[T1]{fontenc}                         %% Zeichensatz mit Umlauten
 %\usepackage[lflt]{floatflt}                     %% Textfluss um Bilder
-%\usepackage{amssymb}                            %% Symbole und Umgebungen aus AMSTeX
-%\usepackage{amsmath,amssymb}                    %% Symbole und Umgebungen aus AMSTeX
 \usepackage[german]{babel}                       %% BABEL -> deutsch
 \usepackage{parskip}                             %% parindent=0 / parskip
 \usepackage{fancyhdr}                            %% 'fancy'-Ueberschriften
@@ -16,6 +14,16 @@
 \usepackage{color}                               %% Farben
 \usepackage{multirow}                            %% Tabellen
 \usepackage{natbib}
+\usepackage{pdfpages}							 %% PDF ins Dokument integrieren
+\usepackage{amsmath}                   			 %% Packages für Formeln
+\usepackage{amsthm}								 %% -||-
+\usepackage{amsfonts}							 %% -||-
+\usepackage{amssymb} 							 %% -||-
+\usepackage{siunitx}							 %% SI-Einheiten
+\usepackage{booktabs}          					 %%table \toprule \bottomrule \midrule
+\usepackage{subcaption}
+\captionsetup[subfigure]{list=true, font=large, labelfont=bf, 
+	labelformat=brace, position=top}
 
 
 % Einzubindende Dateien 
@@ -26,7 +34,7 @@
 	     00_nomenklatur,
 	     01_einleitung,
 	     02_grundlagen,
-	     03_rotierendewalzen,
+	     03_versuchsvorbereitung,
 	     04_widerstandsbestimmung,
 	     05_windkanalversuche,
 	     06_versuchsauswertung,
@@ -74,6 +82,13 @@
 \newcommand{\el}{\end{list}}
 \newcommand{\cit}[1]{\textit{\cite{#1}}}
 
+%Makros für eine erleichterte Eingabe wiederkehrender Befehle:
+\newcommand{\abb}[1]{Abbildung~\ref{#1}}   
+\newcommand{\tab}[1]{Tabelle~\ref{#1}} 
+\newcommand{\glg}[1]{Gleichung~\ref{#1}}
+\newcommand{\kap}[1]{Kapitel~\ref{#1}}
+\newcommand{\abschn}[1]{Abschnitt~\ref{#1}}
+\newcommand{\anh}[1]{Anhang~\ref{#1}}
 
 
 
@@ -120,7 +135,7 @@
 \fancyhead[LO]{\rightmark}
 \include{01_einleitung}
 \include{02_grundlagen}
-\include{03_rotierendewalzen}
+\include{03_versuchsvorbereitung}
 \include{04_widerstandsbestimmung}
 \include{05_windkanalversuche}
 \include{06_versuchsauswertung}

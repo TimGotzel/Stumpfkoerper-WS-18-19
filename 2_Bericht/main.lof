@@ -1,7 +1,18 @@
 \select@language {german}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Stumpfk"orper mit Ausblasung von Bearman \cite {Hucho.2011}\relax }}{2}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Stumpfk"orper mit Ausblasung von Geropp \cite {Geropp.2000}\relax }}{3}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Ausblasung von Barros \cite {Barros.2016}\relax }}{3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Truckmodell von Modi \cite {MODI.1991}\relax }}{4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces betrachtete Modelle f"ur Auslegung der Regelung \cite {Henning.2008}\relax }}{4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces schematische Darstellung des Versuchsmodells\relax }}{6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces mathematische Funktionen f"ur Zahnform\relax }}{7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Querschnitt durch die finalen Walzen\relax }}{8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Signalverlauf der Walzen\relax }}{9}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces periodische Signale der Walzen\relax }}{9}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces MATLAB Skript zur Berechnung der Zahn"offnung\relax }}{11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

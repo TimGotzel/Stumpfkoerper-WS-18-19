@@ -1,34 +1,48 @@
 \begin{thebibliography}{1}
 
-\bibitem{Anderson_1990}
-J.~D. Anderson.
-\newblock {\em Modern Compressible Flow with Historical Perspective}.
-\newblock McGraw Hill, New York, 2 edition, 1990.
+\bibitem{Barros.2016}
+D.~Barros, Jacques Bor{\'e}e, Bernd~R. Noack, Andreas Spohn, and Tony Ruiz.
+\newblock Bluff body drag manipulation using pulsed jets and coanda effect.
+\newblock {\em Journal of Fluid Mechanics}, 805:422--459, 2016.
 
-\bibitem{Emery_1958}
-J.~C. Emery, L.~J. Herrig, J.~R. Erwin, and A.~R. Felix.
-\newblock Systematic two-dimensional cascade tests of naca 65-series compressor
-  blades at low speeds.
-\newblock Technical Report NACA-Rep. 1368, NACA, 1958.
+\bibitem{Geropp.2000}
+D.~Geropp and H.-J. Odenthal.
+\newblock Drag reduction of motor vehicles by active flow control using the
+  coanda effect.
+\newblock {\em Experiments in Fluids}, 28(1):74--85, 2000.
 
-\bibitem{Radespiel_2008}
-R.~Radespiel.
-\newblock Vorlesungsmanuskript: Str{\" o}mungsmechanik {II}.
-\newblock Technical report, Institut f{\" u}r Str{\" o}mungsmechanik, {TU}
-  {B}raunschweig, 2008.
+\bibitem{Henning.2008}
+L.~Henning.
+\newblock {\em Regelung abgel{\"o}ster Scherschichten durch aktive
+  Beeinflussung}.
+\newblock PhD thesis, {Technische Universit{\"a}t Berlin}, Berlin, 2008.
 
-\bibitem{Schlichting_1997}
-H.~Schlichting and K.~Gersten.
-\newblock {\em Grenzschicht-{T}heorie}.
-\newblock Springer, Berlin, 9 edition, 1997.
+\bibitem{Hucho.2011}
+W.-H. Hucho.
+\newblock {\em Aerodynamik der stumpfen K{\"o}rper: Physikalische Grundlagen
+  und Anwendungen in der Praxis}.
+\newblock Str{\"o}mungsmechanik. {Vieweg + Teubner}, Wiesbaden, 2., vollst.
+  {\"u}berarb. und erw. aufl. edition, 2011.
 
-\bibitem{Sellschopp_1995}
-O.~Sellschopp.
-\newblock Experimentelle und theoretische {U}ntersuchung der {S}ekund{\"
-  a}rstr{\" o}mungen in zwei {R}otor-{N}abenschnitt-{G}ittern f{\" u}r axiale
-  {K}reiselpumpen.
-\newblock Master's thesis, Institut f{\" u}r Str{\" o}mungsmechanik, TU
-  Braunschweig, 1995.
-\newblock Diplomarbeit Nr.~242.
+\bibitem{Leder.1992}
+A.~Leder.
+\newblock {\em Abgel{\"o}ste Str{\"o}mungen Physikalische Grundlagen}.
+\newblock Grundlagen und Fortschritte der Ingenieurwissenschaften /
+  Fundamentals and Advances in the Engineering Sciences. {Vieweg+Teubner
+  Verlag}, Wiesbaden, 1992.
+
+\bibitem{MODI.1991}
+V.~J. MODI, M.~S. U.~K. FERNANDO, and T.~YOKOMIZO.
+\newblock Moving surface boundary-layer control - studies with bluff bodies and
+  application.
+\newblock {\em AIAA Journal}, 29(9):1400--1406, 1991.
+
+\bibitem{Utturkar.2003}
+Y.~Utturkar, R.~Holman, R.~Mittal, B.~Carroll, M.~Sheplak, and L.~Cattafesta,
+  editors.
+\newblock {\em A Jet Formation Citerion for Synthetic Jet Actuators}, volume
+  nos. 2003-0001 to 2003-1143 (with omissions in numbering) of {\em AIAA
+  papers}, Reston, VA, 2003. {American Institute of Aeronautics and
+  Astronautics}.
 
 \end{thebibliography}
