@@ -2,8 +2,94 @@
 
 \section{Stumpfk\"orperaerodynamik (TG)}
 
-\section{Coand\^{a}-Effekt (TG)}
+%	Stumpfkörper
+%	D-Stumpfkörper
+%	Strömungsfeld
+%	Ablösung
+%	Totwasser
+%	Wirbelschichten
+%	Nachlauf
+%	Praktische Bedeutung
+%	Ggf. Vergleich schlanke Körper
 
+Im folgenden Kapitel wird der Begriff der Stumpfk"orper in Abgrenzung zu den schlanken K"orpern eingef"uhrt. Dabei soll im Besonderen auf das charakteristische Str"omungsfeld eingegangen und die Charakteristiken des Nachlaufs spezifiziert werden.
+
+\subsection{Geometrische Einordnung}
+Ein stumpfer K"orper in einer Anstr"omung differenziert sich geometrisch von einem schlanken insofern, dass er eine signifikante Dicke quer zur Anstr"omung aufweist, welche in vergleichbarer Gr"o\ss{}enordnung wie die Abmessungen parallel zur Anstr"omung liegt. Als Ma\ss{} kann das Dickenverh"altnis $\sigma$ als Kehrwert des Schlankheitsgrades $\lambda$ herangezogen werden, welches das Verh"altnis von Dicke zu Breite wiedergibt:
+
+\begin{align}
+\sigma = \frac{1}{\lambda} = \frac{d}{l}
+\end{align}
+
+Wie in \abb{fig:HuchoDV} zu sehen ist, ver"andert sich das Str"omungsbild ma\ss{}geblich mit dem Dickenverh"altnis $\sigma$, wobei der "Ubergang von schlanken zu stumpfen K"orpern flie\ss{}end ist.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{HuchoDickenverhaltnis.jpg}
+	\caption{elliptische Zylinder unterschiedlicher Dickenverh"altnisse im Rauchkanal \cite{Hucho.2011} \\ oben $\sigma = 0,13$ \\ Mitte $\sigma = 0,26$ \\ unten $\sigma = 0,5$ }
+	\label{fig:HuchoDV}
+\end{figure}
+
+Neben dem Dickenver"altnis kann ein diskontinuierlicher Verlauf der K"opergeometrie, wie dies beispielsweise bei  der ausgepr"agten Hinterkanten eines Fahrzeughecks der Fall ist, als geometrische Charakterisierung eines stumpfen K"orpers herangezogen werden. 
+
+\subsection{Str"omungsbild}
+\label{sec:Stromungsbild}
+Bei der Umstr"omung des K"orpers kommt es zur Ausbildung einer Grenzschicht. Ein Teil der kinetischen Energie der Grenzschichtstr"omung wird durch Reibung an der Wand dissipiert. Die Geometrie eines stumpfen K"orpers, wie in \abb{fig:HuchoDV} dargestellt, f"uhrt gem"a\ss{} Bernoulli zu einer Absenkung des statischen Drucks bis zur dicksten Stelle. Hinter dieser steigt der statische Druck wieder an, wobei die durch Reibung verringerte kinetische Energie nicht mehr ausreicht, um gegen diesen anzustr"omen. Ist die kinetische Energie vollends in Druck umgewandelt, kommt es zur R"uckstr"omung, wobei die Grenzschicht abl"ost \cite{Hucho.2011}.\\
+Der gleichen Argumentation folgend ist der Abl"osepunkt an einer gegebenenfalls vorhandenen diskontinuierlichen Stelle der K"orpergeometrie lokalisiert. In der Praxis ist dies h"aufig eine Hinterkante. 
+
+Das Abl"osen hat die Ausbildung eines Totwassers zur Folge, in dessen Gebiet sich das Fluid bedingt durch Z"ahigkeitseffekte verwirbelt und Wirbelschichten ausbildet. Wie man in \abb{fig:HuchoStumpf} sehen kann, ist das Totwasser ein Charakteristikum des Str"omungsbildes stumpfer K"orper. Im Vergleich dazu ist dieses Gebiet beim Str"omungsbild schlanker K"orper, wie in \abb{fig:HuchoSchlank} zu sehen, nicht vorhanden, da hier ein nahezu st"orungsfreies Abstr"omen m"oglich ist.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{HuchoschlankerKorper.jpg}
+	\caption{Stromlinienbild eines schlanken K"orpers im Rauchkanal \cite{Hucho.2011}}
+	\label{fig:HuchoSchlank}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{HuchoStumpferKorper.jpg}
+	\caption{Stromlinienbild eines stumpfen K"orpers im Rauchkanal \cite{Hucho.2011}}
+	\label{fig:HuchoStumpf}
+\end{figure}
+
+Innerhalb des Totwassers existiert eine instation"are periodische Str"omung, welche durch Druckschwankungen zu oszillierende Abl"osungen f"uhrt. Diese Oszillation wei\ss{}t eine charakteristische Frequenz auf und wird durch die Stouhal-Zahl ${Sr}$ beschrieben. 
+
+Die Wirbel innerhalb der turbulenten Str"omung  zerfallen kaskadenartig in kleinere Wirbel und dissipieren dabei ihre Energie in W"arme, bis sie sich g"anzlich aufl"osen und sich erneut ein laminares Str"omungsprofil ausbildet. Dennoch ergibt sich im Nachlauf des stumpfen K"orpers eine Delle im Geschwindigkeitsfeld. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\textwidth]{Nachlauf.jpg}
+	\caption{Nachlauf eines a) schlanken K"orpers und eines b) stumpfen K"orpers \cite{Hucho.2011}}
+	\label{fig:Nachlauf}
+\end{figure}
+
+\subsection{Praktische Bedeutung der Stumpfk"orper}
+tbd
+
+
+\section{Coand\^{a}-Effekt (TG)}
+%	Umströmung gekrümmter Flächen
+%	Haftbedingung
+%	Typische Strömungsbilder
+%	technische Anwendung 
+
+Der Coand\^{a}-Effekt tritt auf, wenn ein Strahl entlang einer K"orperkontur str"omt. Anders als die bisher betrachtete Str"omung, kann die sogenannte Coand\^{a}-Str"omung des Strahles der Kontur einer konvexen Rundung folgen ohne abzul"osen. Bei der normalen Anstr"omung f"uhrt die konvexe Rundung nach Bernoulli zu einer Verlangsamung der Str"omung und demgem"a\ss{} einer Druckerh"ohung, was eine R"uckstr"omung und Abl"osung zur Folge hat. Dies wurde bereits in \ref{sec:Stromungsbild} diskutiert.
+
+Da es sich bei der Coand\^{a}-Str"omung um einen Strahl handelt, gibt es zur Grenzschicht eine zus"atzliche Reibungsschicht zum umgebenden Medium. Dies wird in \abb{fig:coanda} gezeigt. Da das Umgebungsmedium ruht gibt es gem"a\ss{} Bernoulli keinen Druckanstieg entlang der konvexen Rundung, die Grenzschicht bleibt stabil. Aus diesem Grund haftet die Coand\^{a}-Str"omung l"anger an K"orperkontur an.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{coanda.jpg}
+	\caption{Skizze zum Coand\^{a}-Effekt \cite{Stadlberger.2016}}
+	\label{fig:coanda}
+\end{figure}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%NORAS REICH ;) %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Aktive Str\"omungsbeeinflussung (NB)}
 
 Stumpfe K"orper haben meist ein abruptes Ende, an dem sich str"omungsmechanische Nachteile ergeben. Diese versucht man durch Anpassung der Geometrie des K"orpers oder durch die strukturelle Ver"anderung des Todwassers auszugleichen. Ziel ist es den Basisdruck anzuheben und dar"uber den Druckwiderstand des K"orpers zu verringern \cite{Hucho.2011}.\\

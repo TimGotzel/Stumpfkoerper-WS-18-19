@@ -1,29 +1,32 @@
-\select@language {german}
+\babel@toc {german}{}
 \contentsline {chapter}{Nomenklatur}{v}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
 \contentsline {section}{\numberline {2.1}Stumpfk\"orperaerodynamik (TG)}{2}
-\contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{2}
-\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{2}
-\contentsline {chapter}{\numberline {3}Versuchsvorbereitung (NB)}{6}
-\contentsline {section}{\numberline {3.1}Stumpfk\"orper}{6}
-\contentsline {section}{\numberline {3.2}Rotierende Walzen}{7}
-\contentsline {chapter}{\numberline {4}Widerstandsbestimmung}{12}
-\contentsline {section}{\numberline {4.1}mathematisches Modell}{12}
-\contentsline {section}{\numberline {4.2}Implementierung}{12}
-\contentsline {chapter}{\numberline {5}Windkanalversuche}{13}
-\contentsline {section}{\numberline {5.1}Windkanal}{13}
-\contentsline {section}{\numberline {5.2}Versuchsaufbau}{13}
-\contentsline {section}{\numberline {5.3}Messeinrichtung}{13}
-\contentsline {section}{\numberline {5.4}Versuchsdurchf\"uhrung}{13}
-\contentsline {chapter}{\numberline {6}Versuchsauswertung}{14}
-\contentsline {section}{\numberline {6.1}Messdaten}{14}
-\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{14}
-\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{14}
-\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{14}
-\contentsline {chapter}{\numberline {7}Fazit}{15}
-\contentsline {chapter}{Literaturverzeichnis}{16}
-\contentsline {chapter}{Abbildungsverzeichnis}{17}
-\contentsline {chapter}{Tabellenverzeichnis}{18}
-\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{19}
-\contentsline {chapter}{\numberline {B}Messreihe}{23}
+\contentsline {subsection}{\numberline {2.1.1}Geometrische Einordnung}{2}
+\contentsline {subsection}{\numberline {2.1.2}Str"omungsbild}{2}
+\contentsline {subsection}{\numberline {2.1.3}Praktische Bedeutung der Stumpfk"orper}{4}
+\contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{4}
+\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{4}
+\contentsline {chapter}{\numberline {3}Versuchsvorbereitung (NB)}{9}
+\contentsline {section}{\numberline {3.1}Stumpfk\"orper}{9}
+\contentsline {section}{\numberline {3.2}Rotierende Walzen}{10}
+\contentsline {chapter}{\numberline {4}Widerstandsbestimmung}{15}
+\contentsline {section}{\numberline {4.1}mathematisches Modell}{15}
+\contentsline {section}{\numberline {4.2}Implementierung}{15}
+\contentsline {chapter}{\numberline {5}Windkanalversuche}{16}
+\contentsline {section}{\numberline {5.1}Windkanal}{16}
+\contentsline {section}{\numberline {5.2}Versuchsaufbau}{16}
+\contentsline {section}{\numberline {5.3}Messeinrichtung}{16}
+\contentsline {section}{\numberline {5.4}Versuchsdurchf\"uhrung}{16}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{17}
+\contentsline {section}{\numberline {6.1}Messdaten}{17}
+\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{17}
+\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{17}
+\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{17}
+\contentsline {chapter}{\numberline {7}Fazit}{18}
+\contentsline {chapter}{Literaturverzeichnis}{19}
+\contentsline {chapter}{Abbildungsverzeichnis}{20}
+\contentsline {chapter}{Tabellenverzeichnis}{21}
+\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{22}
+\contentsline {chapter}{\numberline {B}Messreihe}{26}
