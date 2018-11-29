@@ -3,8 +3,7 @@
 Bevor der Versuch im Windkanal stattfinden kann, muss das Experiment vorbereitet werden. Dazu wird in diesem Kapitel der verwendete Stumpfk\"orper, sowie die Konstruktion der rotierenden Walzen genauer vorgestellt.
 \section{Stumpfk\"orper}
 Der D-f\"ormige Stumpfk\"orper war im Rahmen dieser Arbeit vorgegeben, da er schon Bestand und weiter verwendet werden soll.\\
-\abb{fig:modelschema} zeigt eine schematische Zeichnung des Querschnitts des hier verwendeten K"orpers. Die Modellh"ohe h betr"agt \SI{53,4}{\milli\meter}.
-%L"ange: Breite: Spitzenradius:\\
+\abb{fig:modelschema} zeigt eine schematische Zeichnung des Querschnitts des hier verwendeten K"orpers. Die Modellh"ohe h betr"agt \SI{53,4}{\milli\meter}, die Breite \SI{390}{\milli\meter} und die L"ange l von \SI{190,6}{\milli\meter}.\\
 Ein weiterer gegebener Modell-Parameter ist eine Stouhal-Zahl von 0,23 (n"ahere Erl"auterungen in \kap{rotierendeWalze}).\\
 Am rechten Ende des K"orpers befinden sich zwei schematische Kreise, welche die rotierenden Walzen darstellen. Die Pfeile in den Kreisen geben die Drehrichtung an. "Uber die drehenden Walzen wird die Luft am Ende des K"orpers in die Str"omung eingeblasen. Eine genauere Beschreibung des Walzenaufbaus ist im folgenden Kapitel (\kap{rotierendeWalze}) gegeben.\\
 Die rotierenden Walzen sind jeweils auf einer Welle gelagert und werden von Elektromotoren angetrieben. Die Elektromotoren haben eine maximale Drehrate von 3650 Umdrehungenpro Minute und eine minimale Drehrate von um die 100 Umdrehungen pro Minute.
@@ -115,8 +114,8 @@ Hierbei ist f die Abl"osefrequenz der Str"omung, D die Profildicke im breitesten
 Wenn man \glg{eq:Str} nach der gew"unschten Variable umstellt (siehe \glg{eq:nachfumgestellt}) und die gegebenen Werte aus \tab{tab:Modellwerte} einsetzt, erh"alt man
 \begin{align}
 	{f}=\frac{Str*U_{\infty}}{D}
-		=\frac{0,23*\SI{18}{\meter\per\second}}{\SI{0,0534}{\meter}}
-		=\SI{77,53}{\hertz}
+		=\frac{0,23*\SI{16}{\meter\per\second}}{\SI{0,0534}{\meter}}
+		=\SI{68,91}{\hertz}
 		\label{eq:nachfumgestellt}
 \end{align}
 \begin{table}[h!]
@@ -126,32 +125,32 @@ Wenn man \glg{eq:Str} nach der gew"unschten Variable umstellt (siehe \glg{eq:nac
 		Parameter & Wert\\
 		\midrule
 		Strouhal-Zahl & 0,23\\
-		Anstr"omgeschwindigkeit & \SI{18}{\meter\per\second}\\
+		Anstr"omgeschwindigkeit & \SI{16}{\meter\per\second}\\
 		Profildicke & \SI{53,4}{\milli\meter}\\
 		\bottomrule
 	\end{tabular}
 	\caption{Modellwerte f"ur Frequenzberechnung}
 	\label{tab:Modellwerte}
 \end{table}\\
-%passt 18 m/s???
 Aus der Frequenz, die mindestens erreicht werden soll, kann nun berechnet werden, wie schnell sich die Walze mit welcher Z"ahnezahl drehen muss. Das Ergebnis f"ur unterschiedliche Z"ahne findet sich in \tab{tab:zahnezahl}.\\
 \begin{table}[h]
 	\centering
-	\begin{tabular}{lr}
+	\begin{tabular}{lrr}
 		\toprule
-		Anzahl der Z"ahne & Drehgeschwindigkeit der Welle [rpm]\\
+		Anzahl der Z"ahne & Drehgeschwindigkeit der Welle [Hz] & Drehgeschwindigkeit der Welle [rpm]\\
 		\midrule
-		1 & 77.53\\
-		2 & 155.06\\
-		4 & 310.12\\
-		6 & 465.18\\
-		8 & 620.24\\
-		10 & 775.30\\
+		1 & 68,91 & 4134,6\\
+		2 & 34,46 & 2067,3\\
+		4 & 17,23 & 1033,65\\
+		6 & 11,49 & 689,1\\
+		8 & 8,61 & 516,83\\
+		10 & 6,89 & 413,46\\
 		\bottomrule
 	\end{tabular}\\
 	\caption{Z"ahnezahlen mit zugeh"origen Frequenzen}
 	\label{tab:zahnezahl}
 \end{table}
+
 Aufgrund von Symmetrie und um dem m"oglichen entstehen einer Unwucht entgegen zu wirken, wurde sich f"ur eine gerade Z"ahnezahl entschieden. Durch die ben"otigte ausrechend gro\ss{}e L"ucke zwichen den Z"ahnen um einen effektiven Luftaussto\ss{} zu gew"ahrleisten, wurde sich f"ur eine Z"ahnezahl von zwei pro Walze entschieden.\\
 
 %-----------------------------------------------------------------------------------
