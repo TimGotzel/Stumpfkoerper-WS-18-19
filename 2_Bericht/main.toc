@@ -1,4 +1,4 @@
-\babel@toc {german}{}
+\select@language {german}
 \contentsline {chapter}{Nomenklatur}{v}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
@@ -11,6 +11,9 @@
 \contentsline {chapter}{\numberline {3}Versuchsvorbereitung (NB)}{9}
 \contentsline {section}{\numberline {3.1}Stumpfk\"orper}{9}
 \contentsline {section}{\numberline {3.2}Rotierende Walzen}{10}
+\contentsline {subsection}{\numberline {3.2.1}Zahnform}{10}
+\contentsline {subsection}{\numberline {3.2.2}Anzahl der Z"ahne}{12}
+\contentsline {subsection}{\numberline {3.2.3}Zahn"offnung}{13}
 \contentsline {chapter}{\numberline {4}Widerstandsbestimmung}{15}
 \contentsline {section}{\numberline {4.1}mathematisches Modell}{15}
 \contentsline {section}{\numberline {4.2}Implementierung}{15}
