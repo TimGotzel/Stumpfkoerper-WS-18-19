@@ -15,21 +15,23 @@
 \contentsline {subsection}{\numberline {3.2.2}Anzahl der Z"ahne}{12}
 \contentsline {subsection}{\numberline {3.2.3}Zahn"offnung}{13}
 \contentsline {chapter}{\numberline {4}Widerstandsbestimmung}{15}
-\contentsline {section}{\numberline {4.1}mathematisches Modell}{15}
-\contentsline {section}{\numberline {4.2}Implementierung}{15}
-\contentsline {chapter}{\numberline {5}Windkanalversuche}{16}
-\contentsline {section}{\numberline {5.1}Windkanal}{16}
-\contentsline {section}{\numberline {5.2}Versuchsaufbau}{16}
-\contentsline {section}{\numberline {5.3}Messeinrichtung}{16}
-\contentsline {section}{\numberline {5.4}Versuchsdurchf\"uhrung}{16}
-\contentsline {chapter}{\numberline {6}Versuchsauswertung}{17}
-\contentsline {section}{\numberline {6.1}Messdaten}{17}
-\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{17}
-\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{17}
-\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{17}
-\contentsline {chapter}{\numberline {7}Fazit}{18}
-\contentsline {chapter}{Literaturverzeichnis}{19}
-\contentsline {chapter}{Abbildungsverzeichnis}{20}
-\contentsline {chapter}{Tabellenverzeichnis}{21}
-\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{22}
-\contentsline {chapter}{\numberline {B}Messreihe}{26}
+\contentsline {section}{\numberline {4.1}Bestimmung des Widerstands mittels des Impulssatzes}{15}
+\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{17}
+\contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{17}
+\contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{18}
+\contentsline {chapter}{\numberline {5}Windkanalversuche}{20}
+\contentsline {section}{\numberline {5.1}Windkanal}{20}
+\contentsline {section}{\numberline {5.2}Versuchsaufbau}{20}
+\contentsline {section}{\numberline {5.3}Messeinrichtung}{20}
+\contentsline {section}{\numberline {5.4}Versuchsdurchf\"uhrung}{20}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{21}
+\contentsline {section}{\numberline {6.1}Messdaten}{21}
+\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{21}
+\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{21}
+\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{21}
+\contentsline {chapter}{\numberline {7}Fazit}{22}
+\contentsline {chapter}{Literaturverzeichnis}{23}
+\contentsline {chapter}{Abbildungsverzeichnis}{24}
+\contentsline {chapter}{Tabellenverzeichnis}{25}
+\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{26}
+\contentsline {chapter}{\numberline {B}Messreihe}{30}
