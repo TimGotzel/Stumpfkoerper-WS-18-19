@@ -1,5 +1,5 @@
 \select@language {german}
-\contentsline {chapter}{Nomenklatur}{v}
+\contentsline {chapter}{Nomenklatur}{vi}
 \contentsline {chapter}{\numberline {1}Einleitung}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
 \contentsline {section}{\numberline {2.1}Stumpfk\"orperaerodynamik (TG)}{2}
@@ -7,31 +7,34 @@
 \contentsline {subsection}{\numberline {2.1.2}Str"omungsbild}{2}
 \contentsline {subsection}{\numberline {2.1.3}Praktische Bedeutung der Stumpfk"orper}{4}
 \contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{4}
-\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{4}
-\contentsline {chapter}{\numberline {3}Versuchsvorbereitung (NB)}{9}
-\contentsline {section}{\numberline {3.1}Stumpfk\"orper}{9}
-\contentsline {section}{\numberline {3.2}Rotierende Walzen}{10}
-\contentsline {subsection}{\numberline {3.2.1}Zahnform}{10}
-\contentsline {subsection}{\numberline {3.2.2}Anzahl der Z"ahne}{12}
-\contentsline {subsection}{\numberline {3.2.3}Zahn"offnung}{13}
-\contentsline {chapter}{\numberline {4}Widerstandsbestimmung}{15}
+\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{5}
+\contentsline {chapter}{\numberline {3}Konstruktion der rotierenden Walzen (NB)}{10}
+\contentsline {section}{\numberline {3.1}Zahnform}{10}
+\contentsline {section}{\numberline {3.2}Anzahl der Z"ahne}{12}
+\contentsline {section}{\numberline {3.3}Zahn"offnung}{13}
+\contentsline {chapter}{\numberline {4}Widerstandsbestimmung (FT)}{15}
 \contentsline {section}{\numberline {4.1}Bestimmung des Widerstands mittels des Impulssatzes}{15}
-\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{17}
-\contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{17}
+\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{18}
+\contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{18}
 \contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{18}
-\contentsline {chapter}{\numberline {5}Windkanalversuche}{20}
-\contentsline {section}{\numberline {5.1}Windkanal}{20}
-\contentsline {section}{\numberline {5.2}Versuchsaufbau}{20}
-\contentsline {section}{\numberline {5.3}Messeinrichtung}{20}
-\contentsline {section}{\numberline {5.4}Versuchsdurchf\"uhrung}{20}
-\contentsline {chapter}{\numberline {6}Versuchsauswertung}{21}
-\contentsline {section}{\numberline {6.1}Messdaten}{21}
-\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{21}
-\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{21}
-\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{21}
-\contentsline {chapter}{\numberline {7}Fazit}{22}
-\contentsline {chapter}{Literaturverzeichnis}{23}
-\contentsline {chapter}{Abbildungsverzeichnis}{24}
-\contentsline {chapter}{Tabellenverzeichnis}{25}
-\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{26}
-\contentsline {chapter}{\numberline {B}Messreihe}{30}
+\contentsline {chapter}{\numberline {5}Experimentelle Untersuchungen im Windkanal (KK)}{20}
+\contentsline {section}{\numberline {5.1}Windkanalbeschreibung}{20}
+\contentsline {section}{\numberline {5.2}Messtechnik}{21}
+\contentsline {subsection}{\numberline {5.2.1}Messuhr}{21}
+\contentsline {subsection}{\numberline {5.2.2}Fischmaul-Sonde}{21}
+\contentsline {subsection}{\numberline {5.2.3}Statische Sonde}{21}
+\contentsline {subsection}{\numberline {5.2.4}Prandtl-Sonde}{21}
+\contentsline {subsection}{\numberline {5.2.5}Drehzahlmesser}{21}
+\contentsline {subsection}{\numberline {5.2.6}PSI-Anlage}{21}
+\contentsline {section}{\numberline {5.3}Versuchsvorbereitung}{21}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{22}
+\contentsline {section}{\numberline {6.1}Messdaten}{22}
+\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{22}
+\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{22}
+\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{22}
+\contentsline {chapter}{\numberline {7}Fazit}{23}
+\contentsline {chapter}{Literaturverzeichnis}{24}
+\contentsline {chapter}{Abbildungsverzeichnis}{25}
+\contentsline {chapter}{Tabellenverzeichnis}{26}
+\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{27}
+\contentsline {chapter}{\numberline {B}Messreihe}{31}

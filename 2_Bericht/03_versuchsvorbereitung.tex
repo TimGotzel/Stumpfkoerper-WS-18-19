@@ -1,22 +1,14 @@
-\chapter{Versuchsvorbereitung (NB)}
-\label{s:versuchsvorbereitung}
-Bevor der Versuch im Windkanal stattfinden kann, muss das Experiment vorbereitet werden. Dazu wird in diesem Kapitel der verwendete Stumpfk\"orper, sowie die Konstruktion der rotierenden Walzen genauer vorgestellt.
-\section{Stumpfk\"orper}
-Der D-f\"ormige Stumpfk\"orper war im Rahmen dieser Arbeit vorgegeben, da er schon Bestand und weiter verwendet werden soll.\\
-\abb{fig:modelschema} zeigt eine schematische Zeichnung des Querschnitts des hier verwendeten K"orpers. Die Modellh"ohe h betr"agt \SI{53,4}{\milli\meter}, die Breite \SI{390}{\milli\meter} und die L"ange l \SI{190,6}{\milli\meter}.\\
-Ein weiterer gegebener Modell-Parameter ist eine Stouhal-Zahl von 0,23 (n"ahere Erl"auterungen in \kap{rotierendeWalze}).\\
-Am rechten Ende des K"orpers befinden sich zwei schematische Kreise, welche die rotierenden Walzen darstellen. Die Pfeile in den Kreisen geben die Drehrichtung an. "Uber die drehenden Walzen wird die Luft am Ende des K"orpers in die Str"omung eingeblasen. Eine genauere Beschreibung des Walzenaufbaus ist im folgenden Kapitel (\kap{rotierendeWalze}) gegeben.\\
-Die rotierenden Walzen sind jeweils auf einer Welle gelagert und werden von Elektromotoren angetrieben. Die Elektromotoren haben eine maximale Drehrate von 3650 Umdrehungenpro Minute und eine minimale Drehrate von um die 100 Umdrehungen pro Minute.
+\chapter{Konstruktion der rotierenden Walzen (NB)}
+\label{s:rotierendeWalzen}
+Bevor das Experiment im Windkanal stattfinden kann, m"ussen die rotierenden Walzen f"ur den Stumpfk"orper konstuiert werden. Die Walzen sitzen am Ende des K"orpers, wie in \abb{fig:modelschema} gezeigt. Es sind drei unterschiedliche Walzenpaare entstanden: ein glattes Walzenpaar, ein gezahntes Walzenpaar mit einem duty cycle von 33\% und ein gezahntes Walzenpaar mit einem duty cycle von 50 \%.\\
+%Die rotierenden Walzen sind jeweils auf einer Welle gelagert und werden von Elektromotoren angetrieben. Die Elektromotoren haben eine maximale Drehrate von 3650 Umdrehungenpro Minute und eine minimale Drehrate von um die 100 Umdrehungen pro Minute.
+
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=1\textwidth]{ModellSchema.jpg}
+	\includegraphics[width=0.8\textwidth]{ModellSchema.jpg}
 	\caption{schematische Darstellung des Versuchsmodells}
 	\label{fig:modelschema}
 \end{figure}
-%evtl. Tabelle mit gegebenen Modelparametern
-
-\section{Rotierende Walzen}
-\label{rotierendeWalze}
 Die rotierenden Walzen erf"ullen die Aufgabe, der gepulsten Einblasung in die Str"omung am Ende des Stumpfk"orpers.\\
 Die Walzen bestehen aus einer Aluminium Innenewelle und einem mit Presspassung verbundenen Teflonrohr. In dem Teflonrohr ist die entscheidende Zahngeometire eingebracht. F"ur Konstruktion des Teflonrohrs mussten folgende Aspekte betrachtet werden:
 \begin{enumerate}
@@ -25,26 +17,27 @@ Die Walzen bestehen aus einer Aluminium Innenewelle und einem mit Presspassung v
 	\item Zahn"offnung 
 \end{enumerate}
 
-\subsection{Zahnform}
-Die Zahnform hat Auswirkungen auf das gepulste Signal, das in die Str"omung eingef"uhrt wird. Als Grundlagen f"ur die Signalform wurden folgende mathematische Funktionen (\abb{fig:function}) betrachtet.\\
-\begin{figure}[h]
-	\centering
-	\begin{subfigure}[c]{0.5\textwidth}		
-		\includegraphics[width=1\textwidth]{Sinus.jpg}
-	\end{subfigure}
-	\begin{subfigure}[c]{0.5\textwidth}
-		\includegraphics[width=1\textwidth]{DeltaDistribution.jpg}
-	\end{subfigure}
-	\begin{subfigure}[c]{0.5\textwidth}
-		\includegraphics[width=1\textwidth]{Heaviside.jpg}
-	\end{subfigure}
-	\caption{mathematische Funktionen f"ur Zahnform}
-	\label{fig:function}
-\end{figure}\\
-F"ur die Sinus Funktion eignet sich eher eine andere Form der Str"omungsanregung, als die der drehenden Walzen. Diese kann besser "uber einen Null-Netto-Massenstrom-Jet-Aktuator \cite{Utturkar.2003} oder einen Lautsprecher dargestellt werden. Beide funktionieren "uber eine schwingende Membran, welche die Str"omung anregt.\\
-Ein Dirac-Impuls ist eine kurze Anregung der Str"omung. Die Zeit in der die Luft in die Str"omung eingeblasen wird, ist kurz im Vergleich zu der Zeit in der keine Anregung stattfindet. Damit k"onnte es zu einer nicht ausreichend gr\ss{}en Anregung kommen, die den gew"unschten Effekt nicht induziert.\\
-Eine Heaviside-Funktion stellt ein eindeutiges Signal dar, das entweder vollst"andig geschlossen oder ge"offnet ist. Somit ist eine klare Definition des Zustands m"oglich.\\
-Bei der endg"ultigen Wahl eines Signals ist der fertigungstechnische Aspekt ein weiterer wichtiger Parameter, der in diesem Fall die Wahl des Signals entschieden hat. Als finales Wellendesign wurden die zwei Wellen aus \abb{fig:finalesdesign} gefertigt. Diese wurden gew"ahlt, da eine Fr"asbearbeitung des Teflonrohrs zu Str"omungsmechanisch ung"unstigen Effekten gef"uhrt h"atte. Der Fr"aser hat immer eine endliche Breite, sodass die Str"omung durch die eventuell auftretenden minimalen Kanten zwischen den einzelnen Fr"asbahnen gest"ort werden k"onnte. Somit wurde sich f"ur eine Fertigung auf der Drehmaschine entschieden. Dabei wurden die Zahnt"aler "uber eine exzentrische Einspannung erreicht. Die Wahl f"ur zwei Wellen wird im Folgenden n"aher betrachtet.
+%----------------------------------------------------------------------------------
+\section{Zahnform}
+F"ur die Wahl einer Zahnform muss erst das auf die Str"omung aufgebrachte Signal festgelegt werden. Als Signale kommen daf"ur unterschiedliche Funktionene in Frage: Sinus-Funktion, Dirac-Impuls, Heaviside-Funktion usw..\\
+%Die Zahnform hat Auswirkungen auf das gepulste Signal, das in die Str"omung eingef"uhrt wird. Als Grundlagen f"ur die Signalform wurden folgende mathematische Funktionen (\abb{fig:function}) betrachtet.\\
+%\begin{figure}[h]
+%	\centering
+%	\begin{subfigure}[c]{0.5\textwidth}		
+%		\includegraphics[width=1\textwidth]{Sinus.jpg}
+%	\begin{subfigure}[c]{0.5\textwidth}
+%		\includegraphics[width=1\textwidth]{DeltaDistribution.jpg}
+%	\end{subfigure}
+%	\begin{subfigure}[c]{0.5\textwidth}
+%		\includegraphics[width=1\textwidth]{Heaviside.jpg}
+%	\end{subfigure}
+%	\caption{mathematische Funktionen f"ur Zahnform}
+%	\label{fig:function}
+%\end{figure}\\
+%F"ur die Sinus Funktion eignet sich eher eine andere Form der Str"omungsanregung, als die der drehenden Walzen. Diese kann besser "uber einen Null-Netto-Massenstrom-Jet-Aktuator \cite{Utturkar.2003} oder einen Lautsprecher dargestellt werden. Beide funktionieren "uber eine schwingende Membran, welche die Str"omung anregt.\\
+%Ein Dirac-Impuls ist eine kurze Anregung der Str"omung. Die Zeit in der die Luft in die Str"omung eingeblasen wird, ist kurz im Vergleich zu der Zeit in der keine Anregung stattfindet. Damit k"onnte es zu einer nicht ausreichend gr\ss{}en Anregung kommen, die den gew"unschten Effekt nicht induziert.\\
+%Eine Heaviside-Funktion stellt ein eindeutiges Signal dar, das entweder vollst"andig geschlossen oder ge"offnet ist. Somit ist eine klare Definition des Zustands m"oglich.\\
+Bei der endg"ultigen Wahl eines Signals ist der fertigungstechnische Aspekt ein weiterer wichtiger Parameter, der in diesem Fall die Wahl des Signals entschieden hat. Als finales Wellendesign wurden die zwei Wellen aus \abb{fig:finalesdesign} gefertigt. Diese wurden gew"ahlt, da eine Fr"asbearbeitung des Teflonrohrs zu str"omungsmechanisch ung"unstigen Effekten gef"uhrt h"atte. Der Fr"aser hat immer eine endliche Breite, sodass die Str"omung durch die eventuell auftretenden minimalen Kanten zwischen den einzelnen Fr"asbahnen gest"ort werden k"onnte. Somit wurde sich f"ur eine Fertigung auf der Drehmaschine entschieden. Dabei wurden die Zahnt"aler "uber eine exzentrische Einspannung erreicht. Die Wahl f"ur zwei Wellen wird im Folgenden n"aher betrachtet.
 \begin{figure}[h]
 	\centering
 	\begin{subfigure}[c]{0.4\textwidth}		
@@ -104,8 +97,8 @@ Der linerare Verlauf der ersten Waltze l"asst sich ann"ahern "uber \glg{eq:Spalt
 
 
 %--------------------------------------------------------------------------------------
-\subsection{Anzahl der Z"ahne}
-Als zweites wird im folgenden auf die Entscheidung der Anzahl der Z"ahne detailierter eingegangen. Ein ausschlaggebender Punkt ist dabei, dass die Einblasung mit einer Frequenz in Umgebung der Abl"osefrequenz der Str"omung durchgef"uhrt wird. Au\ss{}erdem soll die Drehzahl der Elektromotoren nicht "uberschritten werden.\\
+\section{Anzahl der Z"ahne}
+Als zweites wird im folgenden auf die Entscheidung der Anzahl der Z"ahne detailierter eingegangen. Ein ausschlaggebender Punkt ist dabei, dass die Einblasung mit einer Frequenz in Umgebung der Abl"osefrequenz der Str"omung durchgef"uhrt wird, besonders interessant ist eine Frequenz leicht oberhalb der Abl"osefrequenz (siehe \cite{Oswald.2017}). Au\ss{}erdem soll die Drehzahl der Elektromotoren nicht "uber- bzw. unterschritten werden. Diese liegt maximal bei 3650 Umdrehungen pro Minute und minimal bei 100 Umdrehungen pro Minute.\\
 Die Abl"osefrequenz der Str"omung kann "uber die dimensionslose Strouhal-Zahl berechnet werden. Die Stouhal-Zahl ist nach \cite{Leder.1992} definiert als
 \begin{align}
 	{Str}=\frac{f*D}{U_{\infty}}	\label{eq:Str}
@@ -114,8 +107,8 @@ Hierbei ist f die Abl"osefrequenz der Str"omung, D die Profildicke im breitesten
 Wenn man \glg{eq:Str} nach der gew"unschten Variable umstellt (siehe \glg{eq:nachfumgestellt}) und die gegebenen Werte aus \tab{tab:Modellwerte} einsetzt, erh"alt man
 \begin{align}
 	{f}=\frac{Str*U_{\infty}}{D}
-		=\frac{0,23*\SI{16}{\meter\per\second}}{\SI{0,0534}{\meter}}
-		=\SI{68,91}{\hertz}
+		=\frac{0,23*\SI{15}{\meter\per\second}}{\SI{0,0534}{\meter}}
+		=\SI{64,61}{\hertz}
 		\label{eq:nachfumgestellt}
 \end{align}
 \begin{table}[h!]
@@ -125,7 +118,7 @@ Wenn man \glg{eq:Str} nach der gew"unschten Variable umstellt (siehe \glg{eq:nac
 		Parameter & Wert\\
 		\midrule
 		Strouhal-Zahl & 0,23\\
-		Anstr"omgeschwindigkeit & \SI{16}{\meter\per\second}\\
+		Anstr"omgeschwindigkeit & \SI{15}{\meter\per\second}\\
 		Profildicke & \SI{53,4}{\milli\meter}\\
 		\bottomrule
 	\end{tabular}
@@ -139,12 +132,12 @@ Aus der Frequenz, die mindestens erreicht werden soll, kann nun berechnet werden
 		\toprule
 		Anzahl der Z"ahne & Drehgeschwindigkeit der Welle [Hz] & Drehgeschwindigkeit der Welle [rpm]\\
 		\midrule
-		1 & 68,91 & 4134,6\\
-		2 & 34,46 & 2067,3\\
-		4 & 17,23 & 1033,65\\
-		6 & 11,49 & 689,1\\
-		8 & 8,61 & 516,83\\
-		10 & 6,89 & 413,46\\
+		1 & 64,61 & 3876,6\\
+		2 & 32,30 & 1938,0\\
+		4 & 16,15 & 969,0\\
+		6 & 10,77 & 646,2\\
+		8 & 8,08 & 484,8\\
+		10 & 6,46 & 387,6\\
 		\bottomrule
 	\end{tabular}\\
 	\caption{Z"ahnezahlen mit zugeh"origen Frequenzen}
@@ -154,7 +147,7 @@ Aus der Frequenz, die mindestens erreicht werden soll, kann nun berechnet werden
 Aufgrund von Symmetrie und um dem m"oglichen entstehen einer Unwucht entgegen zu wirken, wurde sich f"ur eine gerade Z"ahnezahl entschieden. Durch die ben"otigte ausrechend gro\ss{}e L"ucke zwischen den Z"ahnen um einen effektiven Luftaussto\ss{} zu gew"ahrleisten, wurde sich f"ur eine Z"ahnezahl von zwei pro Walze entschieden.\\
 
 %-----------------------------------------------------------------------------------
-\subsection{Zahn"offnung}
+\section{Zahn"offnung}
 Als dritten Aspekt der Zahngestaltung wird im folgendem die Zahn"offnung betrachtet. Es wurden zwei Walzen mit zwei unterschiedlichen duty cyclen gefertigt. Der duty cycle gibt den prozentualen Anteil der Zahn"offnung auf die gesamtm"ogliche Zahn"offnung (keine Z"ahne) an. Die Berechnungen des duty cycles f"ur die erste Walze ist "uber Integration von \glg{eq:Walze1} und f"ur die zweite Walze von \glg{eq:Walze2} an einer Viertelwalze erfolgt. F"ur die Berechnungen wird das MATLAB Skript aus \abb{fig:Integrationsskript} verwendet. Somit ergibt sich f"ur die erste Walze ein duty cycle von 33\% und f"ur die zweite von 50\%.
 \begin{figure}[h]
 	\centering
