@@ -1,0 +1,29 @@
+std(pressure(3:end-2))
+
+ans =
+
+   35.8577
+
+>> mean(pressure(3:end-2))
+
+ans =
+
+  421.4643
+
+>> std(pressure(3:end-2))/mean(pressure(3:end-2))*100
+
+ans =
+
+    8.5079
+
+>> std(pressure(2:end-1))/mean(pressure(2:end-1))*100
+
+ans =
+
+    8.4476
+
+>> std(pressure())/mean(pressure())*100         %Standardwertberechnung (prozentual) mit Randwerten
+
+ans =
+
+   11.2698
