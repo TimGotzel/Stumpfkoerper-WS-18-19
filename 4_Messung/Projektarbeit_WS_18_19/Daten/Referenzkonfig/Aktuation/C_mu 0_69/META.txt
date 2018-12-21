@@ -1,0 +1,45 @@
+Scanner 1
+Kanal 1 - 22:	Pitot 1 - 22
+Kanal 23: 	Gesamtdruck freie Anströmung, Prandtl vorgelagert
+Kanal 24 -25: 	statisch freie Anströmung; Prandtl vorgelagert
+Kanal 26: 	Prandtl total 4
+Kanal 27: 	Prandtl total 5 		
+Kanal 28 - 32: 	Prandtl statisch 1-5
+R-ref:		Umgebungsdruck
+
+Scanner 2
+Kanal 1-2: Plenumsdrücke
+
+
+
+Temp [°C]:		20,39
+rel. Luftfeuchte [%]:	46,3
+Druck [hPa]:		1008,6
+Dichte  [kg/m^3]:	1,192
+
+
+Geschw. nach Anemometer [m/s]:  
+Reynoldszahl : 50000
+Drehzahlen (Leistungsaufnahme bei Drehzahl):
+0	(3.8)
+500	(4.8)
+1000	(5.5)
+1500	(6.3)
+1800	(6.7)
+1900	(6.8)
+2000	(7.0)
+2100	(7.3)
+2200	(7.5)
+2300	(7.8)
+2400	(8.2)
+2500	(8.3)
+	
+
+
+Beschreibung:
+Alle Messungen gegen Umgebungsdruck;
+Zackenband auf Ober- und Unterseite, Höhe 0.5 mm, Hinterkante des Zackenbandes bei x = 17 mm, Breite des Bandes = 6.3 mm,
+Länge des Bandes 295 mm, spannweitig etwa mittig aufgeklebt.
+Rechen in hinterer Position. 
+Prandtl Sonde vorne.
+
