@@ -28,10 +28,9 @@
 \contentsline {subsection}{\numberline {5.2.6}PSI-Anlage}{23}
 \contentsline {section}{\numberline {5.3}Versuchsvorbereitung}{23}
 \contentsline {chapter}{\numberline {6}Versuchsauswertung}{24}
-\contentsline {section}{\numberline {6.1}Messdaten}{24}
-\contentsline {section}{\numberline {6.2}Vergleich mit Erwartungen}{24}
-\contentsline {section}{\numberline {6.3}Vergleich zum Modell ohne Walzen}{24}
-\contentsline {section}{\numberline {6.4}Effiziensbetrachtung}{24}
+\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{24}
+\contentsline {section}{\numberline {6.2}Periodische Aktuation}{24}
+\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{24}
 \contentsline {chapter}{\numberline {7}Fazit}{25}
 \contentsline {chapter}{Literaturverzeichnis}{26}
 \contentsline {chapter}{Abbildungsverzeichnis}{27}
