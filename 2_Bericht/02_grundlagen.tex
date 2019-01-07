@@ -12,32 +12,47 @@
 %	Praktische Bedeutung
 %	Ggf. Vergleich schlanke Körper
 
-Im folgenden Kapitel wird der Begriff der Stumpfk"orper in Abgrenzung zu den schlanken K"orpern eingef"uhrt. Dabei soll im Besonderen auf das charakteristische Str"omungsfeld eingegangen und die Charakteristiken des Nachlaufs spezifiziert werden.
+Im folgenden Kapitel wird der Begriff der Stumpfk"orper in Abgrenzung zu den schlanken K"orpern eingef"uhrt. Eine klare Abgrenzung von schlanken K"orpern zu Stumpfk"orpern bereitet Schwierigkeiten, da der "Ubergang oftmals flie\ss{}end ist. Jedoch unterscheidet sich das Str"omungsbild markant, weswegen im folgenden Kapitel im Besonderen auf das Str"omungsfeld und die Charakteristiken des Nachlaufs eingegangen werden sollen.
 
 \subsection{Geometrische Einordnung}
+\label{sec:Geometrie}
 Ein stumpfer K"orper in einer Anstr"omung differenziert sich geometrisch von einem schlanken insofern, dass er eine signifikante Dicke quer zur Anstr"omung aufweist, welche in vergleichbarer Gr"o\ss{}enordnung wie die Abmessungen parallel zur Anstr"omung liegt. Als Ma\ss{} kann das Dickenverh"altnis $\sigma$ als Kehrwert des Schlankheitsgrades $\lambda$ herangezogen werden, welches das Verh"altnis von Dicke zu Breite wiedergibt:
 
 \begin{align}
 \sigma = \frac{1}{\lambda} = \frac{d}{l}
 \end{align}
 
-Wie in \abb{fig:HuchoDV} zu sehen ist, ver"andert sich das Str"omungsbild ma\ss{}geblich mit dem Dickenverh"altnis $\sigma$, wobei der "Ubergang von schlanken zu stumpfen K"orpern flie\ss{}end ist.
+Wie in \abb{fig:HuchoDV} zu sehen ist, ver"andert sich das Str"omungsbild ma\ss{}geblich mit steigendem Dickenverh"altnis $\sigma$, wobei der "Ubergang von schlanken K"orpern ($\sigma = 0,13$) zu stumpfen K"orpern ($\sigma = 0,5$) flie\ss{}end ist.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{HuchoDickenverhaltnis.jpg}
-	\caption{elliptische Zylinder unterschiedlicher Dickenverh"altnisse im Rauchkanal \cite{Hucho.2011} \\ oben $\sigma = 0,13$ \\ Mitte $\sigma = 0,26$ \\ unten $\sigma = 0,5$ }
+	\begin{subfigure}[c]{0.45\textwidth}		
+		\includegraphics[width=1\textwidth]{HuchoDV013.jpg}
+		\subcaption{$\sigma = 0,13$}
+	\end{subfigure}
+	\begin{subfigure}[c]{0.45\textwidth}
+		\includegraphics[width=1\textwidth]{HuchoDV026.jpg}
+		\subcaption{$\sigma = 0,26$}
+	\end{subfigure}
+	\begin{subfigure}[c]{0.45\textwidth}
+		\includegraphics[width=1\textwidth]{HuchoDV05.jpg}
+		\subcaption{$\sigma = 0,5$}
+	\end{subfigure}
+	\caption{elliptische Zylinder unterschiedlicher Dickenverh"altnisse im Rauchkanal \cite{Hucho.2011}}
 	\label{fig:HuchoDV}
 \end{figure}
 
-Neben dem Dickenver"altnis kann ein diskontinuierlicher Verlauf der K"opergeometrie, wie dies beispielsweise bei  der ausgepr"agten Hinterkanten eines Fahrzeughecks der Fall ist, als geometrische Charakterisierung eines stumpfen K"orpers herangezogen werden. 
+
+Obwohl das Dickenverh"altnis in allgemeiner N"aherung ein gutes Ma\ss{} f"ur die Einordnung eines Stumpfk"orpers ist, zeigt sich in der Praxis, dass es nicht als notwendiges Kriterium herangezogen werden kann. So treten vergleichbare Effekte der Stumpfk"orperaerodynamik ebenfalls bei einem diskontinuierlichen Verlauf der K"orpergeometrie auf. Dies ist beispielsweise bei der ausgepr"agten Hinterkanten eines Fahrzeughecks der Fall. Der Verlauf der K"orpergeometrie muss also ebenfalls als geometrische Charakterisierung eines stumpfen K"orpers herangezogen werden.
+
 
 \subsection{Str"omungsbild}
 \label{sec:Stromungsbild}
-Bei der Umstr"omung des K"orpers kommt es zur Ausbildung einer Grenzschicht. Ein Teil der kinetischen Energie der Grenzschichtstr"omung wird durch Reibung an der Wand dissipiert. Die Geometrie eines stumpfen K"orpers, wie in \abb{fig:HuchoDV} dargestellt, f"uhrt gem"a\ss{} Bernoulli zu einer Absenkung des statischen Drucks bis zur dicksten Stelle. Hinter dieser steigt der statische Druck wieder an, wobei die durch Reibung verringerte kinetische Energie nicht mehr ausreicht, um gegen diesen anzustr"omen. Ist die kinetische Energie vollends in Druck umgewandelt, kommt es zur R"uckstr"omung, wobei die Grenzschicht abl"ost \cite{Hucho.2011}.\\
-Der gleichen Argumentation folgend ist der Abl"osepunkt an einer gegebenenfalls vorhandenen diskontinuierlichen Stelle der K"orpergeometrie lokalisiert. In der Praxis ist dies h"aufig eine Hinterkante. 
+Bei der Umstr"omung eines K"orpers kommt es aufgrund der Haftbedingung an dessen Kontur zur Ausbildung einer Grenzschicht. W"ahrend die Str"omungsgeschwindigkeit an der K"orperoberfl"ache Null betr"agt, passt sie sich im Grenzschichtbereich an die Anstr"omgeschwindigkeit an. Ein Teil der kinetischen Energie der Grenzschichtstr"omung wird durch Reibung an der Wand dissipiert.
+Die Geometrie eines stumpfen K"orpers, wie in \abb{fig:HuchoDV} dargestellt, f"uhrt bei Umstr"omung gem"a\ss{} Bernoulli zu einer Absenkung des statischen Drucks $p$ bis zur dicksten Stelle. Hinter dieser steigt der statische Druck $p$ wieder an, wobei die durch Reibung verringerte kinetische Energie nicht mehr ausreicht, um gegen diesen anzustr"omen. Ist die kinetische Energie vollends in Druck umgewandelt, kommt es zur R"uckstr"omung, wobei die Grenzschicht abl"ost \cite{Hucho.2011}.\\
+Sofern eine diskontinuierlichen Stelle in der K"orpergeometrie vorhanden ist, kann die Str"omung dieser ebenfalls nicht weiter folgen. Man spricht in diesem Fall von einem Abriss der Str"omung, welcher in der Praxis an Hinterkanten zu finden ist.
 
-Das Abl"osen hat die Ausbildung eines Totwassers zur Folge, in dessen Gebiet sich das Fluid bedingt durch Z"ahigkeitseffekte verwirbelt und Wirbelschichten ausbildet. Wie man in \abb{fig:HuchoStumpf} sehen kann, ist das Totwasser ein Charakteristikum des Str"omungsbildes stumpfer K"orper. Im Vergleich dazu ist dieses Gebiet beim Str"omungsbild schlanker K"orper, wie in \abb{fig:HuchoSchlank} zu sehen, nicht vorhanden, da hier ein nahezu st"orungsfreies Abstr"omen m"oglich ist.
+Das Abl"osen oder Abrei\ss{}en hat die Ausbildung eines Totwassers zur Folge, in dessen Gebiet sich das Fluid bedingt durch Z"ahigkeitseffekte verwirbelt und Wirbelschichten ausbildet. Dies f"uhrt zu einer Druckabsenkung hinter dem stumpfen K"orper, sodass durch den h"oheren Staupunktdruck an der Vorderseite ein Druckgradient zu verzeichnen ist. Ein Druckwiderstand ist die Folge, welcher in Str"oumgsrichtung des Fluides wirkt. Wie man in \abb{fig:HuchoStumpf} sehen kann, ist das Totwasser ein Charakteristikum des Str"omungsbildes stumpfer K"orper. Im Vergleich dazu ist dieses Gebiet beim Str"omungsbild schlanker K"orper, wie in \abb{fig:HuchoSchlank} zu sehen, nicht vorhanden, da hier ein nahezu st"orungsfreies Abstr"omen m"oglich ist. Lediglich die Reibungseffekte innerhalb der Grenzschichtstr"omung sorgen hier f"ur einen Reibungswiderstand. Schluss folglich wird der Gesamtwiderstand bei stumpfen K"orpern vom Druckwiderstand, der bei schlanken K"orpern jedoch vom Reibungswiderstand dominiert.
 
 \begin{figure}[h]
 	\centering
@@ -53,6 +68,17 @@ Das Abl"osen hat die Ausbildung eines Totwassers zur Folge, in dessen Gebiet sic
 	\label{fig:HuchoStumpf}
 \end{figure}
 
+
+Hieraus wird die Notwendigkeit ersichtlich, eine Druckerhöhung in diesem Totwasser vorzunehmen, um den Druckgadienten und damit den Druckwiderstand zu verringern. Für das bessere Verständnis soll im nachfolgenden das Totwasser weiter spezifiziert werden.
+
+\subsection{Totwasser}
+\label{sec:Totwasser}
+
+Wie bereits oben erw"ahnt bilden sich innerhalb des Totwassers Wirbelschichten aus. Diese entstehen bei der turbulenten Durchmischung der ehemaligen Grenzschichtströmung, welche nun als Scherschichtströmung bezeichnet wird, mit dem ruhenden Fluid im Windschatten des Körpers. 
+
+
+
+ 
 Innerhalb des Totwassers existiert eine instation"are periodische Str"omung, welche durch Druckschwankungen zu oszillierende Abl"osungen f"uhrt. Diese Oszillation wei\ss{}t eine charakteristische Frequenz auf und wird durch die Stouhal-Zahl ${Sr}$ beschrieben. 
 
 Die Wirbel innerhalb der turbulenten Str"omung  zerfallen kaskadenartig in kleinere Wirbel und dissipieren dabei ihre Energie in W"arme, bis sie sich g"anzlich aufl"osen und sich erneut ein laminares Str"omungsprofil ausbildet. Dennoch ergibt sich im Nachlauf des stumpfen K"orpers eine Delle im Geschwindigkeitsfeld. 
@@ -66,6 +92,8 @@ Die Wirbel innerhalb der turbulenten Str"omung  zerfallen kaskadenartig in klein
 
 \subsection{Praktische Bedeutung der Stumpfk"orper}
 tbd
+
+
 
 
 \section{Coand\^{a}-Effekt (TG)}
