@@ -30,10 +30,11 @@
 \contentsline {chapter}{\numberline {6}Versuchsauswertung}{24}
 \contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{24}
 \contentsline {section}{\numberline {6.2}Periodische Aktuation}{24}
-\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{24}
-\contentsline {chapter}{\numberline {7}Fazit}{25}
-\contentsline {chapter}{Literaturverzeichnis}{26}
-\contentsline {chapter}{Abbildungsverzeichnis}{27}
-\contentsline {chapter}{Tabellenverzeichnis}{28}
-\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{29}
-\contentsline {chapter}{\numberline {B}Messreihe}{33}
+\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{24}
+\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{25}
+\contentsline {chapter}{\numberline {7}Fazit}{26}
+\contentsline {chapter}{Literaturverzeichnis}{27}
+\contentsline {chapter}{Abbildungsverzeichnis}{28}
+\contentsline {chapter}{Tabellenverzeichnis}{29}
+\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{30}
+\contentsline {chapter}{\numberline {B}Messreihe}{34}

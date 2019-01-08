@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  6 JAN 2019 17:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  8 JAN 2019 12:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -1170,40 +1170,53 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (06_versuchsauswertung.tex
 Kapitel 6.
-) [24
+<figures/Oberflaechendruckverteilung50.jpg, id=149, 562.1pt x 421.575pt>
+File: figures/Oberflaechendruckverteilung50.jpg Graphic file (type jpg)
+<use figures/Oberflaechendruckverteilung50.jpg>
+Package pdftex.def Info: figures/Oberflaechendruckverteilung50.jpg  used on inp
+ut line 17.
+(pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
+[24
 
 
 
-]
+ <./figures/Oberflaechendruckverteilung50.jpg>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25]
 \openout2 = `07_fazit.aux'.
 
  (07_fazit.tex
 Kapitel 7.
-) [25
+) [26
 
 
 
-] (main.bbl) [26
+] (main.bbl) [27
 
 
 ] (main.lof)
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
- [27
+ [28
 
 ] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [28
+ [29
 
 ]
 \openout2 = `anhang1.aux'.
 
  (anhang1.tex
 Anhang A.
-<./figures/DrawingInnenwelle.pdf, id=165, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=169, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 3.
@@ -1214,7 +1227,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 3.
 
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-<./figures/DrawingInnenwelle.pdf, id=168, page=1, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=172, page=1, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf, page 1>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
@@ -1225,7 +1238,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 3.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-[29
+[30
 
 
 ]
@@ -1244,8 +1257,8 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 3.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
- [30 <./figures/DrawingInnenwelle.pdf>]
-<./figures/Mantel_A.pdf, id=190, 597.51233pt x 845.0471pt>
+ [31 <./figures/DrawingInnenwelle.pdf>]
+<./figures/Mantel_A.pdf, id=194, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 4.
@@ -1254,7 +1267,7 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_A.pdf, id=193, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_A.pdf, id=197, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 4.
@@ -1275,8 +1288,8 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [31 <./figures/Mantel_A.pdf>]
-<./figures/Mantel_B.pdf, id=210, 597.51233pt x 845.0471pt>
+ [32 <./figures/Mantel_A.pdf>]
+<./figures/Mantel_B.pdf, id=214, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 5.
@@ -1285,7 +1298,7 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_B.pdf, id=213, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_B.pdf, id=217, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 5.
@@ -1307,12 +1320,12 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[32 <./figures/Mantel_B.pdf>])
+[33 <./figures/Mantel_B.pdf>])
 \openout2 = `anhang2.aux'.
 
  (anhang2.tex
 Anhang B.
-) [33
+) [34
 
 
 
@@ -1330,10 +1343,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17797 strings out of 493305
- 346323 string characters out of 3130672
- 359653 words of memory out of 3000000
- 21002 multiletter control sequences out of 15000+200000
+ 17805 strings out of 493305
+ 346632 string characters out of 3130672
+ 359688 words of memory out of 3000000
+ 21009 multiletter control sequences out of 15000+200000
  552782 words of font info for 72 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
  42i,20n,63p,869b,963s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1355,9 +1368,9 @@ s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Flo/AppData/Local/Progr
 ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Flo/AppData/
 Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (42 pages, 5680335 bytes).
+Output written on main.pdf (43 pages, 5698849 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
+ 667 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 191 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
