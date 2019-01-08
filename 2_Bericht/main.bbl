@@ -28,6 +28,18 @@ Yosef {El Sayed M.}, N.~Beck, P.~Kumar, R.~Semaan, and R.~Radespiel.
   Mechanics and Multidisciplinary Design}, pages 533--543. Springer, Cham,
   2018.
 
+\bibitem{Fernholz.1966}
+H.~Fernholz.
+\newblock {\em Zur Umlenkung von Freistrahlen an konvex gekr"ummten W"anden}.
+\newblock Forschungsbericht Nr. 66-21. Deutsche Versuchsanstalt f"ur Luft- und
+  Raumfahrt, 1966.
+
+\bibitem{Freund.1994}
+J.~B. Freund and M.~G. Mungal.
+\newblock Drag and wake modification of axisymmetric bluff bodies using coanda
+  blowing.
+\newblock {\em Journal of Aircraft}, 31(3):572--578, 1994.
+
 \bibitem{Geropp.2000}
 D.~Geropp and H.-J. Odenthal.
 \newblock Drag reduction of motor vehicles by active flow control using the
@@ -66,12 +78,25 @@ V.~J. Modi, M.~S. U.~K. Fernando, and T.~Yokomizo.
   andapplication.
 \newblock {\em AIAA Journal}, 29(9):1400--1406, 1991.
 
+\bibitem{Newman.1961}
+B.G. Newman.
+\newblock {\em The deflection of plane jets by adjacent boundaries - coanda
+  effect}.
+\newblock In: Lachmann, Boundary Layer and Flow Control. Pergamon Press, 1961.
+
 \bibitem{Oswald.2017}
 P.~Oswald.
 \newblock {\em Experimental investigations of active and passive drag-reducing
   devices over a D-shaped bluff body}.
 \newblock Masterarbeit, {Technische Universit{\"a}t Braunschweig},
   Braunschweig, 2017.
+
+\bibitem{Riedel.1971}
+H.~Riedel.
+\newblock {\em Grundz"uge der Str"omungsvorg"ange beim ANlegen und Abrei\ss{}en
+  eines Flachstrahls bei der Umstr"omung eines Fl"ugelprofils (Coanda-Effekt)}.
+\newblock Forschungsbericht Nr. 71-46. Deutsche Versuchsanstalt f"ur Luft- und
+  Raumfahrt, 1971.
 
 \bibitem{Schlichting.2001}
 H.~Schlichting and E.~Truckenbrodt.
