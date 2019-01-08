@@ -5,9 +5,10 @@
 \contentsline {section}{\numberline {2.1}Stumpfk\"orperaerodynamik (TG)}{2}
 \contentsline {subsection}{\numberline {2.1.1}Geometrische Einordnung}{2}
 \contentsline {subsection}{\numberline {2.1.2}Str"omungsbild}{2}
-\contentsline {subsection}{\numberline {2.1.3}Praktische Bedeutung der Stumpfk"orper}{4}
-\contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{4}
-\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{5}
+\contentsline {subsection}{\numberline {2.1.3}Totwasser}{4}
+\contentsline {subsection}{\numberline {2.1.4}Praktische Bedeutung der Stumpfk"orper}{5}
+\contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{5}
+\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{6}
 \contentsline {chapter}{\numberline {3}Konstruktion der rotierenden Walzen (NB)}{10}
 \contentsline {section}{\numberline {3.1}Zahnform}{10}
 \contentsline {section}{\numberline {3.2}Anzahl der Z"ahne}{12}
