@@ -37,5 +37,6 @@
 \contentsline {chapter}{Literaturverzeichnis}{27}
 \contentsline {chapter}{Abbildungsverzeichnis}{28}
 \contentsline {chapter}{Tabellenverzeichnis}{29}
-\contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{30}
-\contentsline {chapter}{\numberline {B}Messreihe}{34}
+\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{30}
+\contentsline {chapter}{\numberline {B}MATLAB-Code}{34}
+\contentsline {section}{\numberline {B.1}Bestimmung der Druckverteilungen und des Widerstands}{34}

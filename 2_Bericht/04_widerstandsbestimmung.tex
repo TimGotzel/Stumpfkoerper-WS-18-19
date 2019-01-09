@@ -67,7 +67,7 @@ Der Widerstand l"asst sich f"ur bessere Vergleichbarkeit dimensionslos "uber den
 \begin{center}
 	\begin{equation}
 		\label{eq:def-c_w}
-		C_w = \frac{W}{\frac{\rho}{2}}\, U_{\infty}^2 \, bd
+		C_w = \frac{W}{\frac{\rho}{2}\, U_{\infty}^2 \, bd}
 	\end{equation}
 \end{center}
 definiert.
@@ -132,8 +132,19 @@ F"ur den Widerstandsbeiwert erh"alt man
 	\left(1 - \sqrt{\frac{p_{t2} - p_{\infty}}{q_{\infty}}}\right)  \mathrm{d}\left(\frac{y}{d}\right).
 \end{equation}
 
-Der Rechen, der die Druckverl"aufe liefert, muss zu diesem Zwecke so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
+Der Rechen, der die Dr"ucke liefert, muss zu diesem Zwecke so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
 
+%Da nur diskrete Werte der jeweiligen Druckverteilung auf diese Weise ermittelt  werden, m"ussen die Druckverteilungen durch eine Fitting-Funktion angen"ahert werden. 
+%Hierzu eignet sich der bisheriger Erfahrung nach \textit{Shao}:
+%
+%	\begin{equation}
+%	\label{eq:fitting-function}
+%	\frac{p(y) - p_{\infty}}{p_{min}-p_{\infty}} = (1 +ay^2)^{by^2}
+%	\end{equation}
+%	
+%Wobei $p_{min}$ dem niedrigsten Druck im Nachlauf entspricht, sowie $a$ und $b$ Modellparameter sind.
+
+Der \textit{MATLAB}-Code zur Berechnung des Widerstandsbeiwerts und der Druckverteilungen ist in Anhang \ref{C_w-Code} zu finden. 
 
 \section{Effizienzbetrachtung und Impulskoeffizient}
 
