@@ -1,5 +1,5 @@
-\babel@toc {german}{}
-\contentsline {chapter}{Nomenklatur}{vi}
+\select@language {german}
+\contentsline {chapter}{Nomenklatur}{v}
 \contentsline {chapter}{\numberline {1}Einleitung (NB)}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
 \contentsline {section}{\numberline {2.1}Stumpfk\"orperaerodynamik (TG)}{2}
@@ -38,4 +38,3 @@
 \contentsline {chapter}{Abbildungsverzeichnis}{30}
 \contentsline {chapter}{Tabellenverzeichnis}{31}
 \contentsline {chapter}{\numberline {A}Technsiche Zeichnungen (NB, TG)}{32}
-\contentsline {chapter}{\numberline {B}Messreihe}{36}
