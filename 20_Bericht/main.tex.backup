@@ -1,0 +1,171 @@
+% ==========================
+%  LaTeX 2e - Dokument
+%  Editor: Dragan Kozulovic
+% ==========================
+\documentclass[11pt,a4paper,fleqn,twoside]{scrreprt}
+\usepackage[dvips,final]{graphicx}               %% epsfig -> tex-bilder
+\usepackage[latin1]{inputenc}                    %% ISO-Text mit Umlauten
+\usepackage[T1]{fontenc}                         %% Zeichensatz mit Umlauten
+%\usepackage[lflt]{floatflt}                     %% Textfluss um Bilder
+%\usepackage{amssymb}                            %% Symbole und Umgebungen aus AMSTeX
+%\usepackage{amsmath,amssymb}                    %% Symbole und Umgebungen aus AMSTeX
+\usepackage[german]{babel}                       %% BABEL -> deutsch
+\usepackage{parskip}                             %% parindent=0 / parskip
+\usepackage{fancyhdr}                            %% 'fancy'-Ueberschriften
+\usepackage[hang,bf]{caption}                    %% Formatierung der captions
+\usepackage{color}                               %% Farben
+\usepackage{multirow}                            %% Tabellen
+\usepackage{natbib}
+
+
+% Einzubindende Dateien 
+\includeonly{frontpage,
+             empty_page,
+	     eid_erkl,
+	     abstract,
+	     nomenklatur,
+	     einleitung,
+	     theorie,
+	     methode,
+	     ergebnis,
+	     zsfassung,
+	     anhang1,
+	     anhang2}
+\graphicspath{{figures/}}                         %% Pfad fuer einzubindende Graphiken
+
+
+% Seiten-Layout
+% \oddsidemargin   0.0cm                           %% Anpassung DIN A4-Format (symmetrisch)
+% \evensidemargin  0.0cm                           %% Anpassung DIN A4-Format (symmetrisch)
+% \topmargin      -1.0cm         
+% \textheight     25.0cm
+% \textwidth      16.0cm
+% \pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}                                %Clears all header and footer fields, in preparation.
+\fancyhead[LE,RO]{\thepage}               %Displays the page number in bold in the header,
+                                          % to the left on even pages and to the right on odd pages.
+\fancyhead[RE]{\nouppercase{\leftmark}}   %Displays the upper-level (chapter) information---
+                                          % as determined above---in non-upper case in the header, to the right on even pages.
+\fancyhead[LO]{\rightmark}                %Displays the lower-level (section) information---as
+                                          % determined above---in the header, to the left on odd pages.
+\renewcommand{\headrulewidth}{0.5pt}      %Underlines the header. (Set to 0pt if not required).
+
+%\sloppy                                         %% lockerer Zeilenumbruch
+%\flushbottom                                    %% buendige letzte Zeile
+
+
+% Trennungskorrekturen
+\hyphenation{Auf-triebs-pro-ble-me}
+\hyphenation{Im-puls-er-hal-tungs-glei-chun-gen}
+\hyphenation{Schl\" u-ssel-in-for-ma-tion}
+%\hyphenation{}
+%\hyphenation{}
+%\hyphenation{}
+
+
+% Umbenennungen (babel) (siehe LaTeX-Begleiter, Abschn. 9.2.3)
+\addto\extrasgerman{\renewcommand{\figurename}{Abb.}}
+
+
+% Listen
+\newcommand{\bl}{\begin{list}{\textbullet}%         %% kleine Aufzaehlung/Liste
+{\topsep0pt\partopsep0pt\itemsep0pt\parsep0pt\leftmargin1.5em\labelwidth1em\labelsep0.5em}}
+\newcommand{\el}{\end{list}}
+\newcommand{\cit}[1]{\textit{\cite{#1}}}
+
+
+
+
+\begin{document}
+% Titelseite
+\include{frontpage}
+\include{empty_page}
+
+\pagenumbering{roman}\setcounter{page}{1} 
+
+
+%% Eidesstattliche Erklaerung (fuer DA, MA und BA)
+\include{eid_erkl}
+\include{empty_page}
+
+
+% Uebersicht
+\include{abstract}
+\include{empty_page}
+
+
+% Inhaltsverzeichnis
+\fancyhead[RE]{Inhaltsverzeichnis}
+\fancyhead[LO]{Inhaltsverzeichnis}
+{ 
+   \renewcommand{\baselinestretch}{0.85}    %% Zeilenabstand / TOC
+   \small\normalsize                        %% neuen Zeilenabstand aktivieren
+   \tableofcontents
+}
+% ATTENTION: comment out if contents sides are even number
+\include{empty_page}
+
+
+% Nomenklatur
+\newpage
+\fancyhead[RE]{Nomenklatur}
+\fancyhead[LO]{Nomenklatur}
+\include{nomenklatur}
+
+
+% alle Kapitel
+\pagenumbering{arabic}\setcounter{page}{1}
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\rightmark}
+\include{einleitung}
+\include{theorie}
+\include{methode}
+\include{ergebnis}
+\include{zsfassung}
+
+
+% Literaturverzeichnis
+\newpage
+\fancyhead[RE]{Literaturverzeichnis}
+\fancyhead[LO]{Literaturverzeichnis}
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\bibliographystyle{plain}
+%\bibliographystyle{bib_name_year}
+\bibliography{lit_all} 
+
+
+% Abbildungsverzeichnis
+\newpage
+\fancyhead[RE]{Abbildungsverzeichnis}
+\fancyhead[LO]{Abbildungsverzeichnis}
+{
+   \renewcommand{\baselinestretch}{0.85}   %% Zeilenabstand / TOC
+   \small\normalsize			   %% neuen Zeilenabstand aktivieren
+   \addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+   \listoffigures
+}
+
+
+% Tabellenverzeichnis
+\newpage
+\fancyhead[RE]{Tabellenverzeichnis}
+\fancyhead[LO]{Tabellenverzeichnis}
+{
+   \renewcommand{\baselinestretch}{0.85}    %% Zeilenabstand / TOC
+   \small\normalsize                        %% neuen Zeilenabstand aktivieren
+   \addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+   \listoftables
+}
+
+
+% Anhang
+\fancyhead[RE]{\nouppercase{\leftmark}}
+\fancyhead[LO]{\rightmark}
+\begin{appendix}
+   \include{anhang1}
+   \include{anhang2}
+\end{appendix}
+
+\end{document}

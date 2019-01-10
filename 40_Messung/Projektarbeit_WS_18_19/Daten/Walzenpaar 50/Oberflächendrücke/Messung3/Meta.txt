@@ -1,0 +1,1 @@
+Die Oberflächendrücke sind über Ports 201-232 gespeichert

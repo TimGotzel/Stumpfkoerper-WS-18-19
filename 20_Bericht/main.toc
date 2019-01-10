@@ -1,0 +1,41 @@
+\babel@toc {german}{}
+\contentsline {chapter}{Nomenklatur}{v}
+\contentsline {chapter}{\numberline {1}Einleitung (NB)}{1}
+\contentsline {chapter}{\numberline {2}Grundlagen}{2}
+\contentsline {section}{\numberline {2.1}Stumpfk\"orperaerodynamik (TG)}{2}
+\contentsline {subsection}{\numberline {2.1.1}Geometrische Einordnung}{2}
+\contentsline {subsection}{\numberline {2.1.2}Str"omungsbild}{2}
+\contentsline {subsection}{\numberline {2.1.3}Totwasser}{4}
+\contentsline {subsection}{\numberline {2.1.4}Praktische Bedeutung der Stumpfk"orper}{5}
+\contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{5}
+\contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{7}
+\contentsline {chapter}{\numberline {3}Konstruktion der rotierenden Walzen (NB)}{11}
+\contentsline {section}{\numberline {3.1}Zahnform}{11}
+\contentsline {section}{\numberline {3.2}Anzahl der Z"ahne}{13}
+\contentsline {section}{\numberline {3.3}Zahn"offnung}{14}
+\contentsline {chapter}{\numberline {4}Widerstandsbestimmung (FT)}{16}
+\contentsline {section}{\numberline {4.1}Bestimmung des Widerstands mittels des Impulssatzes}{16}
+\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{19}
+\contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{19}
+\contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{20}
+\contentsline {chapter}{\numberline {5}Experimentelle Untersuchungen im Windkanal}{23}
+\contentsline {section}{\numberline {5.1}Windkanalbeschreibung (KK)}{23}
+\contentsline {section}{\numberline {5.2}Messtechnik (KK)}{24}
+\contentsline {subsection}{\numberline {5.2.1}Messuhr}{24}
+\contentsline {subsection}{\numberline {5.2.2}Fischmaul-Sonde}{24}
+\contentsline {subsection}{\numberline {5.2.3}Statische Sonde}{24}
+\contentsline {subsection}{\numberline {5.2.4}Prandtl-Sonde}{24}
+\contentsline {subsection}{\numberline {5.2.5}Drehzahlmesser}{24}
+\contentsline {subsection}{\numberline {5.2.6}PSI-Anlage}{24}
+\contentsline {section}{\numberline {5.3}Modell (TG)}{24}
+\contentsline {section}{\numberline {5.4}Versuchsvorbereitung (KK)}{25}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{27}
+\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{27}
+\contentsline {section}{\numberline {6.2}Periodische Aktuation}{27}
+\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{27}
+\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{28}
+\contentsline {chapter}{\numberline {7}Fazit}{29}
+\contentsline {chapter}{Literaturverzeichnis}{30}
+\contentsline {chapter}{Abbildungsverzeichnis}{32}
+\contentsline {chapter}{Tabellenverzeichnis}{33}
+\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{34}
