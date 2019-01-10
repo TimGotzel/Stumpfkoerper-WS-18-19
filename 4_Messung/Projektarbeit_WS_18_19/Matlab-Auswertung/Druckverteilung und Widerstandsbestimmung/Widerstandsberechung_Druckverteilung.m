@@ -80,14 +80,14 @@ pressure = mean(pressure_raw2);
 %function [Cw] = wake(pressure)
 
 %%separate pressures
-total_pressure(1:11) = pressure(22:-1:12);
-total_pressure(12:33) = pressure(1:22);
+total_pressure(1:12) = pressure(22:-1:11);
+total_pressure(13:34) = pressure(1:22);
 static_pressure(1:3) = pressure(32:-1:30);
 static_pressure(4:8) = pressure(28:32);
 
 %%positions as designed
-position_pitot = [0:9:9*32];
-position_prandtl = [0:40:280];
+position_pitot = [0:9:9*33];
+position_prandtl = [0:40:320];
 
 %position_pitot_real= [0:9:9*21];
 %position_prandtl_real =[0:40:160];
@@ -124,11 +124,11 @@ Cd = integral(fun,min(position_prandtl),max(position_prandtl))/1000/ref_length
 x = linspace (min(position_pitot),max(position_pitot),1001);
 ref_length = ref_length * 1000;
 x_plot = (x + beta1(5)) / ref_length;
-position_pitot_plot = (position_pitot(12:33) + beta1(5))/ref_length;
-position_prandtl_plot = (position_prandtl(4:8) + beta1(5))/ref_length;
+position_pitot_plot = (position_pitot + beta1(5))/ref_length;
+position_prandtl_plot = (position_prandtl + beta1(5))/ref_length;
 
 figure()
-plot(position_pitot_plot,total_pressure(12:33), 'x',position_prandtl_plot,static_pressure(4:8),'x',x_plot,formula1(beta1,x),x_plot,formula2(beta2,x))
+plot(position_pitot_plot,total_pressure, 'x',position_prandtl_plot,static_pressure,'x',x_plot,formula1(beta1,x),x_plot,formula2(beta2,x))
 
 %title(['Cw:_',num2str(
 ylabel('\Delta p [Pa]')

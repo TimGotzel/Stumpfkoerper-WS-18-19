@@ -1,4 +1,4 @@
-\select@language {german}
+\babel@toc {german}{}
 \contentsline {chapter}{Nomenklatur}{v}
 \contentsline {chapter}{\numberline {1}Einleitung (NB)}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
@@ -9,34 +9,32 @@
 \contentsline {subsection}{\numberline {2.1.4}Praktische Bedeutung der Stumpfk"orper}{5}
 \contentsline {section}{\numberline {2.2}Coand\^{a}-Effekt (TG)}{5}
 \contentsline {section}{\numberline {2.3}Aktive Str\"omungsbeeinflussung (NB)}{6}
-\contentsline {chapter}{\numberline {3}Konstruktion der rotierenden Walzen (NB)}{10}
-\contentsline {section}{\numberline {3.1}Zahnform}{10}
-\contentsline {section}{\numberline {3.2}Anzahl der Z"ahne}{12}
-\contentsline {section}{\numberline {3.3}Zahn"offnung}{13}
-\contentsline {chapter}{\numberline {4}Widerstandsbestimmung (FT)}{15}
-\contentsline {section}{\numberline {4.1}Bestimmung des Widerstands mittels des Impulssatzes}{15}
-\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{18}
-\contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{18}
-\contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{19}
-\contentsline {chapter}{\numberline {5}Experimentelle Untersuchungen im Windkanal (KK)}{22}
-\contentsline {section}{\numberline {5.1}Windkanalbeschreibung}{22}
-\contentsline {section}{\numberline {5.2}Messtechnik}{23}
-\contentsline {subsection}{\numberline {5.2.1}Messuhr}{23}
-\contentsline {subsection}{\numberline {5.2.2}Fischmaul-Sonde}{23}
-\contentsline {subsection}{\numberline {5.2.3}Statische Sonde}{23}
-\contentsline {subsection}{\numberline {5.2.4}Prandtl-Sonde}{23}
-\contentsline {subsection}{\numberline {5.2.5}Drehzahlmesser}{23}
-\contentsline {subsection}{\numberline {5.2.6}PSI-Anlage}{23}
-\contentsline {section}{\numberline {5.3}Versuchsvorbereitung}{23}
-\contentsline {chapter}{\numberline {6}Versuchsauswertung}{24}
-\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{24}
-\contentsline {section}{\numberline {6.2}Periodische Aktuation}{24}
-\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{24}
-\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{25}
-\contentsline {chapter}{\numberline {7}Fazit}{26}
-\contentsline {chapter}{Literaturverzeichnis}{27}
-\contentsline {chapter}{Abbildungsverzeichnis}{28}
-\contentsline {chapter}{Tabellenverzeichnis}{29}
-\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{30}
-\contentsline {chapter}{\numberline {B}MATLAB-Code}{34}
-\contentsline {section}{\numberline {B.1}Bestimmung der Druckverteilungen und des Widerstands}{34}
+\contentsline {chapter}{\numberline {3}Konstruktion der rotierenden Walzen (NB)}{11}
+\contentsline {section}{\numberline {3.1}Zahnform}{11}
+\contentsline {section}{\numberline {3.2}Anzahl der Z"ahne}{13}
+\contentsline {section}{\numberline {3.3}Zahn"offnung}{14}
+\contentsline {chapter}{\numberline {4}Widerstandsbestimmung (FT)}{16}
+\contentsline {section}{\numberline {4.1}Bestimmung des Widerstands mittels des Impulssatzes}{16}
+\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{19}
+\contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{19}
+\contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{20}
+\contentsline {chapter}{\numberline {5}Experimentelle Untersuchungen im Windkanal (KK)}{23}
+\contentsline {section}{\numberline {5.1}Windkanalbeschreibung}{23}
+\contentsline {section}{\numberline {5.2}Messtechnik}{24}
+\contentsline {subsection}{\numberline {5.2.1}Messuhr}{24}
+\contentsline {subsection}{\numberline {5.2.2}Fischmaul-Sonde}{24}
+\contentsline {subsection}{\numberline {5.2.3}Statische Sonde}{24}
+\contentsline {subsection}{\numberline {5.2.4}Prandtl-Sonde}{24}
+\contentsline {subsection}{\numberline {5.2.5}Drehzahlmesser}{24}
+\contentsline {subsection}{\numberline {5.2.6}PSI-Anlage}{24}
+\contentsline {section}{\numberline {5.3}Versuchsvorbereitung}{24}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{25}
+\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{25}
+\contentsline {section}{\numberline {6.2}Periodische Aktuation}{25}
+\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{25}
+\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{26}
+\contentsline {chapter}{\numberline {7}Fazit}{27}
+\contentsline {chapter}{Literaturverzeichnis}{28}
+\contentsline {chapter}{Abbildungsverzeichnis}{30}
+\contentsline {chapter}{Tabellenverzeichnis}{31}
+\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{32}

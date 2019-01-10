@@ -71,5 +71,8 @@ fclose(fileID);
 %% Create output variable
 s_pressure = [dataArray{1:end-1}];
 mean_s_pressure = mean(s_pressure);
+ref_length = 190.6;
+x = [1
+plot([0.75:-1:0],mean_s_pressure(1:15),[1:15],mean_s_pressure(15:29))
 %% Clear temporary variables
 clearvars filename delimiter startRow endRow formatSpec fileID dataArray ans;
