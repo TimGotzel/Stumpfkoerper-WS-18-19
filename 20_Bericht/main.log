@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  10 JAN 2019 17:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  10 JAN 2019 19:16
 entering extended mode
 **./main.tex
 (main.tex
@@ -1247,37 +1247,13 @@ Kapitel 5.
 <figures/SkizzeModell.jpg, id=146, 1038.88126pt x 341.77687pt>
 File: figures/SkizzeModell.jpg Graphic file (type jpg)
 <use figures/SkizzeModell.jpg>
-Package pdftex.def Info: figures/SkizzeModell.jpg  used on input line 10.
+Package pdftex.def Info: figures/SkizzeModell.jpg  used on input line 9.
 (pdftex.def)             Requested size: 409.71689pt x 134.78917pt.
 <figures/ModellGeometrie.jpg, id=147, 1059.96pt x 350.81062pt>
 File: figures/ModellGeometrie.jpg Graphic file (type jpg)
 <use figures/ModellGeometrie.jpg>
-Package pdftex.def Info: figures/ModellGeometrie.jpg  used on input line 27.
+Package pdftex.def Info: figures/ModellGeometrie.jpg  used on input line 26.
 (pdftex.def)             Requested size: 409.71689pt x 135.60046pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/DModell1.jpg, id=148, 1604.99625pt x 902.37125pt>
-File: figures/DModell1.jpg Graphic file (type jpg)
-<use figures/DModell1.jpg>
-Package pdftex.def Info: figures/DModell1.jpg  used on input line 35.
-(pdftex.def)             Requested size: 455.24408pt x 255.95303pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/DModell2.jpg, id=149, 1604.99625pt x 902.37125pt>
-File: figures/DModell2.jpg Graphic file (type jpg)
-<use figures/DModell2.jpg>
-Package pdftex.def Info: figures/DModell2.jpg  used on input line 42.
-(pdftex.def)             Requested size: 455.24408pt x 255.95303pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/DModell3.jpg, id=150, 1604.99625pt x 902.37125pt>
-File: figures/DModell3.jpg Graphic file (type jpg)
-<use figures/DModell3.jpg>
-Package pdftex.def Info: figures/DModell3.jpg  used on input line 50.
-(pdftex.def)             Requested size: 364.19664pt x 204.75967pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1286,6 +1262,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
  <./figures/SkizzeModell.jpg>]
+<figures/DModell1.jpg, id=152, 1604.99625pt x 902.37125pt>
+File: figures/DModell1.jpg Graphic file (type jpg)
+<use figures/DModell1.jpg>
+Package pdftex.def Info: figures/DModell1.jpg  used on input line 37.
+(pdftex.def)             Requested size: 455.24408pt x 255.95303pt.
+<figures/DModell2.jpg, id=153, 1604.99625pt x 902.37125pt>
+File: figures/DModell2.jpg Graphic file (type jpg)
+<use figures/DModell2.jpg>
+Package pdftex.def Info: figures/DModell2.jpg  used on input line 54.
+(pdftex.def)             Requested size: 455.24408pt x 255.95303pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/DModell3.jpg, id=154, 1604.99625pt x 902.37125pt>
+File: figures/DModell3.jpg Graphic file (type jpg)
+<use figures/DModell3.jpg>
+Package pdftex.def Info: figures/DModell3.jpg  used on input line 64.
+(pdftex.def)             Requested size: 364.19664pt x 204.75967pt.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1303,14 +1298,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/windkanal1.jpg, id=161, 4625.28pt x 2601.72pt>
 File: figures/windkanal1.jpg Graphic file (type jpg)
 <use figures/windkanal1.jpg>
-Package pdftex.def Info: figures/windkanal1.jpg  used on input line 74.
+Package pdftex.def Info: figures/windkanal1.jpg  used on input line 88.
 (pdftex.def)             Requested size: 227.62204pt x 128.02927pt.
 <figures/windkanal2.jpg, id=162, 4625.28pt x 2601.72pt>
 File: figures/windkanal2.jpg Graphic file (type jpg)
 <use figures/windkanal2.jpg>
-Package pdftex.def Info: figures/windkanal2.jpg  used on input line 77.
+Package pdftex.def Info: figures/windkanal2.jpg  used on input line 91.
 (pdftex.def)             Requested size: 227.62204pt x 128.02927pt.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 90.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1505,10 +1501,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16874 strings out of 493303
- 335330 string characters out of 3138865
- 352493 words of memory out of 3000000
- 20079 multiletter control sequences out of 15000+200000
+ 16875 strings out of 493303
+ 335356 string characters out of 3138865
+ 352504 words of memory out of 3000000
+ 20080 multiletter control sequences out of 15000+200000
  552737 words of font info for 78 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
  42i,20n,50p,10431b,957s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1532,9 +1528,9 @@ e1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (46 pages, 6549255 bytes).
+Output written on main.pdf (46 pages, 6550143 bytes).
 PDF statistics:
- 707 PDF objects out of 1000 (max. 8388607)
+ 708 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
