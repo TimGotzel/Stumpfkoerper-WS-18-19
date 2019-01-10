@@ -18,4 +18,10 @@ A level-1 auxiliary file: 07_fazit.aux
 The style file: plain.bst
 A level-1 auxiliary file: anhang1.aux
 Database file #1: lit_all.bib
-(There was 1 error message)
+Too many commas in name 1 of "Ota, T., Itasaka, M." for entry Ota.1976
+while executing---line 1049 of file plain.bst
+Warning--empty journal in Hucho.1972
+Too many commas in name 1 of "Ota, T., Itasaka, M." for entry Ota.1976
+while executing---line 1090 of file plain.bst
+Warning--empty publisher in Ota.1976
+(There were 3 error messages)

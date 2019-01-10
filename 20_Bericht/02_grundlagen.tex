@@ -68,20 +68,20 @@ Das Abl"osen oder Abrei\ss{}en hat die Ausbildung eines Totwassers zur Folge, in
 	\label{fig:HuchoStumpf}
 \end{figure}
 
-
 Hieraus wird die Notwendigkeit ersichtlich, eine Druckerh"ohung in diesem Totwasser vorzunehmen, um den Druckgadienten und damit den Druckwiderstand zu verringern. F"ur das bessere Verst"andnis soll im nachfolgenden das Totwasser weiter spezifiziert werden.
 
 \subsection{Totwasser}
 \label{sec:Totwasser}
+Das Totwasser hat im wesentlichen drei kennzeichnende Eigenschaften. Zum Einen tritt im Innern eine zirkulierende Str"omung auf, welche stark turbulent ist. Des Weiteren bilden sich periodisch alternierende Wirbel und zudem herrscht ein Unterdruck, der r"aumlich nicht konstant ist.
 
-Wie bereits oben erw"ahnt bilden sich innerhalb des Totwassers Wirbelschichten aus. Diese entstehen bei der turbulenten Durchmischung der ehemaligen Grenzschichtstr"omung, welche nun als Scherschichtstr"omung bezeichnet wird, mit dem ruhenden Fluid im Windschatten des K"orpers. 
+Wie bereits oben erw"ahnt bilden sich innerhalb des Totwassers Wirbelschichten aus. Die ehemalige Grenzschichtstr"omung, welche abl"ost, wird zur Scherschichtstr"omung und durchmischt sich turbulent mit dem ruhenden Fluid im Windschatten des K"orpers.
 
 
 
  
-Innerhalb des Totwassers existiert eine instation"are periodische Str"omung, welche durch Druckschwankungen zu oszillierende Abl"osungen f"uhrt. Diese Oszillation wei\ss{}t eine charakteristische Frequenz auf und wird durch die Stouhal-Zahl ${Sr}$ beschrieben. 
+Innerhalb des Totwassers existiert eine instation"are periodische Str"omung, welche durch Druckschwankungen zu oszillierende Abl"osungen f"uhrt. Diese Oszillation wei\ss{}t eine charakteristische Frequenz auf und wird durch die Stouhal-Zahl ${Str}$ beschrieben. 
 
-Die Wirbel innerhalb der turbulenten Str"omung  zerfallen kaskadenartig in kleinere Wirbel und dissipieren dabei ihre Energie in W"arme, bis sie sich g"anzlich aufl"osen und sich erneut ein laminares Str"omungsprofil ausbildet. Dennoch ergibt sich im Nachlauf des stumpfen K"orpers eine Delle im Geschwindigkeitsfeld. 
+Die Wirbel innerhalb der turbulenten Str"omung  zerfallen kaskadenartig in kleinere Wirbel und dissipieren dabei ihre Energie in W"arme, bis sie sich g"anzlich aufl"osen und sich erneut ein laminares Str"omungsprofil ausbildet. Dennoch ergibt sich im Nachlauf des stumpfen K"orpers, welcher sich an das Totwasser anschlie\ss{}t, eine Delle im Geschwindigkeitsfeld. Das ist in Abbildung \abb{fig:Nachlauf} zu sehen. Aus dem Nachlauf lassen sich deshalb Informationen "uber den Widerstand des K"orpers ziehen, was im Abschnitt \ref{s:widerstandsbestimmung} weiter thematisiert wird. 
 
 \begin{figure}[h]
 	\centering
@@ -89,6 +89,36 @@ Die Wirbel innerhalb der turbulenten Str"omung  zerfallen kaskadenartig in klein
 	\caption{Nachlauf eines a) schlanken K"orpers und eines b) stumpfen K"orpers \cite{Hucho.2011}}
 	\label{fig:Nachlauf}
 \end{figure}
+
+
+
+\subsection{Einfluss der Vorderkante} 
+\label{sec:Vorderkante}
+Wie sp"ater noch in Abschnitt \ref{sec:Modell} weiter erl"autert wird, handelt es sich bei dem Versuchsmodell um einen D-Stumpfk"orper. Vereinfacht ist dies ein Quader mit stumpfer Vorderkante.\\ 
+An einer scharfen Vorderkante l"ost die Str"omung ab und bildet eine laminare Abl"oseblase, was nichts anderes als einem lokal begrenztem Wirbel entspricht. Ein "ahnlicher Vorgang tritt bei Anstr"omung von Profilen bei kleinen Reynoldszahlen auf, wie es schematisch in \abb{fig:LamBlase} zu sehen ist. Dabei wandelt sich von Punkt A zu Punkt T die laminare in eine turbulente Scherschicht um. Die Turbulenz sorgt f"ur einen Energietransport quer zur Anstr"omung, was dazu f"uhrt, dass die Abl"oseblase von oben geschlossen wird und die Str"omung stromabw"arts am Punkt W wieder anlegt \cite{Siegman.2015}. Der Ort des Wiederanlegens wurde von Ota \& Itasaka \cite{Ota.1976} bei einer ebenen Platte auf $4,5 \cdot \frac{x}{d}$ bestimmt. Da dieser Ort jedoch stark fluktuiert und gro\ss{}e Schwankungen in der Geschwindigkeitsverteilung hervorruft, wird ein Gleichgewicht innerhalb der Grenzschicht erst nach einer Laufl"ange von $\frac{x}{d} = 15$ erreicht.
+  
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\textwidth]{LaminareAbloeseblase.jpg}
+	\caption{Schema einer laminaren Abl"oseblase \cite{Siegman.2015}}
+	\label{fig:LamBlase}
+\end{figure}
+
+Aus diesem Grund ist ersichtlich, weshalb die Verwendung eines D-Stumpfk"orpers, der gegen"uber einem Quader abgerundete  Vorderkante hat, sinnvoll ist. Aus der Grafik \abb{fig:Vorderkante} ist die starke Reduktion des Widerstandbeiwertes $C_w$ bei steigendem $\frac{r}{d}$-Verh"altnis f"ur verschiedene Vorderkantengeometrien ersichtlich. Wie der Gegen"uberstellung \abb{fig:Vorderkante} ebenfalls zu entnehmen ist, sinkt der $C_w$-Wert ab der "Uberschreitung eines bestimmten $\frac{r}{d}$-Verh"altnis nicht weiter. Der durch st"arkere Abrundung nach vorne wandernde Ort des Wiederanlegens f"allt ab der "Uberschreitung dieses Verh"altnisses mit dem Ort der Abl"osung zusammen, sodass der Widerstand bei weiterer Abrundung nicht weiter sinkt \cite{Hucho.2011}.  
+
+\begin{figure}[h]
+	\centering	\includegraphics[width=0.6\textwidth]{Vorderkante.jpg}
+	\caption{$C_w$-Wert in Abh"angigkeit vom Kantenradius bei verschiedenen 2D-Profilen. Zusammenstellung nach Hucho\cite{Hucho.1972}}
+	\label{fig:Vorderkante}
+\end{figure}
+
+
+%\begin{figure}[h]
+%	\centering	\includegraphics[width=0.6\textwidth]{Vorderkante2.jpg}
+%	\caption{Umstr"omung scharfkantiger und stumpfer Vorderkanten in Abh"angigkeit der Profiltiefe t. Zusammenstellung nach Hucho\cite{Hucho.1972}\\ a) $C_w$-Wert \\ b) schematische Str"omungsform \\ c) schematischer Druckverlauf d) Basisdruck und Widerstand}
+%	\label{fig:Vorderkante}
+%\end{figure}
+
 
 \subsection{Praktische Bedeutung der Stumpfk"orper}
 tbd
