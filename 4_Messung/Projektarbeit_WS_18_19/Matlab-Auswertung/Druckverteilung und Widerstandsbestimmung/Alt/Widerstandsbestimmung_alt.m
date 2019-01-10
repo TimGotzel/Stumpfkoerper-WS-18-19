@@ -79,25 +79,38 @@ static_pressure = pressure(28:32);
 
 %%positions as designed
 position_pitot = [0:9:9*21];
-position_prandtl = [0:40:160];
+position_prandtl = [0:40:160] +14,5 ;
 
 % fit total pressure
-data = total_pressure;
-pos = position_pitot;
+%data = total_pressure;
+%pos = position_pitot;
+%[~,id] = min(data);
+%middle = pos(id);
+%beta = [0.001, -0.001, min(data),max(data), -middle];
+%formula1 = @(beta,x) (1+beta(1).*(x+beta(5)).^2).*exp(beta(2).*(x+beta(5)).^2) * (beta(3) - beta(4)) + beta(4);
+% fit total pressure
+data = [total_pressure(22), total_pressure];
+pos = [position_pitot(22) + 100, position_pitot];
 [~,id] = min(data);
 middle = pos(id);
-beta = [0.001, -0.001, min(data),max(data), -middle];
-formula1 = @(beta,x) (1+beta(1).*(x+beta(5)).^2).*exp(beta(2).*(x+beta(5)).^2) * (beta(3) - beta(4)) + beta(4);
+
+% original
+beta = [0.001,-0.001,min(data),max(data),-middle];
+formula1 = @(beta,x) (1+beta(1).*(x+beta(5)).^2) .* exp(beta(2).*(x+beta(5)).^2) * (beta(3) - beta(4)) + beta(4);
+
 beta1 = nlinfit(pos,data,formula1,beta);
 
 %%Fit static pressure
-data = static_pressure;
-pos = position_prandtl;
+%data = static_pressure;
+%pos = position_prandtl;
+%beta = [min(data),max(data),beta1(5)];
+%formula2 = @(beta,x) (1+beta1(1).*(x+beta(3)).^2).*exp(beta1(2).*(x+beta(3)).^2) * (beta(1) - beta(2)) + beta(2);
+
+data = [static_pressure(1), static_pressure];
+pos = [position_prandtl(1) - 100, position_prandtl];
 beta = [min(data),max(data),beta1(5)];
-formula2 = @(beta,x) (1+beta1(1).*(x+beta(3)).^2).*exp(beta1(2).*(x+beta(3)).^2) * (beta(1) - beta(2)) + beta(2);
+formula2 = @(beta,x) (1+beta1(1).*(x+beta(3)).^2) .* exp(beta1(2).*(x+beta(3)).^2) * (beta(1) - beta(2)) + beta(2);
 beta2 = nlinfit(pos,data,formula2,beta);
-
-
 %%Calculate Cd
     %%dyn_pressure_fs entspricht q_infty
 dyn_pressure_fs= beta1(4) - beta2(2);
@@ -110,7 +123,7 @@ fun = @(x) (2 * sqrt((formula1(beta1,x) - formula2(beta2,x)) / dyn_pressure_fs) 
 Cd = integral(fun,min(position_prandtl),max(position_prandtl))/1000/ref_length
 
 %%plot
-x = linspace (min(position_pitot),max(position_pitot),1001);
+x = linspace (min(position_pitot),max(position_pitot),101);
 ref_length = ref_length * 1000;
 x_plot = (x + beta1(5)) / ref_length;
 position_pitot_plot = (position_pitot + beta1(5))/ref_length;
