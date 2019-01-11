@@ -18,10 +18,18 @@ A level-1 auxiliary file: 07_fazit.aux
 The style file: plain.bst
 A level-1 auxiliary file: anhang1.aux
 Database file #1: lit_all.bib
+Too many commas in name 1 of "Pastoor, M., Henning, L., u.a." for entry Pastoor.2008
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Pastoor, M., Henning, L., u.a." for entry Pastoor.2008
+while executing---line 1049 of file plain.bst
 Too many commas in name 1 of "Ota, T., Itasaka, M." for entry Ota.1976
 while executing---line 1049 of file plain.bst
 Warning--empty journal in Hucho.1972
 Too many commas in name 1 of "Ota, T., Itasaka, M." for entry Ota.1976
 while executing---line 1090 of file plain.bst
 Warning--empty publisher in Ota.1976
-(There were 3 error messages)
+Too many commas in name 1 of "Pastoor, M., Henning, L., u.a." for entry Pastoor.2008
+while executing---line 1090 of file plain.bst
+Too many commas in name 1 of "Pastoor, M., Henning, L., u.a." for entry Pastoor.2008
+while executing---line 1090 of file plain.bst
+(There were 7 error messages)

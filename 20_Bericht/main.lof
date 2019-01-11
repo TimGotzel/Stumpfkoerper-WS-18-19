@@ -16,15 +16,15 @@
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Schema einer laminaren Abl"oseblase \cite {Siegman.2015}\relax }}{7}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces $C_w$-Wert in Abh"angigkeit vom Kantenradius bei verschiedenen 2D-Profilen. Zusammenstellung nach Hucho\cite {Hucho.1972}\relax }}{8}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Skizze zum Coand\^{a}-Effekt \cite {Stadlberger.2016}\relax }}{9}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Geschwindigkeitsprofils eines Wandstrahls an einer konvexen K"orperkontur nach Riedel \cite {Riedel.1973}\relax }}{10}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Geschwindigkeitsprofils eines Wandstrahls an einer konvexen K"orperkontur nach Riedel \cite {Riedel.1973}\relax }}{9}
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Stumpfk"orper mit Ausblasung von Bearman \cite {Hucho.2011}\relax }}{10}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Stumpfk"orper mit Ausblasung von Geropp \cite {Geropp.2000}\relax }}{11}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Stumpfk"orper mit Ausblasung von Geropp \cite {Geropp.2000}\relax }}{10}
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Ausblasung von \cite {Barros.2016}\relax }}{11}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Stumpfk"orpermodell mit Walze von Modi et al. \cite {MODI.1991}\relax }}{12}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Stumpfk"orpermodell mit Walze von Modi et al. \cite {MODI.1991}\relax }}{11}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Str"omungsbilder von Modi et al. \cite {MODI.1991}\relax }}{12}
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Erstes Truckmodell von Modi et al. \cite {MODI.1991}\relax }}{12}
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Zweites Truckmodell von Modi et al. \cite {MODI.1991}\relax }}{13}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Modelle nach Gong \cite {Gong.2015}\relax }}{14}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Modelle nach Gong \cite {Gong.2015}\relax }}{13}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces schematische Darstellung des Versuchsmodells\relax }}{15}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Querschnitt durch die finalen Walzen\relax }}{16}
@@ -36,10 +36,11 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Skizze des Versuchsmodells \citep {Bilges.2018}\relax }}{28}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Geometrie des D-Stumpfk"orpers mit eingezeichneten Druckbohrungen \citep {Bilges.2018}\relax }}{29}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Vorderansicht des Versuchsmodells mit Zackenband an Ober- und Unterseite.\relax }}{29}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces R"uckansicht des Versuchsmodells mit eingebauten Tefolnwalzen.\relax }}{30}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces LNB-ISM TU Braunschweig\relax }}{31}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Ansicht des Versuchsmodells\relax }}{29}
+\contentsline {subfigure}{\numberline {a}{\ignorespaces Vorderansicht mit Zackenband an Ober- und Unterseite.\relax }}{29}
+\contentsline {subfigure}{\numberline {b}{\ignorespaces R"uckansicht mit eingebauten Tefolnwalzen.\relax }}{29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces LNB-ISM TU Braunschweig\relax }}{30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Oberfl"achendr"ucke beim eingebauten Modell mit Teflonwalzen\relax }}{34}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Oberfl"achendr"ucke beim eingebauten Modell mit Teflonwalzen\relax }}{33}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

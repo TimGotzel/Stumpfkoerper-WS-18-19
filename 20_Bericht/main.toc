@@ -20,22 +20,22 @@
 \contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{25}
 \contentsline {chapter}{\numberline {5}Experimentelle Untersuchungen im Windkanal}{28}
 \contentsline {section}{\numberline {5.1}Das Versuchsmodell (TG)}{28}
-\contentsline {section}{\numberline {5.2}Windkanalbeschreibung (KK)}{31}
-\contentsline {section}{\numberline {5.3}Messtechnik (KK)}{31}
-\contentsline {subsection}{\numberline {5.3.1}Messuhr}{32}
-\contentsline {subsection}{\numberline {5.3.2}Fischmaul-Sonde}{32}
-\contentsline {subsection}{\numberline {5.3.3}Statische Sonde}{32}
-\contentsline {subsection}{\numberline {5.3.4}Prandtl-Sonde}{32}
-\contentsline {subsection}{\numberline {5.3.5}Drehzahlmesser}{32}
-\contentsline {subsection}{\numberline {5.3.6}PSI-Anlage}{32}
-\contentsline {section}{\numberline {5.4}Versuchsvorbereitung (KK)}{32}
-\contentsline {chapter}{\numberline {6}Versuchsauswertung}{33}
-\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{33}
-\contentsline {section}{\numberline {6.2}Periodische Aktuation}{33}
-\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{33}
-\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{34}
-\contentsline {chapter}{\numberline {7}Fazit}{35}
-\contentsline {chapter}{Literaturverzeichnis}{36}
-\contentsline {chapter}{Abbildungsverzeichnis}{38}
-\contentsline {chapter}{Tabellenverzeichnis}{39}
-\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{40}
+\contentsline {section}{\numberline {5.2}Windkanalbeschreibung (KK)}{30}
+\contentsline {section}{\numberline {5.3}Messtechnik (KK)}{30}
+\contentsline {subsection}{\numberline {5.3.1}Messuhr}{31}
+\contentsline {subsection}{\numberline {5.3.2}Fischmaul-Sonde}{31}
+\contentsline {subsection}{\numberline {5.3.3}Statische Sonde}{31}
+\contentsline {subsection}{\numberline {5.3.4}Prandtl-Sonde}{31}
+\contentsline {subsection}{\numberline {5.3.5}Drehzahlmesser}{31}
+\contentsline {subsection}{\numberline {5.3.6}PSI-Anlage}{31}
+\contentsline {section}{\numberline {5.4}Versuchsvorbereitung (KK)}{31}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{32}
+\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{32}
+\contentsline {section}{\numberline {6.2}Periodische Aktuation}{32}
+\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{32}
+\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{33}
+\contentsline {chapter}{\numberline {7}Fazit}{34}
+\contentsline {chapter}{Literaturverzeichnis}{35}
+\contentsline {chapter}{Abbildungsverzeichnis}{37}
+\contentsline {chapter}{Tabellenverzeichnis}{38}
+\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{39}
