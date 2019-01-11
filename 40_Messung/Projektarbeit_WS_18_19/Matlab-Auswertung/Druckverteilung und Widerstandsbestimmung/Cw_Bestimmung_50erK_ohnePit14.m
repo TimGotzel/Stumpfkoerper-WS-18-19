@@ -14,8 +14,9 @@ for i = 1 : length(list_1) - 2
             for k = 1 : length(list_3)
                 pressure = mean(import_data([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\',list_3(k).name]));
                 Cw(k)= wake_n_ohnePlot_ohnePit14(pressure);
-                xlswrite([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\',list_3(k).name(1:end-3),'Cw_Werte.xlsx'],Cw)
+                
             end
+            xlswrite([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\','Cw_Werte.xlsx'],Cw)
         end
     end
 end
