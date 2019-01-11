@@ -1,5 +1,5 @@
 \babel@toc {german}{}
-\contentsline {chapter}{Nomenklatur}{v}
+\contentsline {chapter}{Nomenklatur}{iv}
 \contentsline {chapter}{\numberline {1}Einleitung (NB)}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
 \contentsline {section}{\numberline {2.1}Stumpfk\"orperaerodynamik (TG)}{2}
@@ -15,30 +15,24 @@
 \contentsline {section}{\numberline {3.3}Zahn"offnung}{19}
 \contentsline {chapter}{\numberline {4}Mathematische Vorgehensweise (FT)}{20}
 \contentsline {section}{\numberline {4.1}Bestimmung des Widerstands mittels des Impulssatzes}{20}
-\contentsline {section}{\numberline {4.2}Effizienzbetrachtung und Impulskoeffizient}{24}
+\contentsline {section}{\numberline {4.2}Impulskoeffizient und Effizienzbetrachtung}{24}
 \contentsline {subsection}{\numberline {4.2.1}Impulskoeffizient}{24}
-\contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{25}
+\contentsline {subsection}{\numberline {4.2.2}Leistungskoeffizient und Leistungsrate}{26}
 \contentsline {chapter}{\numberline {5}Experimentelle Untersuchungen im Windkanal}{28}
 \contentsline {section}{\numberline {5.1}Das Versuchsmodell (TG)}{28}
 \contentsline {section}{\numberline {5.2}Windkanalbeschreibung (KK)}{30}
-\contentsline {section}{\numberline {5.3}Messtechnik (KK)}{30}
-\contentsline {subsection}{\numberline {5.3.1}Messuhr}{31}
-\contentsline {subsection}{\numberline {5.3.2}Fischmaul-Sonde}{31}
-\contentsline {subsection}{\numberline {5.3.3}Statische Sonde}{31}
-\contentsline {subsection}{\numberline {5.3.4}Prandtl-Sonde}{31}
-\contentsline {subsection}{\numberline {5.3.5}Drehzahlmesser}{31}
-\contentsline {subsection}{\numberline {5.3.6}PSI-Anlage}{31}
-\contentsline {section}{\numberline {5.4}Versuchsvorbereitung (AK)}{31}
-\contentsline {subsection}{\numberline {5.4.1}Gleichf"ormigkeitsmessungen an der Ausblasung}{31}
-\contentsline {chapter}{\numberline {6}Versuchsauswertung}{36}
-\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{36}
-\contentsline {section}{\numberline {6.2}Periodische Aktuation}{36}
-\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{36}
-\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{37}
-\contentsline {chapter}{\numberline {7}Fazit}{38}
-\contentsline {chapter}{Literaturverzeichnis}{39}
-\contentsline {chapter}{Abbildungsverzeichnis}{41}
-\contentsline {chapter}{Tabellenverzeichnis}{43}
-\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{44}
-\contentsline {chapter}{\numberline {B}MATLAB-Code (AK, FT)}{48}
-\contentsline {section}{\numberline {B.1}Bestimmung der Druckverteilungen und des Widerstands}{48}
+\contentsline {section}{\numberline {5.3}Versuchsvorbereitung}{30}
+\contentsline {subsection}{\numberline {5.3.1}Vorgehensweise (KK)}{30}
+\contentsline {subsection}{\numberline {5.3.2}Gleichf"ormigkeitsmessungen an der Ausblasung (AK)}{33}
+\contentsline {chapter}{\numberline {6}Versuchsauswertung}{37}
+\contentsline {section}{\numberline {6.1}Referenzmessungen und Ergebnisse bei konstanter Aktuation}{37}
+\contentsline {section}{\numberline {6.2}Periodische Aktuation}{37}
+\contentsline {subsection}{\numberline {6.2.1}Ausrichtungsmessungen (FT)}{37}
+\contentsline {section}{\numberline {6.3}Effizienzbetrachtung}{38}
+\contentsline {chapter}{\numberline {7}Fazit}{39}
+\contentsline {chapter}{Literaturverzeichnis}{40}
+\contentsline {chapter}{Abbildungsverzeichnis}{42}
+\contentsline {chapter}{Tabellenverzeichnis}{44}
+\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{45}
+\contentsline {chapter}{\numberline {B}MATLAB-Code (AK, FT)}{49}
+\contentsline {section}{\numberline {B.1}Bestimmung der Druckverteilungen und des Widerstands}{49}
