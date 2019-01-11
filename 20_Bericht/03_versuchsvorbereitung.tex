@@ -1,6 +1,6 @@
 \chapter{Konstruktion der rotierenden Walzen (NB)}
 \label{s:rotierendeWalzen}
-Bevor das Experiment im Windkanal stattfinden kann, m"ussen die rotierenden Walzen f"ur den Stumpfk"orper konstuiert werden. Die Walzen sitzen am Ende des K"orpers, wie in \abb{fig:modelschema} gezeigt. Es sind drei unterschiedliche Walzenpaare entstanden: ein glattes Walzenpaar, ein gezahntes Walzenpaar mit einem duty cycle von 33\% und ein gezahntes Walzenpaar mit einem duty cycle von 50 \%.\\
+Bevor das Experiment im Windkanal stattfinden kann, m"ussen die rotierenden Walzen f"ur den Stumpfk"orper konstruiert werden. Die Walzen sitzen am Ende des K"orpers, wie in \abb{fig:modelschema} gezeigt. Es sind drei unterschiedliche Walzenpaare entstanden: ein glattes Walzenpaar, ein gezahntes Walzenpaar mit einem duty cycle von 33\% und ein gezahntes Walzenpaar mit einem duty cycle von 50 \%.\\
 %Die rotierenden Walzen sind jeweils auf einer Welle gelagert und werden von Elektromotoren angetrieben. Die Elektromotoren haben eine maximale Drehrate von 3650 Umdrehungenpro Minute und eine minimale Drehrate von um die 100 Umdrehungen pro Minute.
 
 \begin{figure}[h]
@@ -10,7 +10,7 @@ Bevor das Experiment im Windkanal stattfinden kann, m"ussen die rotierenden Walz
 	\label{fig:modelschema}
 \end{figure}
 Die rotierenden Walzen erf"ullen die Aufgabe, der gepulsten Einblasung in die Str"omung am Ende des Stumpfk"orpers.\\
-Die Walzen bestehen aus einer Aluminium Innenewelle und einem mit Presspassung verbundenen Teflonrohr. In dem Teflonrohr ist die entscheidende Zahngeometire eingebracht. F"ur Konstruktion des Teflonrohrs mussten folgende Aspekte betrachtet werden:
+Die Walzen bestehen aus einer Aluminium Innenewelle und einem mit Presspassung verbundenen Teflonrohr. In dem Teflonrohr ist die entscheidende Zahngeometire eingebracht. F"ur die Konstruktion des Teflonrohrs mussten folgende Aspekte betrachtet werden:
 \begin{enumerate}
 	\item Zahnform 
 	\item Anzahl der Z"ahne
@@ -19,7 +19,7 @@ Die Walzen bestehen aus einer Aluminium Innenewelle und einem mit Presspassung v
 
 %----------------------------------------------------------------------------------
 \section{Zahnform}
-F"ur die Wahl einer Zahnform muss erst das auf die Str"omung aufgebrachte Signal festgelegt werden. Als Signale kommen daf"ur unterschiedliche Funktionene in Frage: Sinus-Funktion, Dirac-Impuls, Heaviside-Funktion usw..\\
+F"ur die Wahl einer Zahnform muss erst das auf die Str"omung aufgebrachte Signal festgelegt werden. Als Signale kommen daf"ur unterschiedliche Funktionen in Frage: Sinus-Funktion, Dirac-Impuls, Heaviside-Funktion usw..\\
 %Die Zahnform hat Auswirkungen auf das gepulste Signal, das in die Str"omung eingef"uhrt wird. Als Grundlagen f"ur die Signalform wurden folgende mathematische Funktionen (\abb{fig:function}) betrachtet.\\
 %\begin{figure}[h]
 %	\centering
@@ -50,7 +50,7 @@ Bei der endg"ultigen Wahl eines Signals ist der fertigungstechnische Aspekt ein 
 	\label{fig:finalesdesign}
 \end{figure}\\
 
-Die Walzen Formen lassen sich "uber mehrere Kreisfunktion auf unterschiedlichen Intervallen darstellen (verschiedene Farben in \abb{fig:finalesdesign}). Die linke Walze kann beschrieben werden "uber \glg{eq:Walze1}.
+Die Walzenformen lassen sich "uber mehrere Kreisfunktionen auf unterschiedlichen Intervallen darstellen (verschiedene Farben in \abb{fig:finalesdesign}). Die linke Walze kann beschrieben werden "uber \glg{eq:Walze1}.
 \begin{align}
 	{f_1(x)}=\pm\sqrt{9,15^{2}-(x-9,45)^{2}}\,\,\,\,&x\in[0,3; 2,42] \label{eq:Walze1}\\
 	{g_1(x)}=\pm\sqrt{8,3^{2}-(x-8,3)^{2}}\,\,\,\,&x\in[2,42; 14,18] \nonumber\\
@@ -91,27 +91,15 @@ Aus der Form der Walzen, die die Zahnform darstellen, l"asst sich r"uckwirkend a
 %--------------------------------------------------------------------------------------
 \newpage
 \section{Anzahl der Z"ahne}
-Als zweites wird im folgenden auf die Entscheidung der Anzahl der Z"ahne detailierter eingegangen. Ein ausschlaggebender Punkt ist dabei, dass die Einblasung mit einer Frequenz in Umgebung der Abl"osefrequenz der Str"omung durchgef"uhrt wird, besonders interessant ist eine Frequenz leicht oberhalb der Abl"osefrequenz (siehe \cite{Oswald.2017}). Au\ss{}erdem soll die Drehzahl der Elektromotoren nicht "uber- bzw. unterschritten werden. Diese liegt maximal bei 3650 Umdrehungen pro Minute und minimal bei 100 Umdrehungen pro Minute.\\
-Die Abl"osefrequenz der Str"omung kann "uber die dimensionslose Strouhal-Zahl berechnet werden. 
-
-%Anmerkung Tim: Macht das nicht mehr Sinn die Definition der Strouhal-Zahl schon bei den Grunlagen mit aufzuführen? Ich hab es jetzt mal zu der Totwasserfrequenz geschoben. Guck dir das mal an, wenn es dir nicht gefällt änder es wieder! ;) 
-
-
-
-%Die Stouhal-Zahl ist nach \cite{Leder.1992} definiert als
-%\begin{align}
-%	{Str}=\frac{f*D}{U_{\infty}}	\label{eq:Str}
-%\end{align}
-%Hierbei ist f die Abl"osefrequenz der Str"omung, D die Profildicke im breitesten Querschnitt und $U_{\infty}$ die Anstr"omgeschwindigkeit des Windkanals.\\
-
-
-Wenn man \glg{eq:Str} nach der gew"unschten Variable umstellt (siehe \glg{eq:nachfumgestellt}) und die gegebenen Werte aus \tab{tab:Modellwerte} einsetzt, erh"alt man
+Als zweites wird im Folgenden auf die Entscheidung der Anzahl der Z"ahne detailierter eingegangen. Ein ausschlaggebender Punkt ist dabei, dass die Einblasung mit einer Frequenz in Umgebung der Abl"osefrequenz der Str"omung durchgef"uhrt wird, besonders interessant ist eine Frequenz leicht oberhalb der Abl"osefrequenz (siehe \cite{Oswald.2017}). Au\ss{}erdem soll die Drehzahl der Elektromotoren nicht "uber- bzw. unterschritten werden. Diese liegt maximal bei 3650 Umdrehungen pro Minute und minimal bei 100 Umdrehungen pro Minute.\\
+Die Abl"osefrequenz der Str"omung kann "uber die dimensionslose Strouhal-Zahl mit \glg{eq:Str} bestimmt werden. Wenn diese nach der gew"unschten Variable umgestellt wird (siehe \glg{eq:nachfumgestellt}) und die gegebenen Werte aus \tab{tab:Modellwerte} eingesetzt werden, kann die Frequenz
 \begin{align}
 	{f}=\frac{Str*U_{\infty}}{D}
 		=\frac{0,23*\SI{15}{\meter\per\second}}{\SI{0,0534}{\meter}}
 		=\SI{64,61}{\hertz}
 		\label{eq:nachfumgestellt}
 \end{align}
+berechnet werden.
 \begin{table}[h!]
 	\centering
 	\begin{tabular}{lr}
@@ -145,11 +133,11 @@ Aus der Frequenz, die mindestens erreicht werden soll, kann nun berechnet werden
 	\label{tab:zahnezahl}
 \end{table}
 
-Aufgrund von Symmetrie und um dem m"oglichen entstehen einer Unwucht entgegen zu wirken, wurde sich f"ur eine gerade Z"ahnezahl entschieden. Durch die ben"otigte ausrechend gro\ss{}e L"ucke zwischen den Z"ahnen um einen effektiven Luftaussto\ss{} zu gew"ahrleisten, wurde sich f"ur eine Z"ahnezahl von zwei pro Walze entschieden.\\
+Aufgrund von Symmetrie und um dem m"oglichen entstehen einer Unwucht entgegen zu wirken, wurde sich f"ur eine gerade Z"ahnezahl entschieden. Da eine ausreichend gro\ss{}e L"ucke ben"otigt wird, um den Z"ahnen einen effektiven Luftaussto\ss{} zu gew"ahrleisten, wurde sich f"ur eine Z"ahnezahl von zwei pro Walze entschieden.\\
 
 %-----------------------------------------------------------------------------------
 \section{Zahn"offnung}
-Als dritten Aspekt der Zahngestaltung wird im folgendem die Zahn"offnung betrachtet. Es wurden zwei Walzen mit zwei unterschiedlichen duty cyclen gefertigt. Der duty cycle gibt den prozentualen Anteil der Zahn"offnung auf die gesamtm"ogliche Zahn"offnung (keine Z"ahne) an. Die Berechnungen des duty cycles f"ur die erste Walze ist "uber Integration von \glg{eq:Walze1} und f"ur die zweite Walze von \glg{eq:Walze2} an einer Viertelwalze erfolgt. F"ur die Berechnungen wird das MATLAB Skript aus \abb{fig:Integrationsskript} verwendet. Somit ergibt sich f"ur die erste Walze ein duty cycle von 33\% und f"ur die zweite von 50\%.
+Als dritten Aspekt der Zahngestaltung wird im Folgendem die Zahn"offnung betrachtet. Es wurden zwei Walzen mit zwei unterschiedlichen duty cyclen gefertigt. Die Berechnungen des duty cycles f"ur die erste Walze ist "uber Integration von \glg{eq:Walze1} und f"ur die zweite Walze von \glg{eq:Walze2} an einer Viertelwalze erfolgt. F"ur die Berechnungen wird das MATLAB Skript aus \abb{fig:Integrationsskript} verwendet. Somit ergibt sich f"ur die erste Walze ein duty cycle von 33\% und f"ur die zweite von 50\%.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\textwidth]{Integrationsskript.jpg}

@@ -221,19 +221,19 @@ Wie bereits oben erw"ahnt wurde, wird am freien Rand das umgebende Fluid mitgeri
 \newpage
 \section{Aktive Str\"omungsbeeinflussung (NB)}
 
-Stumpfe K"orper haben meist ein stufenartiges Ende, an dem sich str"omungsmechanische Nachteile ergeben. Deshalb soll durch eine Anpassung der Geometrie des K"orpers oder durch die strukturelle Ver"anderung des Todwassers dieser ausgeglichen werden. Ziel ist es, den Basisdruck anzuheben und dar"uber den Druckwiderstand des K"orpers zu verringern \cite{Hucho.2011}.\\
+Stumpfe K"orper haben meist ein stufenartiges Ende, aus dem sich str"omungsmechanische Nachteile ergeben. Deshalb soll durch eine Anpassung der Geometrie des K"orpers oder durch die strukturelle Ver"anderung des Totwassers dieser ausgeglichen werden. Ziel ist es, den Basisdruck anzuheben und dar"uber den Druckwiderstand des K"orpers zu verringern \cite{Hucho.2011}.\\
 %hier evtl ein paar passive verfahren
-Die nachfolgende Arbeit konzentriert sich auf ein aktives Verfahren der Str"omungsbeeinflussung, weshalb im folgenden einige bis jetzt realisierte Verfahren vorgestellt werden.\\
+Die nachfolgende Arbeit konzentriert sich auf ein aktives Verfahren der Str"omungsbeeinflussung, weshalb im Folgenden einige bis jetzt realisierte Verfahren vorgestellt werden.\\
 
 %-------------------------------------------------------------------------------------
-Bearman \cite{Hucho.2011} hat als einer der ersten die aktive Str"omungsbeeinflussung nachgewiesen. \abb{fig:Bearman} zeigt das verwendete Stumpfk"orpermodell. Dabei ist als Besonderheit auf die por"ose Basis \(A_{0}\) hinzuweisen, durch die zus"atzlich Luft am Ende des K"orpers ausgesto\ss{}en wird. Es werden zwei Ausblasequerschnitte \(A_{0}\) gew"ahlt, einmal "uber fast die gesamte Fl"ache und einmal "uber knapp die H"alfte der Fl"ache in der Mitte angeordnet.
+Bearman \cite{Hucho.2011} hat als einer der Ersten die aktive Str"omungsbeeinflussung nachgewiesen. \abb{fig:Bearman} zeigt das verwendete Stumpfk"orpermodell. Dabei ist als Besonderheit auf die por"ose Basis \(A_{0}\) hinzuweisen, durch die zus"atzlich Luft am Ende des K"orpers ausgesto\ss{}en wird. Es werden zwei Ausblasequerschnitte \(A_{0}\) gew"ahlt, zum einen "uber einen Gro\ss{}teil der Fl"ache A und zum anderen "uber die H"alfte der Fl"ache zentriert in der Mitte angeordnet.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{KorperBearman.jpg}
 	\caption{Stumpfk"orper mit Ausblasung von Bearman \cite{Hucho.2011}}
 	\label{fig:Bearman}
 \end{figure}\\
-Der Druck hinter dem K"orper nimmt mit wachsendem Volumenstrom zu. Die austretende Luft sorgt daf"ur, dass die Str"omungsabl"osung vom K"orperende weggeschoben wird. Sie fungiert wie eine Trennplatte im Bereich der passiven Str"omungsbeeinflussung. Durch die erst weiter hinten stattfindende Verwirbelung, f"allt der Widerstand des K"orpers ab.
+Aus seinen Experimenten \cite{Hucho.2011} hat sich ergeben, dass der Druck hinter dem K"orper mit wachsendem Volumenstrom zunimmt. Die austretende Luft sorgt daf"ur, dass die Str"omungsabl"osung vom K"orperende weggeschoben wird. Sie fungiert wie eine Trennplatte im Bereich der passiven Str"omungsbeeinflussung. Durch die erst weiter hinten stattfindende Verwirbelung, f"allt der Widerstand des K"orpers ab.
 
 %-------------------------------------------------------------------------------------
 Geropp und Odenthal beschreiben in \cite{Geropp.2000} Experimente zur Einblasung am Ende eines Kraftfahrzeuges "uber zwei Schlitze mit Nutzung des Coand\^{a}-Effekts (\abb{fig:Geropp}).
@@ -243,21 +243,21 @@ Geropp und Odenthal beschreiben in \cite{Geropp.2000} Experimente zur Einblasung
 	\caption{Stumpfk"orper mit Ausblasung von Geropp \cite{Geropp.2000}}
 	\label{fig:Geropp}
 \end{figure}\\
-Hierbei ist f"ur die Beeinflussung der Grenzschicht die Ausblasung bei hohen Geschwindigkeiten erforderlich. Durch den Coand\^{a}-Effekt wird die eingeblasene Luft in das Todwasser umgelenkt, wo sie wieder abgesaugt wird. Dadurch wird der Druck hinter dem Fahrzeug erh"oht und der Gesamtwiderstand verrringert. Die Experimente zeigen, dass eine Druckerh"ohung von~50\% und eine Widerstandsverringerung um 10\% m"oglich ist. Au\ss{}erdem wird ein Energievorteil f"ur moderate Ausblasgeschwindigkeiten mathematisch festgestellt.
+Hierbei ist f"ur die Beeinflussung der Grenzschicht die Ausblasung bei hohen Geschwindigkeiten erforderlich. Durch den Coand\^{a}-Effekt wird die eingeblasene Luft in das Totwasser umgelenkt, wo sie wieder abgesaugt wird. Dadurch wird der Druck hinter dem Fahrzeug erh"oht und der Gesamtwiderstand verringert. Die Experimente zeigen, dass eine Druckerh"ohung von~50\% und eine Widerstandsverringerung um 10\% m"oglich ist. Au\ss{}erdem wird ein Energievorteil f"ur moderate Ausblasgeschwindigkeiten mathematisch festgestellt.
 
 %--------------------------------------------------------------------------------------
-In \cite{Barros.2016} wird zus"atzlich zu den vorher beschriebenen Verfahren die Ausblassung gepulst durchgef"uhrt. Dabei soll der Einfluss von Frequenz und Amplitude auf das Widerstandsverhalten untersucht werden.\\
-In \abb{fig:Barros} ist der schematische Aufbau der gepulsten Ausblasung dargestellt. Diese wird "uber Ventile realisiert, die eine Rechteckkurve mit einem duty cycle (weitere Erl"auterungen in \kap{s:rotierendeWalzen}) von 40\% erzeugen. Direkt unter der Ausblasstelle wird zus"atzlich noch eine Coand\^{a}-Fl"ache befestigt.\\
+In \cite{Barros.2016} wird zus"atzlich zu den vorher beschriebenen Verfahren die Ausblasung gepulst durchgef"uhrt. Dabei soll der Einfluss von Frequenz und Amplitude auf das Widerstandsverhalten untersucht werden.\\
+In \abb{fig:Barros} ist der schematische Aufbau der gepulsten Ausblasung dargestellt. Diese wird "uber Ventile realisiert, die eine Rechteckkurve mit einem duty cycle von 40\% erzeugen. Der duty cycle gibt den prozentualen Anteil des ge"offneten Signalteils bezogen auf die gesamtm"ogliche "Offnung an. Direkt unter der Ausblastelle wird zus"atzlich eine Coand\^{a}-Fl"ache angebracht.\\
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{KorperBarros.jpg}
 	\caption{Ausblasung von \cite{Barros.2016}}
 	\label{fig:Barros}
 \end{figure}
-Mit eher steigender Frequenz und steigender Amplitude, wurde eine Umlenkung der Grenzschicht beobachtet. "Uber eine gepulste Einblasung, nahe der nat"urlichen Abl"osefrequenz der Str"omung, kann nach \cite{Barros.2016} der Widerstand am meisten (10\%) gesenkt werden. Bei zus"atzlicher Nutzung der Coand\^{a}-Fl"ache kann eine Reduktion von 20\% erreicht werden.
+Mit steigender Frequenz und steigender Amplitude, wurde eine Umlenkung der Grenzschicht beobachtet. "Uber eine gepulste Einblasung, nahe der nat"urlichen Abl"osefrequenz der Str"omung, kann nach \cite{Barros.2016} der Widerstand am meisten (10\%) gesenkt werden. Bei zus"atzlicher Nutzung der Coand\^{a}-Fl"ache kann eine Reduktion von 20\% erreicht werden.
 
 %-------------------------------------------------------------------------------------
-Modi et al. \cite{MODI.1991} versucht durch drehende Zylinder den Widerstand zu reduzieren. Dabei benutzt \cite{MODI.1991} unterschiedliche Modelle. F"ur erste Versuche wird das Modell in \abb{fig:Modi3} benutzt und sp"ater der Truck aus \abb{fig:Modi}.
+Modi et al. \cite{MODI.1991} versucht durch drehende Zylinder den Widerstand zu reduzieren. Dabei werden unterschiedliche Modelle genutzt. F"ur erste Versuche wird das Modell in \abb{fig:Modi3} und sp"ater der Truck aus \abb{fig:Modi} verwendet.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{KoerperModi3.jpg}
@@ -284,7 +284,7 @@ Auf den Str"omungsbildern (\abb{fig:ModiStr}) kann gut gesehen werden, dass bei 
 	\caption{Erstes Truckmodell von Modi et al. \cite{MODI.1991}}
 	\label{fig:Modi}
 \end{figure}
-Bei den Versuchen am Truckmodell sind die Zylinder zuerst angeordnet, wie in \abb{fig:Modi} dargestellt. Bei dem ersten Versuch werden die Rauhigkeiten der Zylinder variiert. Es gibt einen glatten Zylinder, einen mit einer Rauhigkeit von 40 und einen mit 80. Au\ss{}erdem wird wieder das Verh"altnis der Drehgeschwindigkeiten der Zylinder \(U_c\) bzgl. der Anstr"omgeschwindigkeit \(U\) f"ur alle drei F"alle variiert. Daraus ergeben sich die Widerstandsreduktionen in \tab{tab:Modi}.\\
+Bei den Versuchen am Truckmodell sind die Zylinder in einem ersten Veruch angeordnet, wie in \abb{fig:Modi} dargestellt. Dabei werden die Rauhigkeiten der Zylinder variiert. Es gibt einen glatten Zylinder, einen mit einer Rauhigkeit von 40 und einen mit 80. Au\ss{}erdem wird wieder das Verh"altnis der Drehgeschwindigkeiten der Zylinder \(U_c\) bzgl. der Anstr"omgeschwindigkeit \(U\) f"ur alle drei F"alle variiert. Daraus ergeben sich die Widerstandsreduktionen in \tab{tab:Modi}.\\
 \begin{table}[h]
 	\centering
 	\begin{tabular}{lrr}
@@ -309,7 +309,7 @@ Da der hintere Zylinder keinen Impuls in die Grenzschicht einbringen kann, wurde
 Der spiralf"ormige Zylinder erzielte das gleiche Ergebnis, wie der Zylinder mit einer Rauhigkeit von~40 im ersten Experiment. Der Vielkeil-Verzahnungszylinder hat allerdings einen gro\ss{}en Einfluss auf den Widerstand. Bei alleiniger Betrachtung des vorderen Zylinders wird eine Reduktion von~29\% erreicht, beide Zylinder erreichen bis zu 41\%.
 
 %------------------------------------------------------------------------------------
-In \cite{Gong.2015} wird eine r"uckwertsgewandte Stufe ein 2D-Modell und anschlie\ss{}end ein 3D-Model (\abb{fig:Gong}) untersucht. Das besondere dabei ist die Anregungsform "uber einen Lautsprecher, der ein monofrequentes, sinusf"ormiges Anregunfgssignal durch kleine L"ocher in die Str"omung gibt. "Uber die Sinusfunktion wird erreicht, dass die eingestr"omte Masse "uber eine Periode betrachtet gleich Null ist. Neben der Untersuchung im Windkanal wurde eine instation"are Simulation entwickelt und validiert, diese Erm"oglicht einen genaueren Einblick in die Wirbelstrukturen.
+In \cite{Gong.2015} wird eine r"uckwertsgewandte Stufe ein 2D-Modell und anschlie\ss{}end ein 3D-Model (\abb{fig:Gong}) untersucht. Das besondere dabei ist die Anregungsform "uber einen Lautsprecher, der ein monofrequentes, sinusf"ormiges Anregunfgssignal durch kleine L"ocher in die Str"omung gibt. Durch die Sinusfunktion wird erreicht, dass die eingestr"omte Masse "uber eine Periode betrachtet gleich Null ist. Neben der Untersuchung im Windkanal wurde eine instation"are Simulation entwickelt und validiert, welche einen genauen Einblick in die Wirbelstrukturen erm"oglicht.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{KoerperGong.jpg}
@@ -319,7 +319,7 @@ In \cite{Gong.2015} wird eine r"uckwertsgewandte Stufe ein 2D-Modell und anschli
 Bei einer hochfrequenten Anregung kann die Bildung von Wirbeln unterdr"uckt werden. Dadurch wird der Druck hinter der Basis erh"oht und der Luftwiderstand des K"orpers sinkt.
 
 %------------------------------------------------------------------------------------
-Alle bisher vorgestellten Verfahren haben nur eine Steuerung des Vorgangs betrachtet. In \cite{Henning.2008} wird jetzt zus"atzlich eine Regelung des Mechanismuses der Str"omungsbeeinflussung eingef"uhrt. Dabei m"ochte man "au\ss{}ere St"orungen mit ber"ucksichtigen, die zum Beispiel sich gegenseitig beeinflussende Kraftfahrzeuge aufeinander haben.\\
+Alle bisher vorgestellten Verfahren haben nur eine Steuerung des Vorgangs betrachtet. Darauf aufbauend wird in \cite{Henning.2008} zus"atzlich eine Regelung des Mechanismuses der Str"omungsbeeinflussung eingef"uhrt. Dabei sollen "au\ss{}ere St"orungen ber"ucksichtigt werden, wie beispielsweise sich gegenseitig beeinflussende Kraftfahrzeuge.\\
 Im Rahmen der Arbeit \cite{Henning.2008} wurden unterschiedliche K"orper "ahnlich zu denen in \abb{fig:Gong} analysiert.
 %\begin{figure}[h]
 %	\centering
@@ -327,7 +327,7 @@ Im Rahmen der Arbeit \cite{Henning.2008} wurden unterschiedliche K"orper "ahnlic
 %	\caption{betrachtete Modelle f"ur Auslegung der Regelung \cite{Henning.2008}}
 %	\label{fig:Henning}
 %\end{figure}\\
-An der r"uck"arts gewandten Stufe wurde erfolgreich die Wideranlegel"ange "uber einen segmentierten Schlitz an der Stufenkante geregelt. Au\ss{}erdem konnte eine Unterdr"uckung von St"orungen erreicht werden. Das Ganze wurde "uber eine Robuste Regelung realisiert.\\
+An der r"uckw"arts gewandten Stufe wurde erfolgreich die Wideranlegel"ange "uber einen segmentierten Schlitz an der Stufenkante geregelt. Au\ss{}erdem konnte eine Unterdr"uckung von St"orungen erreicht werden. Das Ganze wurde "uber eine Robuste Regelung realisiert.\\
 Am stumpfen K"orper wurde mit Hilfe einer Phasenregelung an Ober- und Unterseite eine Widerstandsreduzierung von bis zu 15\% erreicht.\\
-Die Tandemkonfiguration (zwei K"orper hintereinander) wurde im Rahmen einer Machbarkeitsstudie \cite{Henning.2008} untersucht und f"ur zuk"unftige Arbeiten als sinnvoll betrachtet. Dabei geht es um die St"oreinfl"usse, die der erste K"orper auf den zweiten hat und wie dieser die St"orung "uber eine Regelung beseitigen kann, sodass auch beim zweiten K"orper eine Widerstandsreduzierung m"oglich ist.\\
-Die Regelung stellt einen weiteren Schritt in Bezug auf eine Widerstandsreduktion von Stumpfk"orpern dar. Im Rahmen dieser Arbeit wird eine Regelung nicht mit betrachtet, da erst das neue Konzept untersucht werde muss. Dieses kann dann evtl. in Zukunft um eine Regelung erweitert werden.
+Die Tandemkonfiguration (zwei K"orper hintereinander) wurde im Rahmen einer Machbarkeitsstudie \cite{Henning.2008} untersucht und f"ur zuk"unftige Arbeiten als sinnvoll betrachtet. Dabei geht es um die St"oreinfl"usse, die der erste K"orper auf den Zweiten hat und wie dieser die St"orung "uber eine Regelung beseitigen kann, sodass auch beim zweiten K"orper eine Widerstandsreduzierung m"oglich ist.\\
+Die Regelung stellt einen weiteren Schritt in Bezug auf eine Widerstandsreduktion von Stumpfk"orpern dar. Im Rahmen dieser Arbeit wird eine Regelung nicht mit betrachtet, da erst das neue Konzept untersucht werden muss.

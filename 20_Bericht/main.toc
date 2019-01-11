@@ -1,4 +1,4 @@
-\babel@toc {german}{}
+\select@language {german}
 \contentsline {chapter}{Nomenklatur}{v}
 \contentsline {chapter}{\numberline {1}Einleitung (NB)}{1}
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}
