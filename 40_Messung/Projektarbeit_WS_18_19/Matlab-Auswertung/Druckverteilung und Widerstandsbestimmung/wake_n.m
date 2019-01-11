@@ -51,7 +51,7 @@ ref_length = 0.0534;
     
     %%siehe Formel 4.10 im Bericht
 fun = @(x) (2 * sqrt((formula1(beta1,(x-beta1(5))) - formula2(beta2,(x-beta2(3)))) / dyn_pressure_fs) .* (1- sqrt((formula1(beta1,(x-beta1(5))) - static_pressure_fs) / dyn_pressure_fs)));
-Cd = integral(fun,-max(position_prandtl),max(position_prandtl))/1000/ref_length
+Cw = integral(fun,-max(position_prandtl),max(position_prandtl))/1000/ref_length
 
 %%plot
 x = linspace (-max(position_prandtl),max(position_prandtl),101);
