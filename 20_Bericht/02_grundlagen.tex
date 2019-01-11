@@ -71,7 +71,25 @@ Hieraus wird die Notwendigkeit ersichtlich, eine Druckerh"ohung in diesem Totwas
 \subsection{Totwasser}
 \label{sec:Totwasser}
 Das Totwasser hat im Wesentlichen drei kennzeichnende Eigenschaften. Zum Einen tritt im Innern eine zirkulierende Str"omung auf, welche stark turbulent ist. Des Weiteren bilden sich periodisch alternierende Wirbel und zudem herrscht ein Unterdruck, der r"aumlich nicht konstant ist. 
-Wie bereits oben erw"ahnt bilden sich innerhalb des Totwassers Wirbelschichten aus. Die ehemalige Grenzschichtstr"omung, welche abl"ost, wird zur Scherschichtstr"omung und durchmischt sich turbulent mit dem ruhenden Fluid im Windschatten des K"orpers. Dabei wird das Totwasser selbst besonders durch die Form der Scherschicht gepr"agt, wie in Abbildung \ref{fig:Scherschicht} zu sehen ist. Bei der zweiseitigen Abl"osung, wie das in der dem Experiment zu Grunde liegenden Konfiguration der Fall ist, beeinflussen sich die Scherschichten gegenseitig. Dies ist besonders deutlich aus \abb{fig:HuchoStumpf} ersichtlich. W"ahrend sich bei der einseitigen Scherschicht ein langes Totwassergebiet mit hohem Druck ausbildet, ist das Totwasser bei der zweiseitigen Abl"osung k"urzer und der Druck niedriger. Die rotationssymmetrische Abl"osung f"uhrt zu einem Aufrollen der Scherschicht, was daf"ur sorgt, dass der Druck h"oher als im einseitigen Totwasser ist. Dies soll im nachfolgenden aber nicht weiter betrachtet werden. Die umliegende Str"omung ver"halt sich gegen"uber dem Totwasser in allen drei F"allen so, als w"are es  ein fester K"orper. Es bildet sich eine Trennstromlinie an dessen Rand \cite{Hucho.2011}. 
+Wie bereits oben erw"ahnt bilden sich innerhalb des Totwassers Wirbelschichten aus. Die ehemalige Grenzschichtstr"omung, welche abl"ost, wird zur Scherschichtstr"omung und durchmischt sich turbulent mit dem ruhenden Fluid im Windschatten des K"orpers. Dabei wird das Totwasser selbst besonders durch die Form der Scherschicht gepr"agt, wie in Abbildung \ref{fig:Scherschicht} zu sehen ist. Bei der zweiseitigen Abl"osung, wie das in der dem Experiment zu Grunde liegenden Konfiguration der Fall ist, beeinflussen sich die Scherschichten gegenseitig. Dies ist besonders deutlich aus \abb{fig:HuchoStumpf} ersichtlich.\\
+Wegen diser gegenseitigen Beeinflusung ist die Str"omung innerhalb des Totwassers mit zweiseitige Abl"osung instation"ar und periodisch. Dies f"uhrt zu Druckschwankungen und oszillierenden Abl"osungen. Um diese Schwingung zu beschreiben, wurde die dimensionslose Strouhal-Zahl $Str$ eingef"uhrt \cite{Leder.1992}. Gem"a\ss{} \ref{eq:Str} ist sie dabei abh"angig von der Abl"osefrequenz der Wirbel, der Dicke des Stumpfk"orpers D sowie der Anstr"omgeschwindigkeit $U_{\infty}$. F"ur D-Stumpfk"orper nimmt die Strouhalzahl den Wert $Str = 0,26$ an \cite{Pastoor.2008}.
+
+\begin{align}
+	{Str}=\frac{f*D}{U_{\infty}}	
+	\label{eq:Str}
+\end{align}
+
+Die Wirbel wachsen durch den eingebrachten Impuls der Scherschichten. Dabei verlagert sich deren Zentrum stark, bis sie die Scherschicht auf der gegen"uberliegenden Seite mit entgegengesetzter Rotation einsaugen. Dadurch l"osen sich die Wirbel abwechselnd ab, sodass sich eine K\'arm\'ansche Wirbelstra\ss{}e ausbildet. Diese ist in \abb{fig:Wirbelstrasse} zu sehen. 
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Wirbelstrasse.jpg}
+	\caption{K\'arm\'ansche Wirbelstra\ss{}e \cite{Hucho.2011}}
+	\label{fig:Wirbelstrasse}
+\end{figure}
+
+
+W"ahrend sich bei der einseitigen Scherschicht ein langes Totwassergebiet mit hohem Druck ausbildet, ist das Totwasser bei der zweiseitigen Abl"osung k"urzer und der Druck niedriger. Die rotationssymmetrische Abl"osung f"uhrt zu einem Aufrollen der Scherschicht, was daf"ur sorgt, dass der Druck h"oher als im einseitigen Totwasser ist. Dies soll im nachfolgenden aber nicht weiter betrachtet werden. Die umliegende Str"omung ver"halt sich gegen"uber dem Totwasser in allen drei F"allen so, als w"are es  ein fester K"orper. Es bildet sich eine Trennstromlinie an dessen Rand \cite{Hucho.2011}. 
 
 \begin{figure}[h]
 	\centering
@@ -95,7 +113,7 @@ Wie bereits oben erw"ahnt bilden sich innerhalb des Totwassers Wirbelschichten a
 \end{figure}
 
 
-Aufgrund der R"uckstr"omung im Totwasser, bilden sich hinter dem Stumpfk"orper zwei gegenl"aufige Wirbel aus. Dies ist aus \abb{fig:Nachlauf}b ersichtlich. 
+Aufgrund der R"uckstr"omung im Totwasser, bilden sich hinter dem Stumpfk"orper zwei gegenl"aufige Wirbel aus. Diese sind in \abb{fig:Nachlauf}b ersichtlich. 
 
  \begin{figure}[h]
 	\centering
@@ -104,15 +122,7 @@ Aufgrund der R"uckstr"omung im Totwasser, bilden sich hinter dem Stumpfk"orper z
 	\label{fig:Nachlauf}
 \end{figure}
 
-Die Str"omung innerhalb des Totwassers ist instation"ar und periodisch. Dies f"uhrt zu Druckschwankungen und oszillierenden Abl"osungen. Diese Oszillation wei\ss{}t eine charakteristische Frequenz auf und wird durch die Strouhal-Zahl ${Str}$ beschrieben. 
-
 Da das Totwasser wie ein fester K"orper an der Trennstromlinie umstr"omt wird, kann dort ebenfalls der statische Druck bei einer entsprechenden Kontur ansteigen. Ist der Druckanstieg zu stark, l"ost das umstr"omende Medium nach dem selben Prinzip wie in Abschnitt \ref{sec:Stromungsbild} ab. Dies bezeichnet man als Abl"osung zweiter Art \cite{Leder.1992}. Dieser Vorgang erfolgt kaskadenartig, sodass sich immer kleiner Wirbel bilden. Bei diesem Vorgang wird Energie  in W"arme dissipiert, bis sich die Wirbel g"anzlich aufl"osen und sich erneut ein laminares Str"omungsprofil ausbildet. Im Nachlauf des Stumpfk"orpers, welcher sich an das Totwasser anschlie\ss{}t, ergibt sich dabei eine Delle im Geschwindigkeitsfeld. Das ist in Abbildung \abb{fig:Nachlauf} zu sehen. Aus dem Nachlauf lassen sich deshalb Informationen "uber den Widerstand des K"orpers ziehen, was im Abschnitt \ref{s:widerstandsbestimmung} weiter thematisiert wird.
-
-
-
-
-
-
 
 \subsection{Einfluss der Vorderkante} 
 \label{sec:Vorderkante}
@@ -121,7 +131,7 @@ An einer scharfen Vorderkante l"ost die Str"omung ab und bildet eine laminare Ab
   
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\textwidth]{LaminareAbloeseblase.jpg}
+	\includegraphics[width=1\textwidth]{LaminareAbloeseblase.jpg}
 	\caption{Schema einer laminaren Abl"oseblase \cite{Siegman.2015}}
 	\label{fig:LamBlase}
 \end{figure}
@@ -144,8 +154,8 @@ Um in der Messung lediglich den Einfluss des Totwassers zu ermitteln, ist es des
 %\end{figure}
 
 
-\subsection{Praktische Bedeutung der Stumpfk"orper}
-tbd
+%\subsection{Praktische Bedeutung der Stumpfk"orper}
+%tbd
 
 
 
@@ -159,7 +169,7 @@ Der Coand\^{a}-Effekt tritt auf, wenn ein Strahl entlang einer konvexen K"orperk
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{coanda.jpg}
+	\includegraphics[width=0.4\textwidth]{coanda.jpg}
 	\caption{Skizze zum Coand\^{a}-Effekt \cite{Stadlberger.2016}}
 	\label{fig:coanda}
 \end{figure}
@@ -170,7 +180,6 @@ Die Kr"ummung pr"agt dem Strahl eine Zentrifugalkraft auf, welche im Gleichgewic
 
 %Ausführung Riedel ergänzen
 Da es sich bei der Coand\^{a}-Str"omung um einen Wandstrahl handelt, gibt es zur Grenzschicht eine zus"atzliche Reibungsschicht zum umgebenden Medium. Somit bildet sich ein Geschwindigkeitsprofil wie in \abb{fig:Wandstrahl} aus. \\
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Wandstrahl.jpg}
@@ -178,8 +187,11 @@ Da es sich bei der Coand\^{a}-Str"omung um einen Wandstrahl handelt, gibt es zur
 	\label{fig:Wandstrahl}
 \end{figure}
 
-Im zeitlichen Mittel ist die resultierende Zentrifugalkraft proportional zu $\frac{u^2}{r+y}$. Dabei ist die wirkende Zentrifugalkraft in der N"ahe des Maximums des Geschwindigkeitsprofils des Wandstrahls proportional zu $\frac{U^2}{r+\frac{H}{4}}$. Sie ist somit aufgrund der h"oheren Geschwindigkeit gr"o\ss{}er als die Zentrifugalkraft auf Teilchen in der N"ahe der Strahloberfl"ache und in der N"ahe der K"orperkontur.\\
-An der K"orperkontur ist die resultierende Zentrifugalkraft proportional zu $\frac{u^2}{r}$, an der Strahloberfl"ache jedoch nur zu $\frac{0,25 \cdot U^2}{r + H}$. Aus diesem Grund besteht die Tendenz von Teilchen in der N"ahe der Maximalgeschwindigkeit, zum "au\ss{}eren Rand und somit in das Gebiet der Strahlvermischung mit dem Umgebungsmedium abzudriften. Durch ihre geringere Zentrifugalkraft blockieren die Teilchen innerhalb des "au\ss{}eren Randes jedoch die nach au\ss{}en dringenden Teilchen und somit eine nach au\ss{}en gerichtete Bewegung. Infolgedessen treffen zus"atzliche Teilchen am Rand aufeinander, was feine Strahlvermischung bef"ordert.\\
+Im zeitlichen Mittel ist die resultierende Zentrifugalkraft proportional zu $\frac{u^2}{r+y}$. Dabei ist die wirkende Zentrifugalkraft in der N"ahe des Maximums des Geschwindigkeitsprofils des Wandstrahls proportional zu $\frac{U^2}{r+\frac{H}{4}}$. Sie ist somit aufgrund der h"oheren Geschwindigkeit gr"o\ss{}er als die Zentrifugalkraft auf Teilchen in der N"ahe der Strahloberfl"ache und in der N"ahe der K"orperkontur.
+
+
+An der K"orperkontur ist die resultierende Zentrifugalkraft proportional zu $\frac{u^2}{r}$, an der Strahloberfl"ache jedoch nur zu $\frac{0,25 \cdot U^2}{r + H}$. Aus diesem Grund besteht die Tendenz von Teilchen in der N"ahe der Maximalgeschwindigkeit, zum "au\ss{}eren Rand und somit in das Gebiet der Strahlvermischung mit dem Umgebungsmedium abzudriften. Durch ihre geringere Zentrifugalkraft blockieren die Teilchen innerhalb des "au\ss{}eren Randes jedoch die nach au\ss{}en dringenden Teilchen und somit eine nach au\ss{}en gerichtete Bewegung. Infolgedessen treffen zus"atzliche Teilchen am Rand aufeinander, was feine Strahlvermischung bef"ordert.
+
 Ein entgegengesetztes Verhalten findet sich in der N"ahe der K"orperkontur. Den Teilchen in Wandn"ahe wird eine kleinere Zentrifugalkraft als im Strahlzentrum aufgepr"agt. Weniger Kollisionen und somit eine geringere gegenseitige Beeinflussung benachbarter Teilchen sind die Folge. Dies reduziert den Turbulenzgrad verglichen mit einer ebenen Strahlstr"omung.
 Stromabw"arts weitet sich die Mischbewegung vom Strahlrand zum Strahlkern und zur konturnahen Str"omung aus, weshalb der Turbulenzgrad infolge der Strahlvermischung steigt \cite{Riedel.1973}. 
 
@@ -188,6 +200,8 @@ Wie bereits oben erw"ahnt wurde, wird am freien Rand das umgebende Fluid mitgeri
 
 %%
 %Da es sich bei der Coand\^{a}-Str"omung um einen Wandstrahl handelt, gibt es zur Grenzschicht eine zus"atzliche Reibungsschicht zum umgebenden Medium. Dies wird in \abb{fig:coanda} gezeigt. Da das Umgebungsmedium ruht, gibt es gem"a\ss{} Bernoulli keinen Druckanstieg entlang der konvexen Rundung, die Grenzschicht bleibt stabil. Aus diesem Grund haftet die Coand\^{a}-Str"omung l"anger an K"orperkontur an.
+
+
 
 
 
