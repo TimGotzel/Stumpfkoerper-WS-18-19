@@ -12,10 +12,9 @@ for i = 1 : length(list_1) - 2
             disp(temp)
             list_3 = dir(temp);
             for k = 1 : length(list_3)
-                data = mean(import_data([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\',list_3(k).name]));
-                disp(data)
-                plot(data(1:22))
-                xlswrite([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\',list_3(k).name(1:end-3),'xlsx'],data)
+                pressure = mean(import_data([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\',list_3(k).name]));
+                Cw(k)= wake_n_ohnePlot(pressure);
+                xlswrite([folder,'\',list_1(i+2).name,'\',list_2(j+2).name,'\',list_3(k).name(1:end-3),'Cw_Werte.xlsx'],Cw)
             end
         end
     end

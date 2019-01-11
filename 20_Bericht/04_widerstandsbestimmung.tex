@@ -1,27 +1,35 @@
 \chapter{Widerstandsbestimmung (FT)}\label{s:widerstandsbestimmung}
 
-Das Ziel dieser Arbeit ist es, festzustellen, ob die hybride aktive Str"omungsbeeinflussung von stumpfen K"orpern mittels gepulster Druckluftjets "uber zwei rotierende Coand\^{a}-Walzen mit kleiner Zahnzahl an der K"orperr"uckseite eine nennenswerte Widerstandsreduktion gegen"uber dem Fall ohne Beeinflussung erzielt. 
-Dar"uber hinaus soll getestet werden, ob die periodische Aktuierung gegen"uber vorherigen Untersuchungen mit kontinuierlicher Ausblasung den Widerstand  st"arker senken kann und diese Form der Ausblasung effizienter als effizienter betrachtet werden kann.
+%Das Ziel dieser Arbeit ist es, festzustellen, ob die hybride aktive Str"omungsbeeinflussung von stumpfen K"orpern mittels gepulster Druckluftjets "uber zwei rotierende Coand\^{a}-Walzen mit kleiner Zahnzahl an der K"orperr"uckseite eine nennenswerte Widerstandsreduktion gegen"uber dem Fall ohne Beeinflussung erzielt. 
+%Dar"uber hinaus soll getestet werden, ob die periodische Aktuierung gegen"uber vorherigen Untersuchungen mit kontinuierlicher Ausblasung den Widerstand  st"arker senken kann und diese Form der Ausblasung als effizienter betrachtet werden kann.
 
-Hierzu muss aus den Versuchsdaten einerseits die jeweiligen Widerstandswerte des K"orpers bestimmt werden. Andererseits ist es erforderlich, abzusch"atzen, ob diese Form der Str"omungsmodifikation unter dem Schlussstrich Energie einsparen kann oder f"ur die Aktuationsmechanismen m"oglicherweise sogar mehr Energie aufgewandt werden muss, als an Einsparung gewonnen werden kann.
-Zus"atzlich ist es von Interesse zu bestimmen, wie gro\ss{} der Impulsstrom ist, der durch die Aktuation in die Str"omung eingebracht wird.
 
-Die Gleichungen f"ur diese Zwecke sollen in diesem Kapitel hergeleitet und erl"autert werden.
+Damit das Ziel der Arbeit erreicht werden kann, muss aus den Versuchsdaten einerseits die jeweiligen Widerstandswerte des K"orpers bestimmt werden. Dar"uber hinaus ist es erforderlich, abzusch"atzen, ob diese Form der Str"omungsmodifikation unter dem Schlussstrich Energie einsparen kann oder, ob f"ur die Aktuationsmechanismen m"oglicherweise sogar mehr Energie aufgewandt werden muss, als an Einsparung gewonnen werden kann.
+Zus"atzlich ist es von Interesse zu bestimmen, wie gro\ss{} der Impulsstrom ist, der durch die Aktuation in die Str"omung eingebracht wird und diesen entsprechend zu kennzeichnen. 
+
+Die Gleichungen f"ur diese Zwecke sollen in diesem Kapitel hergeleitet und n"aher erl"autert werden.
 
 \section{Bestimmung des Widerstands mittels des Impulssatzes}
 \label{sec:WueberImpulssatz}
 %Die nachfolgenden Ausf"uhrungen orientieren sich eng an  Hucho \cite{Hucho.2011}.
-Die Widerstandskraft $W$ eines K"orpers innerhalb einer Unterschallstr"omung besteht im Wesentlichen aus den beiden Anteilen Reibungswiderstand und Druckwiderstand.
-Bei schlanken K"orpern dominiert der Reibungswiderstand der aus Schubspannungen in der Grenzschicht der Geometrie resultiert. Bei stumpfen K"orpern hingegen dominiert fast ausnahmslos der Druckwiderstand, welcher seinen Ursprung wie bereits erw"ahnt in einer "uber den K"orper schwankenden Druckverteilung hat.
+Wie in \kap{s:grundlagen} beschrieben, besteht die Widerstandskraft $W$ eines K"orpers innerhalb einer Unterschallstr"omung im Wesentlichen aus den beiden Anteilen Reibungswiderstand und Druckwiderstand:
+	\begin{equation}
+	\label{eq:W_zusammensetzung}
+	W = W_R + W_D
+	\end{equation}
+Bei schlanken K"orpern dominiert der Reibungswiderstand $W_R$ der aus Schubspannungen in der Grenzschicht der Geometrie resultiert. Bei stumpfen K"orpern hingegen ist in fast allen F"allen der Druckwiderstand $W_D$ f"ur den gr"o\ss{}eren Anteil verantwortlich. $W_D$ hat seinen Ursprung wie bereits erw"ahnt in einer "uber den K"orper schwankenden Druckverteilung.  
 
+Bei der Untersuchung in dieser Arbeit sollen diese beiden Anteile im Folgenden jedoch nicht explizit auseinandergehalten bzw. separat bestimmt werden. Wir behandeln im Folgenden also nur die gesamte Widerstandskraft.
 
-Der Widerstand $W$ eines stumpfen K"orpers innerhalb einer Str"omung macht sich als Impulsverlust derselben stromabw"arts bemerkbar. Diese gesuchte Gr"o\ss{}e kann somit bestimmt werden, in dem der Geschwindigkeitsverlauf der Str"omung im Nachlauf betrachtet und mittels des Impulssatzes ausgewertet wird. 
+Der Widerstand $W$ eines stumpfen K"orpers innerhalb einer Str"omung macht sich als Impulsverlust stromabw"arts der umstr"omten Geometrie bemerkbar.\cite{Hucho.2011} In \abb{fig:HuchoKV} sieht man diesen Sachverhalt durch die Delle im Geschwindigkeitsverlauf hinter dem K"orper veranschaulicht. %Die Auspr"agung dieser Delle wird 
+
+Aus diesen "Uberlegungen folgt gesuchte Gr"o\ss{}e kann somit bestimmt werden, in dem der Geschwindigkeitsverlauf der Str"omung im Nachlauf betrachtet und mittels des Impulssatzes ausgewertet wird. 
 
 Der Widerstand des K"orpers selber l"asst sich finden, wenn ein Kontrollvolumen wie in \abb{fig:HuchoKV} um den K"orper gelegt und eine Impulsbilanz aufgestellt wird \cite{Hucho.2011}. Es wird im Folgenden vereinfacht von einer horizontalen, inkompressiblen 2D-Str"omung ausgegangen und der Impulssatz in x-Richtung
 
 \begin{equation}
 	\label{eq:impulssatz_allg}
-	\rho \int_{(K)} v_x \, \mathrm{d}Q = F_{Kx} + F_{Px} + F_{Sx}
+	\rho \int_{(K)} u_x \, \mathrm{d}Q = F_{Kx} + F_{Px} + F_{Sx}
 \end{equation}
 betrachtet.
 
@@ -101,12 +109,12 @@ Diese Mittlung gleicht zudem in gewissem Ma\ss{}e das unvermeidbare Messrauschen
 \begin{center}
 	\begin{equation}
 		\label{geschwindigkeitsformel}
-		u_{1}(y)= \sqrt{\frac{2}{\rho}(p_g - p_{\infty}) } = \sqrt{\frac{2}{\rho} q(y)}
+		u_{1}(y)= \sqrt{\frac{2}{\rho}(p_t - p_{\infty}) } = \sqrt{\frac{2}{\rho} q(y)}
 	\end{equation}
 \end{center}
 l"asst sich wie oben beschrieben der Geschwindigkeitsverlauf aus den gemessenen Dr"ucken bestimmen und in \glg{eq:Bestimmungsgleichung C_w} einsetzen.
 
-Wobei $u_{1}$ die Str"omungsgeschwindigkeit im Nachlauf in Abh"angigkeit der y-Koordinate und $q$ der gemessene dynamische Druck ist.
+Wobei $u_{1}(y)$ die Str"omungsgeschwindigkeit im Nachlauf in Abh"angigkeit der y-Koordinate und $q$ der gemessene dynamische Druck ist.
 
 Diese gesamte Vorgehensweise zur Bestimmung des Widerstands ist legitim, wenn an der Messstelle im Nachlauf n"aherungsweise angenommen werden kann, dass der statische Druck wieder $p_\infty$ entspricht.In diesem Fall heben sich die Druckterme im Impulssatz auf  beiden Seiten des Kontrollvolumens gegenseitig auf.
 Wird die Nachlaufdelle hingegen n"aher am K"orper gemessen, weicht der dort gemessene statische Druck von $p_{\infty}$ ab.
@@ -117,10 +125,9 @@ Hierbei werden die Dr"ucke, die theoretisch an einem Querschnitt $1$ \abb{fig:Hu
 Der neue Querschnitt, bei welchem die Messung stattfindet, erh"alt den Index $(2)$.
 
 Der Widerstand in diesem Fall ergibt sich zu
-
 \begin{equation}
 	\label{eq:widerstand_korrigiert}
-	W = 2b \int \sqrt{p_{t2} - p_2} \left(\sqrt{p_{t\infty} - p_{\infty}} - \sqrt{p_{t2} - p_{\infty}}\right) \mathrm{d} y_2 .
+	W = 2b \int \sqrt{p_{t2}(y) - p_2(y)} \left(\sqrt{p_{t\infty} - p_{\infty}} - \sqrt{p_{t2}(y) - p_{\infty}}\right) \mathrm{d} y_2 .
 \end{equation}
 Wobei $p_{t2}$ und $p_{t\infty}$ dem Totaldruck im Nachlaufquerschnitt bzw. dem Totaldruck der ungest"orten Anstr"omung entspricht.
 
@@ -128,23 +135,23 @@ F"ur den Widerstandsbeiwert erh"alt man
 
 \begin{equation}
 	\label{eq:C_w_korrigiert}
-	C_w = 2 \int_{(2)} \sqrt{\frac{p_{t2} - p_2}{q_{\infty}}}
-	\left(1 - \sqrt{\frac{p_{t2} - p_{\infty}}{q_{\infty}}}\right)  \mathrm{d}\left(\frac{y}{d}\right).
+	C_w = 2 \int_{(2)} \sqrt{\frac{p_{t2}(y) - p_2(y)}{q_{\infty}}}
+	\left(1 - \sqrt{\frac{p_{t2}(y) - p_{\infty}}{q_{\infty}}}\right)  \mathrm{d}\left(\frac{y}{d}\right).
 \end{equation}
 
-Der Rechen, der die Dr"ucke liefert, muss zu diesem Zwecke so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
+Der Rechen, der die Dr"ucke liefert, sollte zu diesem Zwecke m"oglichst so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
 
-%Da nur diskrete Werte der jeweiligen Druckverteilung auf diese Weise ermittelt  werden, m"ussen die Druckverteilungen durch eine Fitting-Funktion angen"ahert werden. 
-%Hierzu eignet sich der bisheriger Erfahrung nach \textit{Shao}:
-%
-%	\begin{equation}
-%	\label{eq:fitting-function}
-%	\frac{p(y) - p_{\infty}}{p_{min}-p_{\infty}} = (1 +ay^2)^{by^2}
-%	\end{equation}
-%	
-%Wobei $p_{min}$ dem niedrigsten Druck im Nachlauf entspricht, sowie $a$ und $b$ Modellparameter sind.
+Da nur diskrete Werte der jeweiligen Druckverteilung auf diese Weise ermittelt  werden, m"ussen die Druckverteilungen durch eine Fitting-Funktion angen"ahert werden. 
+Hierzu eignet sich der bisheriger Erfahrung nach \textit{Shao} und Erprobung bei "ahnlichem Modell durch \textit{Oswald}
 
-Der \textit{MATLAB}-Code zur Berechnung des Widerstandsbeiwerts und der Druckverteilungen ist in Anhang \ref{C_w-Code} zu finden. 
+	\begin{equation}
+	\label{eq:fitting-function}
+	\frac{p(y) - p_{\infty}}{p_{min}-p_{\infty}} = (1 +ay^2)^{by^2}
+	\end{equation}
+
+Wobei $p_{min}$ dem niedrigsten Druck im Nachlauf entspricht, sowie $a$ und $b$ Modellparameter sind.\cite{Oswald.2017}
+
+Der vollst"andige \textit{MATLAB}-Code zur Berechnung des Widerstandsbeiwerts und der Druckverteilungen ist in Anhang \ref{C_w-Code} zu finden. 
 
 \section{Effizienzbetrachtung und Impulskoeffizient}
 
@@ -152,23 +159,23 @@ Der \textit{MATLAB}-Code zur Berechnung des Widerstandsbeiwerts und der Druckver
 Der Impulskoeffizient $C_{\mu}$ wird als Ma\ss{} f"ur die Intensit"at der Ausblasung verwendet und ist im Falle von kontinuierlicher Ausblasung als 
 \begin{equation}
 	\label{eq: Def-momentum-coeff}
-	C_{\mu} = 2 \,\frac{\dot{m}_{jet} \cdot U_{jet}}{\frac{1}{2}\rho_{\infty}\, \cdot U^2_{\infty} \cdot A_{ref}}
+	C_{\mu} = \,\frac{\dot{m}_{jet} \cdot U_{jet}}{\frac{1}{2}\rho_{\infty}\, \cdot U^2_{\infty} \cdot A_{ref}}
 \end{equation}
-definiert\cite{ElSayedM..2018}.
+definiert\cite{ElSayedM..2018}. 
 Dabei entspricht $\dot{m}_{jet}$ dem Massenstrom, der durch die Spalte ausgeblasen wird. $U_{jet}$ bezeichnet die Geschwindigkeit dieses Ausblasestroms.
 $A_{ref}$ wiederum dient als Bezugsfl"ache. Im Falle des getesteten Stumpfk"orpers wird als $A_{ref}$ die projizierte Fl"ache der K"orperh"ohe verwendet, da beispielsweise der Druckwiderstand einen proportionalen Zusammenhang zu dieser f"ur stumpfe K"orper charakteristischen Fl"ache besitzt.  %\cite{Bilges.2018}
 
-Die Periodizit"at der Ausblasung im Falle kann zus"atzlich im Impulskoeffizienten ber"ucksichtigt werden und f"uhrt letzendlich auf die Form \cite{Chabert.2014}
+Die Periodizit"at der Ausblasung, wie sie im Fall der zweiten Versuchskonfiguration auftritt, kann zus"atzlich im Impulskoeffizienten ber"ucksichtigt werden und f"uhrt letzendlich auf die Form \cite{Chabert.2014}
 \begin{equation}
 	\label{eq:momentum-coeff-oscill}
 	\langle{C_{\mu}}\rangle = \frac{\rho_{jet}\langle{U^2_{jet}}\rangle \langle{A_{Spalt}}\rangle} {\frac{1}{2}\rho_{\infty}U^2_{\infty}A_{ref}}.	
 \end{equation}
 In \glg{eq:momentum-coeff-oscill} steht der $\langle{}\rangle$-Operator f"ur die jeweiligen zeitlichen Mittelwerte und $A_{Spalt}$ bezeichnet die Fl"ache des Ausblasespalts.
 
-Da sowohl Plenumsdruck und somit auch die Ausblasegeschwindigkeit $U_{jet}$, als auch der Spaltquerschnitt "uber die Umdrehung der Walzen schwanken, m"ussen diese Einfl"usse wie in \glg{eq:eq:momentum-coeff-oscill} Eingang in die Formel f"ur $C_{\mu}$ im Falle der periodischen Aktuation finden.
+Da sowohl Plenumsdruck und somit auch die Ausblasegeschwindigkeit $U_{jet}$, als auch der Spaltquerschnitt "uber die Umdrehung der Walzen schwanken, m"ussen diese Einfl"usse wie in \glg{eq:momentum-coeff-oscill} Eingang in die Formel f"ur $C_{\mu}$ im Falle der periodischen Aktuation finden.
 
 F"ur das mit der Zeit variierende $A_{Spalt}$   wird die mittlere Spalth"ohe, die sich von dem Zeitpunkt der "Offnung des Spalts bis zu dem Zeitpunkt, an dem der Spalt gerade wieder geschlossen ist, ermittelt.  
-Durch die Betrachtung des in \abschn{s:zahnform} dargestellten Spalth"ohenverlaufs ergibt sich ein $\langle{h_{Spalt,offen}}\rangle$ von ca. 0,18 \,mm.
+Durch die Betrachtung des in \kap{s:rotierendeWalzen} in \abb{fig:signal} dargestellten Spalth"ohenverlaufs ergibt sich ein $\langle{h_{Spalt,offen}}\rangle$ von ca. 0,19 \,mm.
 
 Die mittlere Spalth"ohe "uber eine komplette Umdrehung ergibt sich durch die Multiplikation mit dem Tastgrad $\alpha$.
 
@@ -183,7 +190,6 @@ Wir gehen weiterhin davon aus, dass der im Plenum vorhandene Druck vollst"andig 
 		\langle{p_{Plenum}}\rangle = q_{jet}
 	\end{equation}
 
-%- wie in \abschn{sec:WueberImpulssatz} bereits erw"ahnt -%	
 Da wir  von einer inkompressiblen Str"omung ausgehen, kann die Geschwindigkeit $\langle{U_{jet}}\rangle$ nun als
 	
 	\begin{equation}
@@ -200,7 +206,7 @@ Bei den getesteten Walzen folgt f"ur 50 \% Tastgrad, dass die Ausblasung zuminde
 %	\langle{C_{\mu}}\rangle = \alpha C_{\mu}
 %\end{equation}	 
 
-Wenn nun zus"atzlich bedacht wird, dass "uber zwei als gleich angen"aherte Spalte ausgeblasen wird, k"urzt sich dieser Faktor 2 genau mit dem Tastgrad und wir erhalten als modifizierten Impulskoeffizienten f"ur die zweite Konfiguration
+Wenn nun zus"atzlich bedacht wird, dass "uber zwei als gleich angen"aherte Spalte ausgeblasen wird, k"urzt sich dieser Faktor 2 genau mit dem Tastgrad und wir erhalten als modifizierten Impulskoeffizienten f"ur die zweite Modellkonfiguration
 
 	\begin{equation}
 	\label{eq:momentum-coeff-oscill-final}
