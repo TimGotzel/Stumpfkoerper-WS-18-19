@@ -69,9 +69,7 @@ fclose(fileID);
 % script.
 
 %% Create output variable
-x_surpressure = [0 0 0.44 2.68 6.59 11.75 23.6 38.6 53.6 68.6 83.6 98.6 113.6 125.6 137.6];
-c = 182.3; 
-x_surpressure_plot = x_surpressure/c;
+
 s_pressure = [dataArray{1:end-1}];
 mean_s_pressure = mean(s_pressure);
 
