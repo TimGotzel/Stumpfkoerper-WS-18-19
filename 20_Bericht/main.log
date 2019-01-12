@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  12 JAN 2019 01:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  12 JAN 2019 16:43
 entering extended mode
 **./main.tex
 (main.tex
@@ -1365,7 +1365,6 @@ Package pdftex.def Info: figures/GFM_Druckverteilung_oval_unten_offen.jpg  used
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1374,6 +1373,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [35 <./figures/GFM_Druckverteilung_oval_oben_geschl.jpg> <./figures/GFM_Druckve
 rteilung_oval_unten_geschl.jpg>]
+<figures/Oberflaechendruecke_50erK.jpg, id=210, 562.1pt x 421.575pt>
+File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
+<use figures/Oberflaechendruecke_50erK.jpg>
+Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
+ine 282.
+(pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1381,32 +1390,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36 <./figures/GFM_Druckverteilung_oval_oben_offen.jpg> <./figures/GFM_Druckver
-teilung_oval_unten_offen.jpg>]
-\openout2 = `06_versuchsauswertung.aux'.
-
- (06_versuchsauswertung.tex
-Kapitel 6.
-<figures/Oberflaechendruckverteilung50.jpg, id=213, 562.1pt x 421.575pt>
-File: figures/Oberflaechendruckverteilung50.jpg Graphic file (type jpg)
-<use figures/Oberflaechendruckverteilung50.jpg>
-Package pdftex.def Info: figures/Oberflaechendruckverteilung50.jpg  used on inp
-ut line 17.
-(pdftex.def)             Requested size: 364.19664pt x 273.14565pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37
-
-
-
-])
+teilung_oval_unten_offen.jpg>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./figures/Oberflaechendruckverteilung50.jpg>]
+[37 <./figures/Oberflaechendruecke_50erK.jpg>]
+\openout2 = `06_versuchsauswertung.aux'.
+
+ (06_versuchsauswertung.tex
+Kapitel 6.
+) [38
+
+
+
+]
 \openout2 = `07_fazit.aux'.
 
  (07_fazit.tex
@@ -1596,8 +1596,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (06_versuchsauswertung.aux) (07_fazit.aux) (anhang1.aux) (anhang2.aux)) ) 
 Here is how much of TeX's memory you used:
  18004 strings out of 493305
- 351668 string characters out of 3130672
- 363958 words of memory out of 3000000
+ 351645 string characters out of 3130672
+ 363957 words of memory out of 3000000
  21181 multiletter control sequences out of 15000+200000
  553785 words of font info for 77 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
@@ -1626,9 +1626,9 @@ Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msy10.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb>
-Output written on main.pdf (59 pages, 8030591 bytes).
+Output written on main.pdf (59 pages, 8034126 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
+ 805 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  316 words of extra memory for PDF output out of 10000 (max. 10000000)
 
