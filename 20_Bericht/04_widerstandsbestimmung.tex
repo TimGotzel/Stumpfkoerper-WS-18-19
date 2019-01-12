@@ -4,8 +4,8 @@
 %Dar"uber hinaus soll getestet werden, ob die periodische Aktuierung gegen"uber vorherigen Untersuchungen mit kontinuierlicher Ausblasung den Widerstand  st"arker senken kann und diese Form der Ausblasung als effizienter betrachtet werden kann.
 
 
-Damit das Ziel der Arbeit erreicht werden kann, m"ussen aus den Versuchsdaten die jeweiligen Widerstandswerte des K"orpers bestimmt werden. Dar"uber hinaus ist es erforderlich, abzusch"atzen, ob diese Form der Str"omungsmodifikation unter dem Schlussstrich Energie einsparen kann, oder, ob f"ur die Aktuationsmechanismen m"oglicherweise sogar mehr Energie aufgewandt werden muss, als an Einsparung gewonnen werden kann.
-Zus"atzlich ist es von Interesse zu bestimmen, wie gro\ss{} der Impulsstrom ist, der durch die Aktuation in die Str"omung eingebracht wird und diesen entsprechend zu kennzeichnen. 
+Damit das Ziel der Arbeit erreicht werden kann, m"ussen aus den Versuchsdaten die jeweiligen Widerstandswerte des K"orpers bestimmt werden. Dar"uber hinaus ist es erforderlich, abzusch"atzen, ob die gew"ahlte Form der Str"omungsmodifikation unter dem Schlussstrich Energie einsparen kann, oder, ob f"ur die Aktuationsmechanismen m"oglicherweise sogar mehr Energie aufgewandt werden muss, als an Einsparung gewonnen werden kann.\\
+Zus"atzlich ist es von Interesse zu bestimmen, wie gro\ss{} der Impulsstrom ist, der durch die Aktuation in die Str"omung eingebracht wird und diesen ad"aquat zu kennzeichnen. 
 
 Die Gleichungen f"ur diese Zwecke sollen in diesem Kapitel hergeleitet und n"aher erl"autert werden.
 
@@ -19,7 +19,7 @@ Wie in \kap{s:grundlagen} beschrieben, besteht die Widerstandskraft $W$ eines K"
 	\end{equation}
 Bei schlanken K"orpern dominiert der Reibungswiderstand $W_R$ der aus Schubspannungen in der Grenzschicht der Geometrie resultiert. Bei stumpfen K"orpern hingegen ist in fast allen F"allen der Druckwiderstand $W_D$ f"ur den gr"o\ss{}eren Anteil verantwortlich. $W_D$ hat seinen Ursprung wie bereits erw"ahnt in einer "uber den K"orper schwankenden Druckverteilung.  
 
-Bei der Untersuchung in dieser Arbeit sollen diese beiden Anteile im Folgenden jedoch nicht explizit auseinandergehalten bzw. separat bestimmt werden. Wir behandeln im Folgenden also nur die gesamte Widerstandskraft.
+Bei der Untersuchung in dieser Arbeit sollen diese beiden Anteile im Folgenden jedoch nicht explizit auseinandergehalten bzw. separat bestimmt werden, da dies f"ur das Aufzeigen und Quantifizieren des ver"anderten Verhaltens durch aktive Str"omungskontrolle nicht notwendig ist.  Wir behandeln im Folgenden also nur die gesamte Widerstandskraft.
 
 Der Widerstand $W$ eines stumpfen K"orpers innerhalb einer Str"omung macht sich als Impulsverlust stromabw"arts der umstr"omten Geometrie bemerkbar~\cite{Hucho.2011}. In \abb{fig:HuchoKV} sieht man diesen Sachverhalt durch die Delle im Geschwindigkeitsverlauf hinter dem K"orper veranschaulicht. %Die Auspr"agung dieser Delle wird 
 
@@ -33,7 +33,7 @@ Der Widerstand des K"orpers selbst l"asst sich also finden, wenn ein Kontrollvol
 \end{equation}
 betrachtet.
 
-Die Dichte der umstr"omenden Luft wird hierbei mit $\rho$ bezeichnet.
+Die Dichte der umstr"omenden Luft wird hierbei mit $\rho$ und die x-Komponente des Geschwindigkeitsvektors mit $u_x$ und der "uber die Kontrollfl"ache tretende Volumenstrom mit $Q$ bezeichnet.
 Zudem entspricht in \glg{eq:impulssatz_allg} $F_{Kx}$ den angreifenden Volumenkr"aften, $F_{Px}$ der am freien Teil des Volumen angreifenden Oberfl"achenkr"afte (Druckkraft) und $F_{Sx}$ der St"utzkraft.
 
 \begin{figure}[h]
@@ -43,15 +43,15 @@ Zudem entspricht in \glg{eq:impulssatz_allg} $F_{Kx}$ den angreifenden Volumenkr
 	\label{fig:HuchoKV}
 \end{figure}
 
-Die Volumenkraft $F_{Kx}$ kann dabei zu null gesetzt werden, da die Str"omung in Richtung x horizontal verl"auft und auch abgesehen von der Gewichtskraft keine anderen Volumenkr"afte wirken.
+Die Volumenkraft $F_{Kx}$ kann dabei zu null gesetzt werden, da die Str"omung in Richtung x horizontal verl"auft und folglich kein Gravitationseinfluss ber"ucksichtigt werden muss. Auch abgesehen von der Gewichtskraft wirken keine anderen Volumenkr"afte.
 
 Wenn das Kontrollvolumen, wie es in \abb{fig:HuchoKV} zu sehen ist, weit genug ab vom K"orper gelegt ist, herrscht an den Begrenzungr"andern AD, BC, AB und DC der konstante Druck $p_{\infty}$.
-Dies resultiert in einer Druckkraft $F_{Px} = 0$, da sich die Kr"afte an den R"andern aufheben.
+Dies resultiert in einer Druckkraft $F_{Px} = 0$, da sich die Kr"afte an den R"andern gegenseitig aufheben.
 
-Die St"utzkraft kann nun also dem Nettoimpulsfluss gleichgesetzt werden, der
+Infolgedessen kann die St"utzkraft nun also dem Nettoimpulsfluss gleichgesetzt werden, der
 \begin{equation}
 	\label{eq:nettoimpulsfluss}
-	\rho \int_{(K)} \, v_x \, \mathrm{d}Q	= -\rho b \int u_1(u_{\infty} - u_1) \mathrm{d}y = F_{Sx}.	
+	\rho \int_{(K)} \, u_x \, \mathrm{d}Q	= -\rho b \int u_1(U_{\infty} - u_1) \mathrm{d}y = F_{Sx}.	
 \end{equation}
 lautet.\\
 Hier ist $b$ die Breite des Modells senkrecht zur Zeichenebene und $U_{\infty}$ die Geschwindigkeit der umgest"orten Anstr"omung.
@@ -68,7 +68,7 @@ Daraus folgt der Ausdruck f"ur den Widerstand zu
 \begin{center}
 	\begin{equation}
 		\label{eq:widerstand}
-		W = \rho b \int u_{1} (u_{\infty}- u_{1}) \mathrm{d}y.
+		W = \rho b \int u_{1} (U_{\infty}- u_{1}) \mathrm{d}y.
 	\end{equation}
 \end{center}
 
@@ -87,8 +87,6 @@ Nach Einsetzen der Gleichung \ref{eq:widerstand} ergibt sich f"ur den Widerstand
 	C_w = \frac{2}{U_{\infty}^2 d} \int u_{1}(U_{\infty} - u_{1}) dy.
 \end{equation}
 %Die Integrationsgrenzen m"ussen an die vertikale Ausdehnung der Sonden am Messrechen im Nachlauf angepasst werden.	
-
-Mit Hilfe dieser Formeln kann dann ein m"ogliche Reduktion des Widerstandsbeiwertes festgestellt werden.
 
 Um den Geschwindigkeitsverlauf zu bestimmen, k"onnen mehrere Methoden angewandt werden, wobei im Rahmen dieser Arbeit die Geschwindigkeiten aus den dynamischen Dr"ucken ermittelt werden.\\
 Der Messrechen im Nachlauf liefert hierzu statische Dr"ucke und Totaldr"ucke.
@@ -114,14 +112,15 @@ Diese Mittlung gleicht zudem in gewissem Ma\ss{}e das unvermeidbare Messrauschen
 \end{center}
 l"asst sich wie oben beschrieben der Geschwindigkeitsverlauf aus den gemessenen Dr"ucken bestimmen und in \glg{eq:Bestimmungsgleichung C_w} einsetzen.
 
-Wobei $u_{1}(y)$ die Str"omungsgeschwindigkeit im Nachlauf in Abh"angigkeit der y-Koordinate und $q$ der gemessene dynamische Druck ist.
+Wobei $u_{1}(y)$ die Str"omungsgeschwindigkeit im Nachlauf in Abh"angigkeit der y-Koordinate und $q$ der gemessene dynamische Druck ist.\\
+Mit Hilfe dieser Formeln kann nun eine m"ogliche Reduktion des Widerstandsbeiwertes festgestellt werden.
 
 Diese gesamte Vorgehensweise zur Bestimmung des Widerstands ist legitim, wenn an der Messstelle im Nachlauf n"aherungsweise angenommen werden kann, dass der statische Druck wieder $p_\infty$ entspricht.In diesem Fall heben sich die Druckterme im Impulssatz auf  beiden Seiten des Kontrollvolumens gegenseitig auf.
 Wird die Nachlaufdelle hingegen n"aher am K"orper gemessen, weicht der dort gemessene statische Druck von $p_{\infty}$ ab.
 Solche Abweichungen lassen sich durch die messtechnische Anordnung h"aufig nicht vermeiden - 
-k"onnen nach \textit{B.M. Jones}aber durch eine Korrektur ber"ucksichtigt werden, wie sie beispielsweise bei \textit{Schlichting} \cite{Schlichting.2001} zu finden ist.
+k"onnen nach \textit{B.M. Jones} aber durch eine Korrektur ber"ucksichtigt werden, wie sie beispielsweise bei \textit{Schlichting} \cite{Schlichting.2001} zu finden ist.
 
-Hierbei werden die Dr"ucke, die theoretisch an einem Querschnitt $1$ \abb{fig:HuchoKV} weit genug weg vom K"orper und somit von der statischen Druckabweichung herrschen, auf Dr"ucke zuruckgef"uhrt, die n"aher am K"orper tats"achlich gemessen werden\cite{Schlichting.2001}.
+Hierbei werden die Dr"ucke, die theoretisch an einem Querschnitt (1) \abb{fig:HuchoKV} weit genug weg vom K"orper und somit von der statischen Druckabweichung herrschen, auf Dr"ucke zuruckgef"uhrt, die n"aher am K"orper tats"achlich gemessen werden\cite{Schlichting.2001}.
 Der neue Querschnitt, bei welchem die Messung stattfindet, erh"alt den Index $(2)$.
 
 Der Widerstand in diesem Fall ergibt sich zu
@@ -129,7 +128,7 @@ Der Widerstand in diesem Fall ergibt sich zu
 	\label{eq:widerstand_korrigiert}
 	W = 2\,b \int \sqrt{p_{t2}(y) - p_2(y)} \left(\sqrt{p_{t\infty} - p_{\infty}} - \sqrt{p_{t2}(y) - p_{\infty}}\right) \mathrm{d} y_2 .
 \end{equation}
-Wobei $p_{t2}$ und $p_{t\infty}$ dem Totaldruck im Nachlaufquerschnitt bzw. dem Totaldruck der ungest"orten Anstr"omung entspricht.
+Wobei $p_{t2}$ und $p_{t\infty}$ dem Totaldruck im Nachlaufquerschnitt respektive dem Totaldruck der ungest"orten Anstr"omung entspricht.
 
 F"ur den Widerstandsbeiwert erh"alt man
 \begin{equation}
@@ -141,18 +140,18 @@ F"ur den Widerstandsbeiwert erh"alt man
 Der Rechen, der die Dr"ucke liefert, sollte zu diesem Zwecke m"oglichst so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
 
 Da nur diskrete Werte der jeweiligen Druckverteilung auf diese Weise ermittelt werden, m"ussen die Druckverteilungen durch eine Fitting-Funktion angen"ahert werden. 
-Hierzu eignet sich der bisherigen Erfahrung nach der Ansatz
+Hierzu eignet sich - der bisherigen Erfahrung nach - der Ansatz
 
 	\begin{equation}
 	\label{eq:fitting-function}
 	\frac{p(y) - p_{\infty}}{p_{min}-p_{\infty}} = (1 +ay^2)^{by^2}.
 	\end{equation}
-Wobei $p_{min}$ dem niedrigsten Druck im Nachlauf entspricht, sowie $a$ und $b$ Modellparameter sind \cite{Oswald.2017}.
+In \glg{eq:fitting-function} entspricht $p_{min}$ dem niedrigsten Druck im Nachlauf und $a$ und $b$ sind Modellparameter \cite{Oswald.2017}.
 
 Diese Vorgehensweise hat sich beispielsweise bei einem "ahnlichem Modell durch \textit{Oswald} bew"ahrt \cite{Oswald.2017}.
 
 Die \textit{Matlab}-Funktion \textit{nlinfit} wird hierbei genutzt, um die g"unstigsten Parameter f"ur die Druckverteilungen durch nichtlineare Regression zu bestimmen.\\
-Die von \textit{nlinfit} ermittelten Druckverteilungen k"onnen dann zur Bestimmung des Widerstandsbeiwerts in \glg{eq:C_w_korrigiert} eingesetzt werden.
+Die von \textit{nlinfit} ermittelten Druckverteilungen k"onnen dann zur Bestimmung des Widerstandsbeiwerts in \glg{eq:C_w_korrigiert} eingesetzt werden.\\
 F"ur die Aufl"osung des Integrals wird die \textit{Matlab}-Funktion \textit{integral} genutzt, die globale adaptive Quadratur zur numerischen Bestimmung des Integralwerts einsetzt~\cite{Oswald.2017}.
 
 Der vollst"andige \textit{Matlab}-Code zur Berechnung des Widerstandsbeiwerts und der Druckverteilungen ist in Anhang \ref{C_w-Code} zu finden. 
@@ -168,7 +167,7 @@ Der Impulskoeffizient $C_{\mu}$ wird als Ma\ss{} f"ur die Intensit"at der Ausbla
 \end{equation}
 definiert~\cite{ElSayedM..2018}. 
 Dabei entspricht $\dot{m}_{jet}$ dem Massenstrom, der durch die Spalte ausgeblasen wird. $U_{jet}$ bezeichnet die Geschwindigkeit dieses Ausblasestroms.
-$A_{ref}$ wiederum dient als Bezugsfl"ache. Im Falle des getesteten Stumpfk"orpers wird als $A_{ref}$ die projizierte Fl"ache der K"orperh"ohe verwendet, da beispielsweise der Druckwiderstand einen proportionalen Zusammenhang zu dieser f"ur stumpfe K"orper charakteristischen Fl"ache besitzt.  %\cite{Bilges.2018}
+$A_{ref}$ wiederum dient als Bezugsfl"ache. Im Falle des getesteten Stumpfk"orpers wird als $A_{ref}$ die projizierte Fl"ache der K"orperh"ohe verwendet, da beispielsweise der Druckwiderstand einen proportionalen Zusammenhang zu dieser, f"ur stumpfe K"orper, charakteristischen Fl"ache besitzt.  %\cite{Bilges.2018}
 
 Die Periodizit"at der Ausblasung, wie sie im Fall der zweiten Versuchskonfiguration auftritt, kann zus"atzlich im Impulskoeffizienten ber"ucksichtigt werden und f"uhrt letzendlich auf die Form \cite{Chabert.2014}
 \begin{equation}
@@ -188,11 +187,11 @@ $U_{jet}$ muss im Falle der neu erprobten Testkonfiguration mit ovalen Wellen "u
 Zun"achst werden aus den kontinuierlich ermittelten Messwerten f"ur die beiden Dr"ucke $p_{Plenum}$ mittlere Werte gebildet, die als Ausgangspunkt der Berechnung dienen.
 
 Wir gehen weiterhin davon aus, dass der im Plenum vorhandene Druck vollst"andig in dynamischen Druck umgesetzt wird:
-
 	\begin{equation}
 	\label{eq:Annahme q}
 		\langle{p_{Plenum}}\rangle = q_{jet}
 	\end{equation}
+In\glg{eq:Annahme q} ist $q_{jet}$ der dynamische Druck des Druckluftjets.
 
 Da wir eine inkompressible Str"omung annehmen, kann die Geschwindigkeit $\langle{U_{jet}}\rangle$ nun als
 	
@@ -218,7 +217,7 @@ Wenn nun zus"atzlich bedacht wird, dass "uber zwei als gleich angen"aherte Spalt
 	\end{equation}
 
 Mittels des Impulskoeffizienten kann die Effektivit"at der Ausblasung beschrieben werden.
-Auch f"ur den Vergleich zwischen den untersuchten Walzenpaaren und mit den Daten von \textit{Bilges}\cite{Bilges.2018} ist die Betrachtung des Impulskoeffizienten ma\ss{}geblich.
+Auch f"ur den Vergleich zwischen den untersuchten Walzenpaaren und mit den Daten von \textit{Bilges} \cite{Bilges.2018} ist die Betrachtung des Impulskoeffizienten ma\ss{}geblich.
 
 \subsection{Leistungskoeffizient und Leistungsrate}
 Eine alleinige Betrachtung und ein Vergleich der $C_w$-Werte f"ur den Fall ohne Druckluftzuf"uhrung und rotierende Walzen, sowie den Fall mit aktiver konstanter sowie periodischer Stro"mungsbeeinflussung ist nicht ausreichend, um eine vollst"andige Bewertung der unterschiedlichen Konfigurationen vorzunehmen.
@@ -266,11 +265,10 @@ Dieser Koeffizient dr"uckt das Verh"altnis der aufzubringenden Leistung durch di
 
 Im Rahmen dieser Versuche wenden wir auf \glg{eq:def-powercoefficient} einige Vereinfachungen an. 
 
-Zun"achst treffen wir die Annahmen, dass die Temperatur innerhalb des ausgeblasenen Luftstroms der Temperatur im Plenum entspricht
-
+Zun"achst treffen wir die Annahmen, dass die Temperatur innerhalb des ausgeblasenen Luftstroms gleich der Temperatur im Plenum ist
 	\begin{equation}
 	\label{eq:T-Vereinfachung}
-		T_{jet} \approx T_{Plenum}
+		T_{jet} = T_{Plenum}
 	\end{equation}
 
 und wir n"aherungsweise davon ausgehen k"onnen, dass im Plenum keine Str"omungsgeschwindigkeit 
