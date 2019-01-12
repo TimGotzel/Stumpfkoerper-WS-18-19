@@ -1,9 +1,9 @@
 n = [0 500 1000 1500 1800 1900 2000 2100 2200 2300 2400 2500];
-x = n;
-y = CwWerte([1:12]);
-y_2 = CwWerteRK;
+x = C_Power_0kPa;
+y = CwWerteRK([1:12]);
+y_2 = CwWerte([1:12]);
 figure()
-plot(x,y,'-o', x, y_2, '-x')
+plot(x,y,'-x', x, y_2, '-o')
 
 %'Color',[1.00,0.41,0.16],'MarkerSize',6,
 
