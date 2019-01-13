@@ -237,13 +237,22 @@ eingef"uhrt wird~\cite{Freund.1994}.
 Der Z"ahler dr"uckt die eingesparte Widerstandsleistung des Falls mit aktiver Str"omungsbeeinflussung im Vergleich mit dem neutralen Fall aus.
 Dieser Term quantifiziert somit, in welchem Umfang die Energiedissipation in der Str"omung im zweiten Versuch reduziert wird.
 
-Der Nenner hingegen repr"asentiert hingegen die Leistung welche dem Modell bzw. der Str"omung von externer Quelle zugef"uhrt werden muss, um den gew"unschten Effekt zu erzielen.
+Der Nenner repr"asentiert hingegen die Leistung welche dem Modell bzw. der Str"omung von externer Quelle zugef"uhrt werden muss, um den gew"unschten Effekt zu erzielen.
 
 Der erste Summand $\frac{1}{2}\,\dot{m_j} u_j^2$ charakterisiert die kinetische Leistung der Druckluft-Jets, die durch die Spalte ausgeblasen werden. Diese Darstellung vernachl"assigt, dass die  Druckluftbeaufschlagung in den Leitungen Verluste mit sich tr"agt und auch der Kompressor selber keinen optimalen Wirkungsgrad besitzt. Somit handelt es sich bei diesem Term um die idealisierte Jet-Leistung.
 
 Der zweite Summand $ P_M$ ist die kombinierte Motorleistung und tr"agt dem Zustand Rechnung, dass die rotierenden Walzen von zwei Elektromotoren angetrieben werden m"ussen. Diese sind f"ur den Ausgleich der an den Walzen auftretenden Widerst"anden wie Reibung an den Lagern zust"andig.
 Diese Leistung wird mittels eines Leistungsmessger"ats ermittelt und manuell f"ur die Versuchsreihen notiert.
 
+Eine negative Leistungsrate kennzeichnet F"alle in denen der Widerstand gegen"uber der Referenzmessung gestiegen ist. Eine positive Leistungsrate unterhalb von $1$ ergibt sich bei Konfigurationen, bei denen zwar der Widerstand durch die Aktuation gesenkt werden, dieser Gewinn die Kosten aber nur anteilig ausgleichen kann.\\
+Erst bei Leistungsraten oberhalb von $PR = 1$ wird durch die aktiven Ma\ss{}nahmen zur Widerstandsreduzierung eine tats"achliche Leistungsersparnis generiert.
+
+Mit \glg{eq:def-c_w} kann man die Leistungsrate auch als
+\begin{equation}
+	\label{eq:leistungsrate_cw}
+	PR = \frac{(C_{W0} - C_W)\cdot \frac{\rho_{\infty}}{2} U^3_{\infty}\,A_{ref}}{\frac{1}{2} \dot{m_j} u_j^2 + \, P_M}
+\end{equation}
+schreiben.
 
 Des Weiteren wird als weitere Gr"o\ss{}e noch der Leistungskoeffizient $C_{Power}$ ben"otigt, welcher als
 \begin{equation}
