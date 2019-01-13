@@ -31,8 +31,9 @@ ylabel ('C_{W} [-]');
 xlabel ('n [-]');
 
 hold on
+y6 = y1(1);
 yyaxis right;
-plot (
+plot (x(1),y6*100)
 
 
 
