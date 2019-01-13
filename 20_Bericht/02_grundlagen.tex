@@ -221,7 +221,7 @@ Wie bereits oben erw"ahnt wurde, wird am freien Rand das umgebende Fluid mitgeri
 \newpage
 \section{Aktive Str\"omungsbeeinflussung (NB)}
 
-Stumpfe K"orper haben meist ein stufenartiges Ende, aus dem sich str"omungsmechanische Nachteile ergeben. Deshalb soll durch eine Anpassung der Geometrie des K"orpers oder durch die strukturelle Ver"anderung des Totwassers dieser ausgeglichen werden. Ziel ist es, den Basisdruck anzuheben und dar"uber den Druckwiderstand des K"orpers zu verringern \cite{Hucho.2011}.\\
+Stumpfe K"orper haben meist ein stufenartiges Ende, aus dem sich str"omungsmechanische Nachteile ergeben. Diese Nachteile sollen durch eine Anpassung der Geometrie des K"orpers oder durch die strukturelle Ver"anderung des Totwassers ausgeglichen werden.  Ziel ist es, den Basisdruck anzuheben und dar"uber den Druckwiderstand des K"orpers zu verringern \cite{Hucho.2011}.\\
 %hier evtl ein paar passive verfahren
 Die nachfolgende Arbeit konzentriert sich auf ein aktives Verfahren der Str"omungsbeeinflussung, weshalb im Folgenden einige bis jetzt realisierte Verfahren vorgestellt werden.\\
 
@@ -251,13 +251,13 @@ In \abb{fig:Barros} ist der schematische Aufbau der gepulsten Ausblasung dargest
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{KorperBarros.jpg}
-	\caption{Ausblasung von \cite{Barros.2016}}
+	\caption{Gepulste Ausblasung von \cite{Barros.2016}}
 	\label{fig:Barros}
 \end{figure}
 Mit steigender Frequenz und steigender Amplitude, wurde eine Umlenkung der Grenzschicht beobachtet. "Uber eine gepulste Einblasung, nahe der nat"urlichen Abl"osefrequenz der Str"omung, kann nach \cite{Barros.2016} der Widerstand am meisten (10\%) gesenkt werden. Bei zus"atzlicher Nutzung der Coand\^{a}-Fl"ache kann eine Reduktion von 20\% erreicht werden.
 
 %-------------------------------------------------------------------------------------
-Modi et al. \cite{MODI.1991} versucht durch drehende Zylinder den Widerstand zu reduzieren. Dabei werden unterschiedliche Modelle genutzt. F"ur erste Versuche wird das Modell in \abb{fig:Modi3} und sp"ater der Truck aus \abb{fig:Modi} verwendet.
+Modi et al. \cite{MODI.1991} versuchen durch drehende Zylinder den Widerstand zu reduzieren. Dabei werden unterschiedliche Modelle genutzt. F"ur erste Versuche wird das Modell in \abb{fig:Modi3} und sp"ater der LKW (Truck) aus \abb{fig:Modi} verwendet.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.6\textwidth]{KoerperModi3.jpg}
@@ -309,7 +309,7 @@ Da der hintere Zylinder keinen Impuls in die Grenzschicht einbringen kann, wurde
 Der spiralf"ormige Zylinder erzielte das gleiche Ergebnis, wie der Zylinder mit einer Rauhigkeit von~40 im ersten Experiment. Der Vielkeil-Verzahnungszylinder hat allerdings einen gro\ss{}en Einfluss auf den Widerstand. Bei alleiniger Betrachtung des vorderen Zylinders wird eine Reduktion von~29\% erreicht, beide Zylinder erreichen bis zu 41\%.
 
 %------------------------------------------------------------------------------------
-In \cite{Gong.2015} wird eine r"uckwertsgewandte Stufe ein 2D-Modell und anschlie\ss{}end ein 3D-Model (\abb{fig:Gong}) untersucht. Das besondere dabei ist die Anregungsform "uber einen Lautsprecher, der ein monofrequentes, sinusf"ormiges Anregunfgssignal durch kleine L"ocher in die Str"omung gibt. Durch die Sinusfunktion wird erreicht, dass die eingestr"omte Masse "uber eine Periode betrachtet gleich Null ist. Neben der Untersuchung im Windkanal wurde eine instation"are Simulation entwickelt und validiert, welche einen genauen Einblick in die Wirbelstrukturen erm"oglicht.
+In \cite{Gong.2015} werden eine r"uckwertsgewandte Stufe, ein 2D-Modell und anschlie\ss{}end ein 3D-Model (\abb{fig:Gong}) untersucht. Das besondere dabei ist die Anregungsform "uber einen Lautsprecher, der ein monofrequentes, sinusf"ormiges Anregungssignal durch kleine L"ocher in die Str"omung gibt. Durch die Sinusfunktion wird erreicht, dass die eingestr"omte Masse "uber eine Periode betrachtet gleich Null ist. Neben der Untersuchung im Windkanal wurde eine instation"are Simulation entwickelt und validiert, welche einen genauen Einblick in die Wirbelstrukturen erm"oglicht.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{KoerperGong.jpg}
@@ -327,7 +327,7 @@ Im Rahmen der Arbeit \cite{Henning.2008} wurden unterschiedliche K"orper "ahnlic
 %	\caption{betrachtete Modelle f"ur Auslegung der Regelung \cite{Henning.2008}}
 %	\label{fig:Henning}
 %\end{figure}\\
-An der r"uckw"arts gewandten Stufe wurde erfolgreich die Wideranlegel"ange "uber einen segmentierten Schlitz an der Stufenkante geregelt. Au\ss{}erdem konnte eine Unterdr"uckung von St"orungen erreicht werden. Das Ganze wurde "uber eine Robuste Regelung realisiert.\\
+An der r"uckw"arts gewandten Stufe wurde erfolgreich die Wiederanlegel"ange "uber einen segmentierten Schlitz an der Stufenkante geregelt. Au\ss{}erdem konnte eine Unterdr"uckung von St"orungen erreicht werden. Das Ganze wurde "uber eine Robuste Regelung realisiert.\\
 Am stumpfen K"orper wurde mit Hilfe einer Phasenregelung an Ober- und Unterseite eine Widerstandsreduzierung von bis zu 15\% erreicht.\\
 Die Tandemkonfiguration (zwei K"orper hintereinander) wurde im Rahmen einer Machbarkeitsstudie \cite{Henning.2008} untersucht und f"ur zuk"unftige Arbeiten als sinnvoll betrachtet. Dabei geht es um die St"oreinfl"usse, die der erste K"orper auf den Zweiten hat und wie dieser die St"orung "uber eine Regelung beseitigen kann, sodass auch beim zweiten K"orper eine Widerstandsreduzierung m"oglich ist.\\
 Die Regelung stellt einen weiteren Schritt in Bezug auf eine Widerstandsreduktion von Stumpfk"orpern dar. Im Rahmen dieser Arbeit wird eine Regelung nicht mit betrachtet, da erst das neue Konzept untersucht werden muss.
