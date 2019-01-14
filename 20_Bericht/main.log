@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  14 JAN 2019 02:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  14 JAN 2019 04:15
 entering extended mode
 **./main.tex
 (main.tex
@@ -553,6 +553,13 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.st
 y"
 Package: setspace 2011/12/19 v6.7a set line spacing
+) ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count288
+\float@exts=\toks31
+\float@box=\box52
+\@float@everytoks=\toks32
+\@floatcapt=\box53
 ) (main.aux (00_frontpage.aux) (00_empty_page.aux) (00_eid_erkl.aux)
 (00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux) (01_einleitung.aux)
 (02_grundlagen.aux) (03_versuchsvorbereitung.aux) (04_widerstandsbestimmung.aux
@@ -560,35 +567,36 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (anhang1.aux) (anhang2.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
-LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
 "
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
+\scratchcounter=\count289
 \scratchdimen=\dimen187
-\scratchbox=\box52
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count291
+\scratchbox=\box54
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count292
 \MPscratchDim=\dimen188
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks32
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks34
 )
 ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-ba
 se.sty"
@@ -639,7 +647,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box53
+\AtBeginShipoutBox=\box55
 
 ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.s
 ty"
@@ -662,12 +670,12 @@ Dictionary: translator-basic-dictionary, Language: English
 eviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 95.
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
 
 ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 95.
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
 
 ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -733,13 +741,19 @@ raunschweig_4C.pdf>])
 
 
 ]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
 \openout2 = `00_nomenklatur.aux'.
 
-
-(00_nomenklatur.tex
+ (00_nomenklatur.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5
+ [6
 
 
 ])
@@ -749,7 +763,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[7]
 \openout2 = `01_einleitung.aux'.
 
  (01_einleitung.tex
@@ -763,17 +777,17 @@ Kapitel 1.
 
  (02_grundlagen.tex
 Kapitel 2.
-<figures/HuchoDV013.jpg, id=46, 862.72313pt x 462.97969pt>
+<figures/HuchoDV013.jpg, id=49, 862.72313pt x 462.97969pt>
 File: figures/HuchoDV013.jpg Graphic file (type jpg)
 <use figures/HuchoDV013.jpg>
 Package pdftex.def Info: figures/HuchoDV013.jpg  used on input line 30.
 (pdftex.def)             Requested size: 204.85844pt x 109.93056pt.
-<figures/HuchoDV026.jpg, id=47, 416.30531pt x 225.09094pt>
+<figures/HuchoDV026.jpg, id=50, 416.30531pt x 225.09094pt>
 File: figures/HuchoDV026.jpg Graphic file (type jpg)
 <use figures/HuchoDV026.jpg>
 Package pdftex.def Info: figures/HuchoDV026.jpg  used on input line 34.
 (pdftex.def)             Requested size: 204.85844pt x 110.76605pt.
-<figures/HuchoDV05.jpg, id=48, 414.79968pt x 225.09094pt>
+<figures/HuchoDV05.jpg, id=51, 414.79968pt x 225.09094pt>
 File: figures/HuchoDV05.jpg Graphic file (type jpg)
 <use figures/HuchoDV05.jpg>
 Package pdftex.def Info: figures/HuchoDV05.jpg  used on input line 38.
@@ -786,7 +800,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<figures/HuchoschlankerKorper.jpg, id=53, 318.43968pt x 175.40532pt>
+<figures/HuchoschlankerKorper.jpg, id=56, 318.43968pt x 175.40532pt>
 File: figures/HuchoschlankerKorper.jpg Graphic file (type jpg)
 <use figures/HuchoschlankerKorper.jpg>
 Package pdftex.def Info: figures/HuchoschlankerKorper.jpg  used on input line 5
@@ -801,7 +815,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3 <./figures/HuchoDV013.jpg> <./figures/HuchoDV026.jpg> <./figures/HuchoDV05.j
 pg>]
-<figures/HuchoStumpferKorper.jpg, id=59, 307.1475pt x 177.66376pt>
+<figures/HuchoStumpferKorper.jpg, id=62, 307.1475pt x 177.66376pt>
 File: figures/HuchoStumpferKorper.jpg Graphic file (type jpg)
 <use figures/HuchoStumpferKorper.jpg>
 Package pdftex.def Info: figures/HuchoStumpferKorper.jpg  used on input line 64
@@ -818,27 +832,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./figures/HuchoschlankerKorper.jpg> <./figures/HuchoStumpferKorper.jpg>]
-<figures/Wirbelstrasse.jpg, id=63, 867.99281pt x 228.855pt>
+<figures/Wirbelstrasse.jpg, id=67, 867.99281pt x 228.855pt>
 File: figures/Wirbelstrasse.jpg Graphic file (type jpg)
 <use figures/Wirbelstrasse.jpg>
 Package pdftex.def Info: figures/Wirbelstrasse.jpg  used on input line 86.
 (pdftex.def)             Requested size: 273.14922pt x 72.01985pt.
-<figures/ScherSzweiseitig.jpg, id=64, 894.34125pt x 443.40656pt>
+<figures/ScherSzweiseitig.jpg, id=68, 894.34125pt x 443.40656pt>
 File: figures/ScherSzweiseitig.jpg Graphic file (type jpg)
 <use figures/ScherSzweiseitig.jpg>
 Package pdftex.def Info: figures/ScherSzweiseitig.jpg  used on input line 97.
 (pdftex.def)             Requested size: 159.3382pt x 78.99783pt.
-<figures/ScherSeinseitig.jpg, id=65, 851.43094pt x 392.21532pt>
+<figures/ScherSeinseitig.jpg, id=69, 851.43094pt x 392.21532pt>
 File: figures/ScherSeinseitig.jpg Graphic file (type jpg)
 <use figures/ScherSeinseitig.jpg>
 Package pdftex.def Info: figures/ScherSeinseitig.jpg  used on input line 102.
 (pdftex.def)             Requested size: 159.3382pt x 73.39655pt.
-<figures/ScherSrot.jpg, id=66, 801.74532pt x 307.1475pt>
+<figures/ScherSrot.jpg, id=70, 801.74532pt x 307.1475pt>
 File: figures/ScherSrot.jpg Graphic file (type jpg)
 <use figures/ScherSrot.jpg>
 Package pdftex.def Info: figures/ScherSrot.jpg  used on input line 107.
 (pdftex.def)             Requested size: 159.3382pt x 61.03941pt.
-<figures/Nachlauf.jpg, id=67, 406.51875pt x 138.5175pt>
+<figures/Nachlauf.jpg, id=71, 406.51875pt x 138.5175pt>
 File: figures/Nachlauf.jpg Graphic file (type jpg)
 <use figures/Nachlauf.jpg>
 Package pdftex.def Info: figures/Nachlauf.jpg  used on input line 120.
@@ -855,7 +869,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5 <./figures/Wirbelstrasse.jpg> <./figures/ScherSzweiseitig.jpg> <./figures/Sc
 herSeinseitig.jpg> <./figures/ScherSrot.jpg>]
-<figures/LaminareAbloeseblase.jpg, id=73, 1445.4pt x 813.0375pt>
+<figures/LaminareAbloeseblase.jpg, id=76, 1445.4pt x 813.0375pt>
 File: figures/LaminareAbloeseblase.jpg Graphic file (type jpg)
 <use figures/LaminareAbloeseblase.jpg>
 Package pdftex.def Info: figures/LaminareAbloeseblase.jpg  used on input line 1
@@ -865,7 +879,7 @@ Package pdftex.def Info: figures/LaminareAbloeseblase.jpg  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/Vorderkante.jpg, id=74, 591.71063pt x 526.96875pt>
+<figures/Vorderkante.jpg, id=77, 591.71063pt x 526.96875pt>
 File: figures/Vorderkante.jpg Graphic file (type jpg)
 <use figures/Vorderkante.jpg>
 Package pdftex.def Info: figures/Vorderkante.jpg  used on input line 143.
@@ -880,7 +894,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./figures/Nachlauf.jpg>]
-<figures/coanda.jpg, id=78, 325.96782pt x 373.395pt>
+<figures/coanda.jpg, id=81, 325.96782pt x 373.395pt>
 File: figures/coanda.jpg Graphic file (type jpg)
 <use figures/coanda.jpg>
 Package pdftex.def Info: figures/coanda.jpg  used on input line 172.
@@ -908,7 +922,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8 <./figures/Vorderkante.jpg>]
-<figures/Wandstrahl.jpg, id=87, 1070.49937pt x 547.2947pt>
+<figures/Wandstrahl.jpg, id=90, 1070.49937pt x 547.2947pt>
 File: figures/Wandstrahl.jpg Graphic file (type jpg)
 <use figures/Wandstrahl.jpg>
 Package pdftex.def Info: figures/Wandstrahl.jpg  used on input line 207.
@@ -925,12 +939,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--227
 
  []
 
-<figures/KorperBearman.jpg, id=91, 210.03468pt x 93.34875pt>
+<figures/KorperBearman.jpg, id=94, 210.03468pt x 93.34875pt>
 File: figures/KorperBearman.jpg Graphic file (type jpg)
 <use figures/KorperBearman.jpg>
 Package pdftex.def Info: figures/KorperBearman.jpg  used on input line 232.
 (pdftex.def)             Requested size: 227.62204pt x 101.16553pt.
-<figures/KorperGeropp.jpg, id=92, 290.20921pt x 209.28188pt>
+<figures/KorperGeropp.jpg, id=95, 290.20921pt x 209.28188pt>
 File: figures/KorperGeropp.jpg Graphic file (type jpg)
 <use figures/KorperGeropp.jpg>
 Package pdftex.def Info: figures/KorperGeropp.jpg  used on input line 242.
@@ -942,22 +956,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./figures/KorperBearman.jpg> <./figures/KorperGeropp.jpg>]
-<figures/KorperBarros.jpg, id=96, 334.62515pt x 163.73672pt>
+<figures/KorperBarros.jpg, id=100, 334.62515pt x 163.73672pt>
 File: figures/KorperBarros.jpg Graphic file (type jpg)
 <use figures/KorperBarros.jpg>
 Package pdftex.def Info: figures/KorperBarros.jpg  used on input line 253.
 (pdftex.def)             Requested size: 318.66946pt x 155.94124pt.
-<figures/KoerperModi3.jpg, id=97, 240.14719pt x 73.77562pt>
+<figures/KoerperModi3.jpg, id=101, 240.14719pt x 73.77562pt>
 File: figures/KoerperModi3.jpg Graphic file (type jpg)
 <use figures/KoerperModi3.jpg>
 Package pdftex.def Info: figures/KoerperModi3.jpg  used on input line 263.
 (pdftex.def)             Requested size: 273.14922pt x 83.92155pt.
-<figures/ModiStr1.jpg, id=98, 199.49532pt x 293.97328pt>
+<figures/ModiStr1.jpg, id=102, 199.49532pt x 293.97328pt>
 File: figures/ModiStr1.jpg Graphic file (type jpg)
 <use figures/ModiStr1.jpg>
 Package pdftex.def Info: figures/ModiStr1.jpg  used on input line 271.
 (pdftex.def)             Requested size: 127.46584pt x 187.83273pt.
-<figures/ModiStr2.jpg, id=99, 198.7425pt x 287.95078pt>
+<figures/ModiStr2.jpg, id=103, 198.7425pt x 287.95078pt>
 File: figures/ModiStr2.jpg Graphic file (type jpg)
 <use figures/ModiStr2.jpg>
 Package pdftex.def Info: figures/ModiStr2.jpg  used on input line 274.
@@ -970,12 +984,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./figures/KorperBarros.jpg> <./figures/KoerperModi3.jpg>]
-<figures/KorperModi.jpg, id=104, 500.24391pt x 150.9389pt>
+<figures/KorperModi.jpg, id=107, 500.24391pt x 150.9389pt>
 File: figures/KorperModi.jpg Graphic file (type jpg)
 <use figures/KorperModi.jpg>
 Package pdftex.def Info: figures/KorperModi.jpg  used on input line 283.
 (pdftex.def)             Requested size: 273.14922pt x 82.42012pt.
-<figures/KoerperModi2.jpg, id=105, 488.57532pt x 130.23656pt>
+<figures/KoerperModi2.jpg, id=108, 488.57532pt x 130.23656pt>
 File: figures/KoerperModi2.jpg Graphic file (type jpg)
 <use figures/KoerperModi2.jpg>
 Package pdftex.def Info: figures/KoerperModi2.jpg  used on input line 305.
@@ -989,7 +1003,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12 <./figures/ModiStr1.jpg> <./figures/ModiStr2.jpg> <./figures/KorperModi.jpg
 >]
-<figures/KoerperGong.jpg, id=109, 197.23688pt x 160.34906pt>
+<figures/KoerperGong.jpg, id=112, 197.23688pt x 160.34906pt>
 File: figures/KoerperGong.jpg Graphic file (type jpg)
 <use figures/KoerperGong.jpg>
 Package pdftex.def Info: figures/KoerperGong.jpg  used on input line 315.
@@ -1018,17 +1032,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-<figures/ModellSchema.jpg, id=116, 569.0058pt x 143.5764pt>
+<figures/ModellSchema.jpg, id=119, 569.0058pt x 143.5764pt>
 File: figures/ModellSchema.jpg Graphic file (type jpg)
 <use figures/ModellSchema.jpg>
 Package pdftex.def Info: figures/ModellSchema.jpg  used on input line 8.
 (pdftex.def)             Requested size: 364.19664pt x 91.89732pt.
-<figures/Walze1Graphik.jpg, id=117, 284.262pt x 341.5962pt>
+<figures/Walze1Graphik.jpg, id=120, 284.262pt x 341.5962pt>
 File: figures/Walze1Graphik.jpg Graphic file (type jpg)
 <use figures/Walze1Graphik.jpg>
 Package pdftex.def Info: figures/Walze1Graphik.jpg  used on input line 44.
 (pdftex.def)             Requested size: 145.67642pt x 175.06136pt.
-<figures/Walze2Graphik.jpg, id=118, 284.7438pt x 341.5962pt>
+<figures/Walze2Graphik.jpg, id=121, 284.7438pt x 341.5962pt>
 File: figures/Walze2Graphik.jpg Graphic file (type jpg)
 <use figures/Walze2Graphik.jpg>
 Package pdftex.def Info: figures/Walze2Graphik.jpg  used on input line 47.
@@ -1046,12 +1060,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
  <./figures/ModellSchema.jpg>]
-<figures/Spaltverlauf1.jpg, id=122, 399.894pt x 218.7372pt>
+<figures/Spaltverlauf1.jpg, id=125, 399.894pt x 218.7372pt>
 File: figures/Spaltverlauf1.jpg Graphic file (type jpg)
 <use figures/Spaltverlauf1.jpg>
 Package pdftex.def Info: figures/Spaltverlauf1.jpg  used on input line 69.
 (pdftex.def)             Requested size: 318.66946pt x 174.31577pt.
-<figures/Spaltverlauf2.jpg, id=123, 394.1124pt x 218.7372pt>
+<figures/Spaltverlauf2.jpg, id=126, 394.1124pt x 218.7372pt>
 File: figures/Spaltverlauf2.jpg Graphic file (type jpg)
 <use figures/Spaltverlauf2.jpg>
 Package pdftex.def Info: figures/Spaltverlauf2.jpg  used on input line 72.
@@ -1064,7 +1078,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 <./figures/Walze1Graphik.jpg> <./figures/Walze2Graphik.jpg>]
-<figures/SignalWalze1.jpg, id=128, 129.6042pt x 21.681pt>
+<figures/SignalWalze1.jpg, id=132, 129.6042pt x 21.681pt>
 File: figures/SignalWalze1.jpg Graphic file (type jpg)
 <use figures/SignalWalze1.jpg>
 Package pdftex.def Info: figures/SignalWalze1.jpg  used on input line 81.
@@ -1074,7 +1088,7 @@ Overfull \hbox (45.52371pt too wide) in paragraph at lines 81--82
 [][] 
  []
 
-<figures/SignalWalze2.jpg, id=129, 124.3044pt x 21.681pt>
+<figures/SignalWalze2.jpg, id=133, 124.3044pt x 21.681pt>
 File: figures/SignalWalze2.jpg Graphic file (type jpg)
 <use figures/SignalWalze2.jpg>
 Package pdftex.def Info: figures/SignalWalze2.jpg  used on input line 84.
@@ -1107,7 +1121,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-<figures/Integrationsskript.jpg, id=134, 405.38953pt x 405.01312pt>
+<figures/Integrationsskript.jpg, id=137, 405.38953pt x 405.01312pt>
 File: figures/Integrationsskript.jpg Graphic file (type jpg)
 <use figures/Integrationsskript.jpg>
 Package pdftex.def Info: figures/Integrationsskript.jpg  used on input line 143
@@ -1145,7 +1159,7 @@ Kapitel 4.
 
 
 ]
-<figures/KontrollvolumenHucho.png, id=144, 346.29375pt x 234.1247pt>
+<figures/KontrollvolumenHucho.png, id=147, 346.29375pt x 234.1247pt>
 File: figures/KontrollvolumenHucho.png Graphic file (type png)
 <use figures/KontrollvolumenHucho.png>
 Package pdftex.def Info: figures/KontrollvolumenHucho.png  used on input line 4
@@ -1220,7 +1234,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (05_windkanalversuche.tex
 Kapitel 5.
-<figures/SkizzeModell.jpg, id=173, 1038.88126pt x 341.77687pt>
+<figures/SkizzeModell.jpg, id=177, 1038.88126pt x 341.77687pt>
 File: figures/SkizzeModell.jpg Graphic file (type jpg)
 <use figures/SkizzeModell.jpg>
 Package pdftex.def Info: figures/SkizzeModell.jpg  used on input line 10.
@@ -1230,17 +1244,17 @@ Package pdftex.def Info: figures/SkizzeModell.jpg  used on input line 10.
 
 
  <./figures/SkizzeModell.jpg>]
-<figures/ModellGeometrie.jpg, id=178, 1059.96pt x 350.81062pt>
+<figures/ModellGeometrie.jpg, id=181, 1059.96pt x 350.81062pt>
 File: figures/ModellGeometrie.jpg Graphic file (type jpg)
 <use figures/ModellGeometrie.jpg>
 Package pdftex.def Info: figures/ModellGeometrie.jpg  used on input line 27.
 (pdftex.def)             Requested size: 341.43306pt x 113.00038pt.
-<figures/DModell1.jpg, id=179, 1604.99625pt x 902.37125pt>
+<figures/DModell1.jpg, id=182, 1604.99625pt x 902.37125pt>
 File: figures/DModell1.jpg Graphic file (type jpg)
 <use figures/DModell1.jpg>
 Package pdftex.def Info: figures/DModell1.jpg  used on input line 47.
 (pdftex.def)             Requested size: 223.0721pt x 125.40858pt.
-<figures/DModell2.jpg, id=180, 1604.99625pt x 902.37125pt>
+<figures/DModell2.jpg, id=183, 1604.99625pt x 902.37125pt>
 File: figures/DModell2.jpg Graphic file (type jpg)
 <use figures/DModell2.jpg>
 Package pdftex.def Info: figures/DModell2.jpg  used on input line 52.
@@ -1254,12 +1268,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30 <./figures/ModellGeometrie.jpg> <./figures/DModell1.jpg> <./figures/DModell
 2.jpg>]
-<figures/windkanal1.jpg, id=184, 4625.28pt x 2601.72pt>
+<figures/windkanal1.jpg, id=187, 4625.28pt x 2601.72pt>
 File: figures/windkanal1.jpg Graphic file (type jpg)
 <use figures/windkanal1.jpg>
 Package pdftex.def Info: figures/windkanal1.jpg  used on input line 83.
 (pdftex.def)             Requested size: 273.14922pt x 153.63512pt.
-<figures/windkanal2.jpg, id=185, 4625.28pt x 2601.72pt>
+<figures/windkanal2.jpg, id=188, 4625.28pt x 2601.72pt>
 File: figures/windkanal2.jpg Graphic file (type jpg)
 <use figures/windkanal2.jpg>
 Package pdftex.def Info: figures/windkanal2.jpg  used on input line 86.
@@ -1274,12 +1288,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [31
 
  <./figures/windkanal1.jpg> <./figures/windkanal2.jpg>]
-<figures/Fischmaulsonde.jpg, id=189, 1027.84pt x 533.995pt>
+<figures/Fischmaulsonde.jpg, id=192, 1027.84pt x 533.995pt>
 File: figures/Fischmaulsonde.jpg Graphic file (type jpg)
 <use figures/Fischmaulsonde.jpg>
 Package pdftex.def Info: figures/Fischmaulsonde.jpg  used on input line 133.
 (pdftex.def)             Requested size: 273.14922pt x 141.90726pt.
-<figures/Druckmessrechen_mitModell.jpg, id=190, 1604.99625pt x 902.37125pt>
+<figures/Druckmessrechen_mitModell.jpg, id=193, 1604.99625pt x 902.37125pt>
 File: figures/Druckmessrechen_mitModell.jpg Graphic file (type jpg)
 <use figures/Druckmessrechen_mitModell.jpg>
 Package pdftex.def Info: figures/Druckmessrechen_mitModell.jpg  used on input l
@@ -1300,7 +1314,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33 <./figures/Druckmessrechen_mitModell.jpg>]
-<figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg, id=197, 177.0615pt x
+<figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg, id=200, 177.0615pt x
  213.8535pt>
 File: figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg Graphic file (ty
 pe jpg)
@@ -1316,14 +1330,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34 <./figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg>]
-<figures/GFM_Druckverteilung_glatt_oben.jpg, id=201, 630.85687pt x 190.46156pt>
+<figures/GFM_Druckverteilung_glatt_oben.jpg, id=205, 630.85687pt x 190.46156pt>
 
 File: figures/GFM_Druckverteilung_glatt_oben.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_glatt_oben.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_glatt_oben.jpg  used on in
 put line 209.
 (pdftex.def)             Requested size: 386.96024pt x 116.82654pt.
-<figures/GFM_Druckverteilung_glatt_unten.jpg, id=202, 630.85687pt x 205.5178pt>
+<figures/GFM_Druckverteilung_glatt_unten.jpg, id=206, 630.85687pt x 205.5178pt>
 
 File: figures/GFM_Druckverteilung_glatt_unten.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_glatt_unten.jpg>
@@ -1339,14 +1353,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [35 <./figures/GFM_Druckverteilung_glatt_oben.jpg> <./figures/GFM_Druckverteilu
 ng_glatt_unten.jpg>]
-<figures/GFM_Druckverteilung_oval_oben_geschl.jpg, id=207, 630.85687pt x 208.52
+<figures/GFM_Druckverteilung_oval_oben_geschl.jpg, id=210, 630.85687pt x 208.52
 907pt>
 File: figures/GFM_Druckverteilung_oval_oben_geschl.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_oben_geschl.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_oben_geschl.jpg  used
  on input line 238.
 (pdftex.def)             Requested size: 386.96024pt x 127.90892pt.
-<figures/GFM_Druckverteilung_oval_unten_geschl.jpg, id=208, 630.85687pt x 211.5
+<figures/GFM_Druckverteilung_oval_unten_geschl.jpg, id=211, 630.85687pt x 211.5
 4031pt>
 File: figures/GFM_Druckverteilung_oval_unten_geschl.jpg Graphic file (type jpg)
 
@@ -1354,14 +1368,14 @@ File: figures/GFM_Druckverteilung_oval_unten_geschl.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_unten_geschl.jpg  use
 d on input line 241.
 (pdftex.def)             Requested size: 386.96024pt x 129.75597pt.
-<figures/GFM_Druckverteilung_oval_oben_offen.jpg, id=209, 630.85687pt x 229.607
+<figures/GFM_Druckverteilung_oval_oben_offen.jpg, id=212, 630.85687pt x 229.607
 82pt>
 File: figures/GFM_Druckverteilung_oval_oben_offen.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_oben_offen.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_oben_offen.jpg  used 
 on input line 255.
 (pdftex.def)             Requested size: 386.96024pt x 140.83835pt.
-<figures/GFM_Druckverteilung_oval_unten_offen.jpg, id=210, 630.85687pt x 249.18
+<figures/GFM_Druckverteilung_oval_unten_offen.jpg, id=213, 630.85687pt x 249.18
 094pt>
 File: figures/GFM_Druckverteilung_oval_unten_offen.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_unten_offen.jpg>
@@ -1383,7 +1397,7 @@ rteilung_oval_unten_geschl.jpg>]
 
 LaTeX Warning: Reference `sec:modell' on page 37 undefined on input line 275.
 
-<figures/Oberflaechendruecke_RK.jpg, id=214, 562.1pt x 421.575pt>
+<figures/Oberflaechendruecke_RK.jpg, id=217, 562.1pt x 421.575pt>
 File: figures/Oberflaechendruecke_RK.jpg Graphic file (type jpg)
 <use figures/Oberflaechendruecke_RK.jpg>
 Package pdftex.def Info: figures/Oberflaechendruecke_RK.jpg  used on input line
@@ -1400,7 +1414,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37 <./figures/GFM_Druckverteilung_oval_oben_offen.jpg> <./figures/GFM_Druckver
 teilung_oval_unten_offen.jpg>]
-<figures/Oberflaechendruecke_50erK.jpg, id=218, 562.1pt x 421.575pt>
+<figures/Oberflaechendruecke_50erK.jpg, id=221, 562.1pt x 421.575pt>
 File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
 <use figures/Oberflaechendruecke_50erK.jpg>
 Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
@@ -1426,43 +1440,185 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (06_versuchsauswertung.tex
 Kapitel 6.
-<figures/Cw_ueber_Cmu_ohne_n.jpg, id=225, 878.28125pt x 658.46pt>
-File: figures/Cw_ueber_Cmu_ohne_n.jpg Graphic file (type jpg)
-<use figures/Cw_ueber_Cmu_ohne_n.jpg>
-Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n.jpg  used on input line 29
-.
-(pdftex.def)             Requested size: 227.62204pt x 170.65302pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg, id=226, 562.1pt x 421.575pt>
-File: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg Graphic file (type jpg)
-<use figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>
-Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg  used on inp
-ut line 58.
+<figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg, id=228, 562.1pt x 421.575pt>
+File: figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg Graphic file (type jpg)
+<use figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg>
+Package pdftex.def Info: figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg  used on i
+nput line 11.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+<figures/Cw_ueber_n_ohneAB_beideKonf.jpg, id=229, 562.1pt x 421.575pt>
+File: figures/Cw_ueber_n_ohneAB_beideKonf.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_n_ohneAB_beideKonf.jpg>
+Package pdftex.def Info: figures/Cw_ueber_n_ohneAB_beideKonf.jpg  used on input
+ line 24.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-[40
+
+Underfull \vbox (badness 4072) has occurred while \output is active []
+
+ [40
 
 
 
-])
+ <./figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg>]
+<figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg, id=234, 562.1pt x 421.575
+pt>
+File: figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg Graphic file (type jp
+g)
+<use figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg>
+Package pdftex.def Info: figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg  u
+sed on input line 40.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./figures/Cw_ueber_Cmu_ohne_n.jpg> <./figures/Cw_ueber_Cmu_ohne_n_beideKon
-f.jpg>]
+[41 <./figures/Cw_ueber_n_ohneAB_beideKonf.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42 <./figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg>]
+<figures/Cw_ueber_Cmu_ohne_n.jpg, id=241, 878.28125pt x 658.46pt>
+File: figures/Cw_ueber_Cmu_ohne_n.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_Cmu_ohne_n.jpg>
+Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n.jpg  used on input line 89
+.
+(pdftex.def)             Requested size: 227.62204pt x 170.65302pt.
+<figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg, id=242, 562.1pt x 421.575pt>
+File: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>
+Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg  used on inp
+ut line 118.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43 <./figures/Cw_ueber_Cmu_ohne_n.jpg>]
+<figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg, id=246, 562.1pt x 421.575pt>
+File: figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg Graphic file (type jpg)
+<use figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg>
+Package pdftex.def Info: figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg  used 
+on input line 166.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>]
+<figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg, id=250, 586.19pt x 422.57875pt
+>
+File: figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg>
+Package pdftex.def Info: figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg  used o
+n input line 182.
+(pdftex.def)             Requested size: 227.62204pt x 164.08931pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg> <./figures/Cw_ueber_n_f
+uer_verschiedeneCmu_RK.jpg>]
+<figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg, id=254, 562.1pt x 421.575pt>
+File: figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg>
+Package pdftex.def Info: figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg  used o
+n input line 197.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+<figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg, id=255, 562.1pt x 421.575pt>
+File: figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg Graphic file (type jpg)
+<use figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg>
+Package pdftex.def Info: figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg  used on input
+ line 209.
+(pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
+<figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg, id=256, 562.1pt x 421.575pt>
+File: figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg Graphic file (type jpg)
+<use figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg>
+Package pdftex.def Info: figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg  used on in
+put line 213.
+(pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
+<figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg, id=257, 562.1pt x 421.575pt>
+File: figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg Graphic file (type jpg)
+<use figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg>
+Package pdftex.def Info: figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg  used on input 
+line 217.
+(pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg> <./figures/CwCw0_ueber_n
+_fuer_2Cmus_RK.jpg> <./figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg> <./figures/C
+wCw0_ueber_n_fuer_Cmu5_RK.jpg>]
+<figures/CwC0_ueber_n_fuer_Cmus_50.jpg, id=262, 562.1pt x 421.575pt>
+File: figures/CwC0_ueber_n_fuer_Cmus_50.jpg Graphic file (type jpg)
+<use figures/CwC0_ueber_n_fuer_Cmus_50.jpg>
+Package pdftex.def Info: figures/CwC0_ueber_n_fuer_Cmus_50.jpg  used on input l
+ine 229.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+<figures/PR_uber_n_fuer_Cmu_RK.jpg, id=263, 562.1pt x 421.575pt>
+File: figures/PR_uber_n_fuer_Cmu_RK.jpg Graphic file (type jpg)
+<use figures/PR_uber_n_fuer_Cmu_RK.jpg>
+Package pdftex.def Info: figures/PR_uber_n_fuer_Cmu_RK.jpg  used on input line 
+241.
+(pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
+<figures/PR_ueber_n_fuer_Cmu_50.jpg, id=264, 562.1pt x 421.575pt>
+File: figures/PR_ueber_n_fuer_Cmu_50.jpg Graphic file (type jpg)
+<use figures/PR_ueber_n_fuer_Cmu_50.jpg>
+Package pdftex.def Info: figures/PR_ueber_n_fuer_Cmu_50.jpg  used on input line
+ 246.
+(pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47 <./figures/CwC0_ueber_n_fuer_Cmus_50.jpg> <./figures/PR_uber_n_fuer_Cmu_RK.
+jpg> <./figures/PR_ueber_n_fuer_Cmu_50.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
 \openout2 = `07_fazit.aux'.
 
  (07_fazit.tex
 Kapitel 7.
-) [42
+) [49
 
 
 
-] (main.bbl [43
+] (main.bbl [50
 
 
 ])
@@ -1472,7 +1628,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44] (main.lof [45
+[51] (main.lof [52
 
 ])
 \tf@lof=\write4
@@ -1485,18 +1641,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46] (main.lot)
+[53] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [47
+ [54
 
 ]
 \openout2 = `anhang1.aux'.
 
  (anhang1.tex
 Anhang A.
-<./figures/DrawingInnenwelle.pdf, id=253, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=290, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 4.
@@ -1507,7 +1663,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 4.
 
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-<./figures/DrawingInnenwelle.pdf, id=256, page=1, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=293, page=1, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf, page 1>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
@@ -1518,7 +1674,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-[48
+[55
 
 
 ]
@@ -1537,8 +1693,8 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
- [49 <./figures/DrawingInnenwelle.pdf>]
-<./figures/Mantel_A.pdf, id=278, 597.51233pt x 845.0471pt>
+ [56 <./figures/DrawingInnenwelle.pdf>]
+<./figures/Mantel_A.pdf, id=315, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 5.
@@ -1547,7 +1703,7 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_A.pdf, id=281, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_A.pdf, id=318, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 5.
@@ -1568,8 +1724,8 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [50 <./figures/Mantel_A.pdf>]
-<./figures/Mantel_B.pdf, id=298, 597.51233pt x 845.0471pt>
+ [57 <./figures/Mantel_A.pdf>]
+<./figures/Mantel_B.pdf, id=335, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 6.
@@ -1578,7 +1734,7 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_B.pdf, id=301, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_B.pdf, id=338, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 6.
@@ -1600,12 +1756,12 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[51 <./figures/Mantel_B.pdf>])
+[58 <./figures/Mantel_B.pdf>])
 \openout2 = `anhang2.aux'.
 
  (anhang2.tex
 Anhang B.
-<figures/wake_n-1.jpg, id=318, 1660.2025pt x 2347.77126pt>
+<figures/wake_n-1.jpg, id=356, 1660.2025pt x 2347.77126pt>
 File: figures/wake_n-1.jpg Graphic file (type jpg)
 <use figures/wake_n-1.jpg>
 Package pdftex.def Info: figures/wake_n-1.jpg  used on input line 8.
@@ -1613,12 +1769,12 @@ Package pdftex.def Info: figures/wake_n-1.jpg  used on input line 8.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/wake_n-2.jpg, id=319, 1660.2025pt x 2347.77126pt>
+<figures/wake_n-2.jpg, id=357, 1660.2025pt x 2347.77126pt>
 File: figures/wake_n-2.jpg Graphic file (type jpg)
 <use figures/wake_n-2.jpg>
 Package pdftex.def Info: figures/wake_n-2.jpg  used on input line 13.
 (pdftex.def)             Requested size: 455.24408pt x 643.75835pt.
-) [52
+) [59
 
 
 
@@ -1629,14 +1785,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53 <./figures/wake_n-1.jpg>]
+[60 <./figures/wake_n-1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54 <./figures/wake_n-2.jpg>] (main.aux (00_frontpage.aux) (00_empty_page.aux)
+[61 <./figures/wake_n-2.jpg>] (main.aux (00_frontpage.aux) (00_empty_page.aux)
 (00_eid_erkl.aux) (00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux)
 (01_einleitung.aux) (02_grundlagen.aux) (03_versuchsvorbereitung.aux)
 (04_widerstandsbestimmung.aux) (05_windkanalversuche.aux)
@@ -1646,13 +1802,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18027 strings out of 493305
- 352371 string characters out of 3130672
- 364036 words of memory out of 3000000
- 21201 multiletter control sequences out of 15000+200000
+ 18155 strings out of 493305
+ 356031 string characters out of 3130672
+ 366015 words of memory out of 3000000
+ 21313 multiletter control sequences out of 15000+200000
  553785 words of font info for 77 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 42i,20n,63p,1251b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,20n,63p,1251b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
 rm1200.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
 pi600\ecbx1440.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
@@ -1677,9 +1833,9 @@ r8.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (62 pages, 8111513 bytes).
+Output written on main.pdf (70 pages, 8390565 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
+ 866 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
