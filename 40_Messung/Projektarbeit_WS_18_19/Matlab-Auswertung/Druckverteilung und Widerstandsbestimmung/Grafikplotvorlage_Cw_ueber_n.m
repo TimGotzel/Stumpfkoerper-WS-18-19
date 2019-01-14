@@ -1,6 +1,6 @@
 %Für Cw ueber C_Power_jet für versch C_Power_M
 VolstrRK = [0 16.26 23 28.176 33.78];
-pplenum50 = [0 1000 2000 3000 4000];
+pplenum50 = [0 1800 4500 5400 6500];
 
 for i=1:5
     C_Power_0rpm_RK (i) = leistungskoeffizient_j(VolstrRK(i));
@@ -9,16 +9,17 @@ for i=1:5
     C_Power_0rpm_J_50 (i) = leistungskoeffizient_j50(pplenum50(i));
 end 
 
-x1 = C_Power_0rpm_J_50;
+%x1 = C_Power_0rpm_J_50;
 % C_Power_MRK = [0 0.13 0.14 0.16 0.18 0.22]; 
-% x1 = C_Power_MRK;
+C_Power_M50_Mittig = [0 0.16 0.23 0.3 0.397 0.517];
+ x1 = C_Power_M50_Mittig;
 CwC0RK = zeros(5,12);
 %x2([1:4]) = C_Power_0rpm([1:2,4:5]);
 % CwWerteRK = [0.876161980862324 0.606111497337625 0.476564513093454 0.398993400113744 0.331141369397364];
 % CwWerte = [0.804 0.601 0.577 0.455];
 for j=1:5
     for k=1:12
-    CwC0RK(j,k) = Cw(j,k)/Cw(j,1);
+    CwC0RK(j,k) = Cw50(j,k)/Cw50(j,1);
     end
 end
 for j=1:5
@@ -32,13 +33,13 @@ end
 % end
 y1 = CwC0RKs(1,1:6);
 y2 = CwC0RKs(2,1:6);
-y3 = CwC0RKs (3,1:6);
+% y3 = CwC0RKs (1:5,3);
 y4 = CwC0RKs (4,1:6);
 y5 = CwC0RKs (5,1:6);
 %y6 = CwC0RKs (1:5,6);
 %y_2 = CwC0([1:4]);
 figure()
-plot(x1,y1,x1,y2,x1,y3,x1,y4,x1,y5)
+plot(x1,y1,x1,y2,x1,y4,x1,y5)
 
 %'Color',[1.00,0.41,0.16],'MarkerSize',6,
 
