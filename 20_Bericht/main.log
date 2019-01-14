@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  13 JAN 2019 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  14 JAN 2019 02:10
 entering extended mode
 **./main.tex
 (main.tex
@@ -554,10 +554,10 @@ Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
 y"
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (main.aux (00_frontpage.aux) (00_empty_page.aux) (00_eid_erkl.aux)
-(00_abstract.aux) (00_empty_page.aux) (00_empty_page.aux) (00_nomenklatur.aux)
-(01_einleitung.aux) (02_grundlagen.aux) (03_versuchsvorbereitung.aux)
-(04_widerstandsbestimmung.aux) (05_windkanalversuche.aux)
-(06_versuchsauswertung.aux) (07_fazit.aux) (anhang1.aux) (anhang2.aux))
+(00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux) (01_einleitung.aux)
+(02_grundlagen.aux) (03_versuchsvorbereitung.aux) (04_widerstandsbestimmung.aux
+) (05_windkanalversuche.aux) (06_versuchsauswertung.aux) (07_fazit.aux)
+(anhang1.aux) (anhang2.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -1380,13 +1380,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36 <./figures/GFM_Druckverteilung_oval_oben_geschl.jpg> <./figures/GFM_Druckve
 rteilung_oval_unten_geschl.jpg>]
-<figures/Oberflaechendruecke_50erK.jpg, id=214, 562.1pt x 421.575pt>
-File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
-<use figures/Oberflaechendruecke_50erK.jpg>
-Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
-ine 282.
-(pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
 
+LaTeX Warning: Reference `sec:modell' on page 37 undefined on input line 275.
+
+<figures/Oberflaechendruecke_RK.jpg, id=214, 562.1pt x 421.575pt>
+File: figures/Oberflaechendruecke_RK.jpg Graphic file (type jpg)
+<use figures/Oberflaechendruecke_RK.jpg>
+Package pdftex.def Info: figures/Oberflaechendruecke_RK.jpg  used on input line
+ 284.
+(pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1397,19 +1399,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [37 <./figures/GFM_Druckverteilung_oval_oben_offen.jpg> <./figures/GFM_Druckver
-teilung_oval_unten_offen.jpg>])
+teilung_oval_unten_offen.jpg>]
+<figures/Oberflaechendruecke_50erK.jpg, id=218, 562.1pt x 421.575pt>
+File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
+<use figures/Oberflaechendruecke_50erK.jpg>
+Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
+ine 300.
+(pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./figures/Oberflaechendruecke_50erK.jpg>]
+[38 <./figures/Oberflaechendruecke_RK.jpg> <./figures/Oberflaechendruecke_50erK
+.jpg>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
 \openout2 = `06_versuchsauswertung.aux'.
 
  (06_versuchsauswertung.tex
 Kapitel 6.
-<figures/Cw_ueber_Cmu_ohne_n.jpg, id=221, 878.28125pt x 658.46pt>
+<figures/Cw_ueber_Cmu_ohne_n.jpg, id=225, 878.28125pt x 658.46pt>
 File: figures/Cw_ueber_Cmu_ohne_n.jpg Graphic file (type jpg)
 <use figures/Cw_ueber_Cmu_ohne_n.jpg>
 Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n.jpg  used on input line 29
@@ -1418,13 +1435,13 @@ Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n.jpg  used on input line 29
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg, id=222, 562.1pt x 421.575pt>
+<figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg, id=226, 562.1pt x 421.575pt>
 File: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg Graphic file (type jpg)
 <use figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>
 Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg  used on inp
 ut line 58.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-[39
+[40
 
 
 
@@ -1435,17 +1452,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40 <./figures/Cw_ueber_Cmu_ohne_n.jpg> <./figures/Cw_ueber_Cmu_ohne_n_beideKon
+[41 <./figures/Cw_ueber_Cmu_ohne_n.jpg> <./figures/Cw_ueber_Cmu_ohne_n_beideKon
 f.jpg>]
 \openout2 = `07_fazit.aux'.
 
  (07_fazit.tex
 Kapitel 7.
-) [41
+) [42
 
 
 
-] (main.bbl [42
+] (main.bbl [43
 
 
 ])
@@ -1455,7 +1472,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43] (main.lof [44
+[44] (main.lof [45
 
 ])
 \tf@lof=\write4
@@ -1468,18 +1485,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] (main.lot)
+[46] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [46
+ [47
 
 ]
 \openout2 = `anhang1.aux'.
 
  (anhang1.tex
 Anhang A.
-<./figures/DrawingInnenwelle.pdf, id=248, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=253, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 4.
@@ -1490,7 +1507,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 4.
 
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-<./figures/DrawingInnenwelle.pdf, id=251, page=1, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=256, page=1, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf, page 1>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
@@ -1501,7 +1518,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-[47
+[48
 
 
 ]
@@ -1520,8 +1537,8 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
- [48 <./figures/DrawingInnenwelle.pdf>]
-<./figures/Mantel_A.pdf, id=274, 597.51233pt x 845.0471pt>
+ [49 <./figures/DrawingInnenwelle.pdf>]
+<./figures/Mantel_A.pdf, id=278, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 5.
@@ -1530,7 +1547,7 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_A.pdf, id=277, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_A.pdf, id=281, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 5.
@@ -1551,8 +1568,8 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [49 <./figures/Mantel_A.pdf>]
-<./figures/Mantel_B.pdf, id=294, 597.51233pt x 845.0471pt>
+ [50 <./figures/Mantel_A.pdf>]
+<./figures/Mantel_B.pdf, id=298, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 6.
@@ -1561,7 +1578,7 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_B.pdf, id=297, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_B.pdf, id=301, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 6.
@@ -1583,12 +1600,12 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[50 <./figures/Mantel_B.pdf>])
+[51 <./figures/Mantel_B.pdf>])
 \openout2 = `anhang2.aux'.
 
  (anhang2.tex
 Anhang B.
-<figures/wake_n-1.jpg, id=314, 1660.2025pt x 2347.77126pt>
+<figures/wake_n-1.jpg, id=318, 1660.2025pt x 2347.77126pt>
 File: figures/wake_n-1.jpg Graphic file (type jpg)
 <use figures/wake_n-1.jpg>
 Package pdftex.def Info: figures/wake_n-1.jpg  used on input line 8.
@@ -1596,12 +1613,12 @@ Package pdftex.def Info: figures/wake_n-1.jpg  used on input line 8.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/wake_n-2.jpg, id=315, 1660.2025pt x 2347.77126pt>
+<figures/wake_n-2.jpg, id=319, 1660.2025pt x 2347.77126pt>
 File: figures/wake_n-2.jpg Graphic file (type jpg)
 <use figures/wake_n-2.jpg>
 Package pdftex.def Info: figures/wake_n-2.jpg  used on input line 13.
 (pdftex.def)             Requested size: 455.24408pt x 643.75835pt.
-) [51
+) [52
 
 
 
@@ -1612,27 +1629,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52 <./figures/wake_n-1.jpg>]
+[53 <./figures/wake_n-1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53 <./figures/wake_n-2.jpg>] (main.aux (00_frontpage.aux) (00_empty_page.aux)
+[54 <./figures/wake_n-2.jpg>] (main.aux (00_frontpage.aux) (00_empty_page.aux)
 (00_eid_erkl.aux) (00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux)
 (01_einleitung.aux) (02_grundlagen.aux) (03_versuchsvorbereitung.aux)
 (04_widerstandsbestimmung.aux) (05_windkanalversuche.aux)
 (06_versuchsauswertung.aux) (07_fazit.aux) (anhang1.aux) (anhang2.aux))
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18023 strings out of 493305
- 352262 string characters out of 3130672
- 364304 words of memory out of 3000000
- 21196 multiletter control sequences out of 15000+200000
+ 18027 strings out of 493305
+ 352371 string characters out of 3130672
+ 364036 words of memory out of 3000000
+ 21201 multiletter control sequences out of 15000+200000
  553785 words of font info for 77 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
  42i,20n,63p,1251b,965s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1660,9 +1677,9 @@ r8.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy6.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (61 pages, 8091050 bytes).
+Output written on main.pdf (62 pages, 8111513 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
+ 823 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 331 words of extra memory for PDF output out of 10000 (max. 10000000)
 
