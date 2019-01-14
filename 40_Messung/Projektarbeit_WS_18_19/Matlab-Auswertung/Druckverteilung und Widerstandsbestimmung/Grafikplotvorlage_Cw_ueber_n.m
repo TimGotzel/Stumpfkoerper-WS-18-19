@@ -9,9 +9,9 @@ for i=1:5
     C_Power_0rpm_J_50 (i) = leistungskoeffizient_j50(pplenum50(i));
 end 
 
-%x1 = C_Power_0rpm_RK;
-C_Power_MRK = [0 0.13 0.14 0.16 0.18 0.22]; 
-x1 = C_Power_MRK;
+x1 = C_Power_0rpm_J_50;
+% C_Power_MRK = [0 0.13 0.14 0.16 0.18 0.22]; 
+% x1 = C_Power_MRK;
 CwC0RK = zeros(5,12);
 %x2([1:4]) = C_Power_0rpm([1:2,4:5]);
 % CwWerteRK = [0.876161980862324 0.606111497337625 0.476564513093454 0.398993400113744 0.331141369397364];
