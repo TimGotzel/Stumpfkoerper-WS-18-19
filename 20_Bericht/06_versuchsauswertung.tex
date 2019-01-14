@@ -111,7 +111,6 @@ F\"ur den Versuch mit den ovalen Wellen wurde $C_{\mu}$ Werte f\"ur die Verschie
 	\label{tab:Cw-Cmu_Konf1+2}
 \end{table}
 
-
 Die \abb{fig:Cw-Cmu_Konf1+2} zeigt den Verlauf $C_{w}$ \"uber $C_{\mu}$ f\"ur die beiden Konfigurationen:
 \begin{figure}[h]
 	\centering
@@ -173,9 +172,34 @@ Wie aus dem Diagramm ersichtlich ist, wird mehr Leistung ben\"otigt, um einen ni
 
 \section{Konstellation 3: Kombinierte Aktuation (KK)}
 \label{s:kombinierteAkt}
-Nun wird bei beiden Konfigurationen, sowohl durch die Walzen als auch durch die Ausblasung aktuiert.
+Nun wird bei beiden Konfigurationen, sowohl durch die Walzen als auch durch die Ausblasung aktuiert.\\
 
-In \abb{fig:Cw/n bei Cmu RK} ist $C_{W}$ "uber n bei verschiedenen $C_{\mu}$ dargestellt.
+Die in \kap{s:reineAusblasung} verwendeten $C_{\mu}$-Werte f"ur die Konfiguration mit ovalen Wellen beziehen sich auf eine Wellenstellung, bei der der Spalt maximal ge"offnet ist, die Spalth"ohe also ca. 0,3\,mm betr"agt. Diese Position kann als einzige ge"offnete Wellenposition definiert eingestellt werden und dient der besseren Vergleichbarkeit mit der Basiskonfiguration. Wenn die Rotation hinzugenommen wird, "andert sich das $C_{\mu}$ allerdings und muss nach \glg{eq:momentum-coeff-oscill-final} berechnet werden. Die mit dem urspr"unglichen Impulskoeffizienten korrespondierenden neuen $C_{\mu}$-Werte sind in \tab{tab:Cmu Korrektur} festgehalten.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lr}
+		\toprule
+		$C_{\mu}$ (reine Ausblasung) & $C_{\mu}$ (kombinierte Aktuation)\\
+		\midrule
+		0 & 0\\
+		0,064 & 0,097\\
+		0,27 & 0,231\\
+		0,416 & 0,29\\
+		0,582 & 0,327\\
+		\bottomrule
+	\end{tabular}
+	\caption{Korrespondierende $C_{\mu}$-Werte f"ur reine Ausblasung und kombinierter Aktuation bei Konfiguration 50}
+	\label{tab:Cmu Korrektur}
+\end{table}
+
+
+F"ur die Betrachtungen und Abbildungen wird aus "Ubersichtlichkeitsgr"unden das urspr"ungliche $C_{\mu}$ verwendet. Dieser Zusammenhang erschwert die Interpretation allerdings und muss stets im Hinterkopf behalten werden.
+
+Die Vergleichbarkeit mit der Basiskonfiguration ist hier zus"atzlich dadurch eingeschr"ankt, dass nur bis zu mittleren Plenumsdr"ucken von 4\,kPa gemessen wurde und die Impulskoeffizienten f"ur diese Konfiguration nicht die, der Basiskonfiguration erreichen.\\
+"Hohere Dr"ucke k"onnen gleichwohl nicht mitbetrachtet werden, da bei einem d"unnen verbleibenden Spalt die Dr"ucke deutlich "uber 9\,kPa liege, was wiederum in Jetgeschwindigkeiten oberhalb $Ma =$ $\frac{1}{3}$ m"undet. Die Annahme der inkompressiblen Jetstr"omung kann dann nicht mehr getroffen werden.
+
+In \abb{fig:Cw/n bei Cmu RK} ist $C_{W}$ "uber n bei verschiedenen $C_{\mu}$ f"ur die Basiskonfiguration dargestellt.
 
 \begin{figure}[h]
 	\centering
@@ -189,15 +213,15 @@ Sie sinken mit einer "ahnlichen Rate bis zum Bereich der nat"urlichen Abl"osefre
 
 Bei der Betrachtung der $C_{W}-n$-Verl"aufe in Abh"angigkeit von den Impulskoeffizienten ist ersichtlich, dass diese mit steigendem $C_{\mu}$ degressiv sinken und eine Ausblasung unabh"angig von der Drehzahl einen gro\ss{}en ANteil an der Widerstandsreduzierung hat.
 
-Bei den ovalen Wellen ist die Abh"angigkeit der $C_{W}$-Werte von den Impulskoeffizienten "ahnlich wie bei der Basiskonfiguration (\abb{fig:Cw/n bei Cmu 50}).\\
-Die zus"atzliche Rotation der Walzen ist aber nur bei bestimmten $C_{\mu}$ und Drehzahlen widerstandsreduzierend. Bei allen $C_{\mu}$ wird der $C_{W}$ bei Beginn der Rotation erh"oht, bis er wieder im Bereich der Abl"osefrequenz einbricht. Allerdings ist Sensibilit"at bei h"oheren $C_{\mu}$ in diesem Frequenzbereich sehr hoch, sodass der Widerstand deutlich erh"oht wird, wenn die optimale Drehzahl nicht getroffen wird.
-
+Bei den ovalen Wellen ist die Abh"angigkeit der $C_{W}$-Werte von den Impulskoeffizienten "ahnlich wie bei der Basiskonfiguration (\abb{fig:Cw/n bei Cmu 50}).
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.5\textwidth]{Cw_ueber_n_fuer_verschiedeneCmu_50.jpg}
 	\caption{$C_{w}$ "uber $n$ bei verschiedenen $C_{\mu}$ f"ur die Konfiguration 50}
 	\label{fig:Cw/n bei Cmu 50}
 \end{figure}
+
+Die zus"atzliche Rotation der Walzen ist aber nur bei bestimmten $C_{\mu}$ und Drehzahlen widerstandsreduzierend. Bei allen $C_{\mu}$ wird der $C_{W}$ bei Beginn der Rotation erh"oht, bis er wieder im Bereich der Abl"osefrequenz einbricht. Allerdings ist Sensibilit"at bei h"oheren $C_{\mu}$ in diesem Frequenzbereich sehr hoch, sodass der Widerstand deutlich erh"oht wird, wenn die optimale Drehzahl nicht getroffen wird.
 
 In der \abb{fig:CwCwref/n Cmu RK} sind die mit dem jeweiligen $C_{ref}$ normierten $C_{W}$-Werte der Basiskonfiguration, bei verschiedenen $C_{\mu}$ zu sehen.
 Als jeweiliges $C_{ref}$ dient hierbei der $C_{W}$-Wert des entsprechenden $C_{\mu}$s ohne Rotation.
@@ -233,7 +257,6 @@ Als jeweiliges $C_{ref}$ dient hierbei der $C_{W}$-Wert des entsprechenden $C_{\
 
 In den \abb{fig:PR} sind die Leistungsraten beider Konfigurationen bei verschiedenen Impulskoeffizienten und Drehzahlen ersichtlich.\\
 Ein $PR= 1$ bedeutet, dass man so viel Energie mit der Widerstandsreduzierung erspart hat, wie man Energie f"ur dieselbe eingesetzt hat. In so einem Fall wird man sich in der Realit"at gegen diese widerstandsreduzierenden Ma\ss{}nahmen entscheiden, da diese nur erh"ohten Zeitaufwand, h"ohere Kosten und Reparaturanf"allifgkeit, ein gesteigertes Gewicht und weitere negative Nebenwirkungen zur Folge haben.
-
 
 \begin{figure}[h]
 	\centering
