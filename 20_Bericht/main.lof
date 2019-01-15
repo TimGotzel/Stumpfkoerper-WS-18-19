@@ -45,24 +45,25 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Gleichf"ormigkeitsmessungen am Modell mit eingebauten glatten Walten\relax }}{34}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Druckverteilung der oberen glatten Welle in Pa "uber der spannweitigen Position in \%\relax }}{35}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Druckverteilung der unteren glatten Welle in Pa "uber der spannweitigen Position in \%\relax }}{36}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Druckverteilungen der oberen (oben) und unteren (unten) ovalen Wellen in Stellung mit geschlossenem Spalt\relax }}{36}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Druckverteilungen der oberen (oben) und unteren (unten) ovalen Wellen in Stellung mit maximal ge"offnetem Spalt\relax }}{37}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Oberfl"achendr"ucke bei der eingebauten Basiskonfiguration\relax }}{38}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Druckverteilungen der oberen (oben) und unteren (unten) ovalen Wellen in Stellung mit geschlossenem Spalt\relax }}{37}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Druckverteilungen der oberen (oben) und unteren (unten) ovalen Wellen in Stellung mit maximal ge"offnetem Spalt\relax }}{38}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Oberfl"achendr"ucke bei der eingebauten Basiskonfiguration\relax }}{39}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Oberfl"achendr"ucke beim eingebauter Konfiguration 50\relax }}{39}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces $\Delta P$ \"uber y/d ohne Aktuierung \relax }}{40}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces $C_{w}$-n reine Rotation beide Wellenpaare \relax }}{41}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces $C_{w}$/$C_{w0}$ \"uber $C_{Power,M}$ f\"ur reine Rotation \relax }}{42}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces $C_{w}$ \"uber $C_{\mu }$ mit den glatten Wellen ohne Rotation \relax }}{43}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces $C_{w}$ \"uber $C_{\mu }$ mit den glatten Wellen ohne Aktuation \relax }}{44}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces $C_{w}$/$C_{w0}$ \"uber $C_{Power,Jet}$ f\"r die beiden Konfigurationen\relax }}{45}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces $C_{w}$ "uber $n$ bei verschiedenen $C_{\mu }$ f"ur die Basiskonfiguration\relax }}{47}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces $C_{w}$ "uber $n$ bei verschiedenen $C_{\mu }$ f"ur die Konfiguration 50\relax }}{47}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces $C_{W}/C_{Wref}$ "uber n bei verschiedenen $C_{\mu }$ f"ur die Basiskonfiguration\relax }}{48}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces $C_{W}/C_{Wref}$ "uber n bei verschiedenen $C_{\mu }$ f"ur die Konfiguration 50\relax }}{49}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces $PR$ "uber $n$ bei verschiedenen $C_{\mu }$ f"ur beide Konfigurationen\relax }}{49}
-\contentsline {subfigure}{\numberline {a}{\ignorespaces $PR$ f"ur die Basiskonfiguration\relax }}{49}
-\contentsline {subfigure}{\numberline {b}{\ignorespaces $PR$ f"ur die Konfiguration 50\relax }}{49}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces $\Delta P$ \"uber y/d ohne Aktuierung \relax }}{41}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Materialabrieb an der Teflonschicht \relax }}{42}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces $C_{w}$-n reine Rotation beide Wellenpaare \relax }}{43}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces $C_{w}$/$C_{w0}$ \"uber $C_{Power,M}$ f\"ur reine Rotation \relax }}{44}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces $C_{w}$ \"uber $C_{\mu }$ mit den glatten Wellen ohne Rotation \relax }}{45}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces $C_{w}$ \"uber $C_{\mu }$ mit den glatten Wellen ohne Aktuation \relax }}{45}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces $C_{w}$/$C_{w0}$ \"uber $C_{Power,Jet}$ f\"r die beiden Konfigurationen\relax }}{46}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces $C_{w}$ "uber $n$ bei verschiedenen $C_{\mu }$ f"ur die Basiskonfiguration\relax }}{48}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces $C_{w}$ "uber $n$ bei verschiedenen $C_{\mu }$ f"ur die Konfiguration 50\relax }}{48}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces $C_{W}/C_{Wref}$ "uber n bei verschiedenen $C_{\mu }$ f"ur die Basiskonfiguration\relax }}{49}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces $C_{W}/C_{Wref}$ "uber n bei verschiedenen $C_{\mu }$ f"ur die Konfiguration 50\relax }}{49}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces $PR$ "uber $n$ bei verschiedenen $C_{\mu }$ f"ur beide Konfigurationen\relax }}{50}
+\contentsline {subfigure}{\numberline {a}{\ignorespaces $PR$ f"ur die Basiskonfiguration\relax }}{50}
+\contentsline {subfigure}{\numberline {b}{\ignorespaces $PR$ f"ur die Konfiguration 50\relax }}{50}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

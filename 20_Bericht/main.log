@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.14)  15 JAN 2019 22:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 23:24
 entering extended mode
 **./main.tex
 (main.tex
 LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
+Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fleqn.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fleqn.clo"
 File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 Applying: [2015/01/01] Make \[ robust on input line 50.
@@ -16,7 +16,7 @@ Applying: [2015/01/01] Make \] robust on input line 74.
 LaTeX Info: Redefining \] on input line 75.
 Already applied: [0000/00/00] Make \] robust on input line 83.
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,87 +32,84 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
- ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphic
-s.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: dvips.def on input line 99.
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\dvips.d
-ef"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\dvips.def"
 File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2018/02/14 3.18 The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2018/01/24 3.17 The Babel package
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def"
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/01/24 3.17 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\german.
-ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\german.ldf"
 Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
 phy)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\germanb
-.ldf"
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel-german\germanb.ldf"
 Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
 aphy)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2018/02/14 3.18 Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2018/01/24 3.17 Babel common definitions
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def"
+File: switch.def 2018/01/24 3.17 Babel switching mechanism
+)
 \babel@savecnt=\count88
 \U@D=\dimen106
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
-")
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\txtbabel.def")
 \bbl@dirlevel=\count89
 )
 Package babel Info: Making " an active character on input line 139.
 )))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"
 Package: parskip 2001/04/09 non-zero parskip adjustments
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip43
@@ -125,12 +122,12 @@ s
 \f@nch@O@olf=\skip50
 \f@nch@O@orf=\skip51
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
-"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen107
 \captionmargin@=\dimen108
 \captionwidth=\dimen109
@@ -139,110 +136,107 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen112
 \caption@hangindent=\dimen113
 )
-\c@ContinuedFloat=\count90
+\c@caption@flags=\count90
+\c@ContinuedFloat=\count91
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.c
-fg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.
-def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip52
-\multirow@cntb=\count91
+\multirow@cntb=\count92
 \multirow@dima=\skip53
 \bigstrutjot=\dimen114
-) ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip54
 \bibsep=\skip55
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count92
+\c@NAT@ctr=\count93
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
- ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-) ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count93
-\calc@Bcount=\count94
+\calc@Acount=\count94
+\calc@Bcount=\count95
 \calc@Adimen=\dimen115
 \calc@Bdimen=\dimen116
 \calc@Askip=\skip56
 \calc@Bskip=\skip57
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count95
+\calc@Ccount=\count96
 \calc@Cskip=\skip58
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )))
 \AM@pagewidth=\dimen117
 \AM@pageheight=\dimen118
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.de
-f"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
 \AM@global@opts=\toks17
 \AM@toc@title=\toks18
-\c@AM@survey=\count96
+\c@AM@survey=\count97
 \AM@templatesizebox=\box27
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip59
+
 For additional information on amsmath, use the `?' option.
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen119
-)) ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.st
-y"
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen120
-) ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
-"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count97
+\inf@bad=\count98
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count98
-\leftroot@=\count99
+\uproot@=\count99
+\leftroot@=\count100
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count100
-\DOTSCASE@=\count101
+\classnum@=\count101
+\DOTSCASE@=\count102
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -251,15 +245,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen121
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count102
-\c@MaxMatrixCols=\count103
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
 \dotsspace@=\muskip10
-\c@parentequation=\count104
-\dspbrk@lvl=\count105
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
 \tag@help=\toks20
-\row@=\count106
-\column@=\count107
-\maxfields@=\count108
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
 \andhelp@=\toks21
 \eqnshift@=\dimen122
 \alignsep@=\dimen123
@@ -274,7 +268,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2017/10/31 v2.20.4
 \thm@style=\toks24
 \thm@bodyfont=\toks25
@@ -286,36 +280,34 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headsep=\skip64
 \dth@everypar=\toks29
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
-"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2018-11-19 L3 programming layer (loader) 
+("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
+Package: expl3 2017/12/16 L3 programming layer (loader) 
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.
-tex"
-Package: expl3 2018-11-19 L3 programming layer (code)
-\c_max_int=\count109
-\l_tmpa_int=\count110
-\l_tmpb_int=\count111
-\g_tmpa_int=\count112
-\g_tmpb_int=\count113
-\g__kernel_prg_map_int=\count114
-\c_log_iow=\count115
-\l_iow_line_count_int=\count116
-\l__iow_line_target_int=\count117
-\l__iow_one_indent_int=\count118
-\l__iow_indent_int=\count119
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
+Package: expl3 2017/12/16 L3 programming layer (code)
+\c_max_int=\count110
+\l_tmpa_int=\count111
+\l_tmpb_int=\count112
+\g_tmpa_int=\count113
+\g_tmpb_int=\count114
+\g__intarray_font_int=\count115
+\g__prg_map_int=\count116
+\c_log_iow=\count117
+\l_iow_line_count_int=\count118
+\l__iow_line_target_int=\count119
+\l__iow_one_indent_int=\count120
+\l__iow_indent_int=\count121
 \c_zero_dim=\dimen128
 \c_max_dim=\dimen129
 \l_tmpa_dim=\dimen130
@@ -334,10 +326,7 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count120
-\l__intarray_loop_int=\count121
-\c__intarray_sp_dim=\dimen134
-\g__intarray_font_int=\count122
+\l_keys_choice_int=\count122
 \c__fp_leading_shift_int=\count123
 \c__fp_middle_shift_int=\count124
 \c__fp_trailing_shift_int=\count125
@@ -347,9 +336,9 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \c__fp_Bigg_leading_shift_int=\count129
 \c__fp_Bigg_middle_shift_int=\count130
 \c__fp_Bigg_trailing_shift_int=\count131
-\c__kernel_randint_max_int=\count132
-\g__fp_array_int=\count133
-\l__fp_array_loop_int=\count134
+\c__fp_rand_size_int=\count132
+\c__fp_rand_four_int=\count133
+\c__fp_rand_eight_int=\count134
 \l__sort_length_int=\count135
 \l__sort_min_int=\count136
 \l__sort_top_int=\count137
@@ -361,73 +350,75 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l__sort_A_int=\count143
 \l__sort_B_int=\count144
 \l__sort_C_int=\count145
-\l__tl_analysis_normal_int=\count146
-\l__tl_analysis_index_int=\count147
-\l__tl_analysis_nesting_int=\count148
-\l__tl_analysis_type_int=\count149
-\l__regex_internal_a_int=\count150
-\l__regex_internal_b_int=\count151
-\l__regex_internal_c_int=\count152
-\l__regex_balance_int=\count153
-\l__regex_group_level_int=\count154
-\l__regex_mode_int=\count155
-\c__regex_cs_in_class_mode_int=\count156
-\c__regex_cs_mode_int=\count157
-\l__regex_catcodes_int=\count158
-\l__regex_default_catcodes_int=\count159
-\c__regex_catcode_D_int=\count160
-\c__regex_catcode_S_int=\count161
-\c__regex_catcode_L_int=\count162
-\c__regex_catcode_O_int=\count163
-\c__regex_catcode_A_int=\count164
-\c__regex_all_catcodes_int=\count165
-\l__regex_show_lines_int=\count166
-\l__regex_min_state_int=\count167
-\l__regex_max_state_int=\count168
-\l__regex_left_state_int=\count169
-\l__regex_right_state_int=\count170
-\l__regex_capturing_group_int=\count171
-\l__regex_min_pos_int=\count172
-\l__regex_max_pos_int=\count173
-\l__regex_curr_pos_int=\count174
-\l__regex_start_pos_int=\count175
-\l__regex_success_pos_int=\count176
-\l__regex_curr_char_int=\count177
-\l__regex_curr_catcode_int=\count178
-\l__regex_last_char_int=\count179
-\l__regex_case_changed_char_int=\count180
-\l__regex_curr_state_int=\count181
-\l__regex_step_int=\count182
-\l__regex_min_active_int=\count183
-\l__regex_max_active_int=\count184
-\l__regex_replacement_csnames_int=\count185
-\l__regex_match_count_int=\count186
-\l__regex_min_submatch_int=\count187
-\l__regex_submatch_int=\count188
-\l__regex_zeroth_submatch_int=\count189
-\g__regex_trace_regex_int=\count190
+\l__tl_build_start_index_int=\count146
+\l__tl_build_index_int=\count147
+\l__tl_analysis_normal_int=\count148
+\l__tl_analysis_index_int=\count149
+\l__tl_analysis_nesting_int=\count150
+\l__tl_analysis_type_int=\count151
+\l__regex_internal_a_int=\count152
+\l__regex_internal_b_int=\count153
+\l__regex_internal_c_int=\count154
+\l__regex_balance_int=\count155
+\l__regex_group_level_int=\count156
+\l__regex_mode_int=\count157
+\c__regex_cs_in_class_mode_int=\count158
+\c__regex_cs_mode_int=\count159
+\l__regex_catcodes_int=\count160
+\l__regex_default_catcodes_int=\count161
+\c__regex_catcode_D_int=\count162
+\c__regex_catcode_S_int=\count163
+\c__regex_catcode_L_int=\count164
+\c__regex_catcode_O_int=\count165
+\c__regex_catcode_A_int=\count166
+\c__regex_all_catcodes_int=\count167
+\l__regex_show_lines_int=\count168
+\l__regex_min_state_int=\count169
+\l__regex_max_state_int=\count170
+\l__regex_left_state_int=\count171
+\l__regex_right_state_int=\count172
+\l__regex_capturing_group_int=\count173
+\l__regex_min_pos_int=\count174
+\l__regex_max_pos_int=\count175
+\l__regex_curr_pos_int=\count176
+\l__regex_start_pos_int=\count177
+\l__regex_success_pos_int=\count178
+\l__regex_curr_char_int=\count179
+\l__regex_curr_catcode_int=\count180
+\l__regex_last_char_int=\count181
+\l__regex_case_changed_char_int=\count182
+\l__regex_curr_state_int=\count183
+\l__regex_step_int=\count184
+\l__regex_min_active_int=\count185
+\l__regex_max_active_int=\count186
+\l__regex_replacement_csnames_int=\count187
+\l__regex_match_count_int=\count188
+\l__regex_min_submatch_int=\count189
+\l__regex_submatch_int=\count190
+\l__regex_zeroth_submatch_int=\count191
+\g__debug_trace_regex_int=\count192
 \c_empty_box=\box30
 \l_tmpa_box=\box31
 \l_tmpb_box=\box32
 \g_tmpa_box=\box33
 \g_tmpb_box=\box34
-\l__box_top_dim=\dimen135
-\l__box_bottom_dim=\dimen136
-\l__box_left_dim=\dimen137
-\l__box_right_dim=\dimen138
-\l__box_top_new_dim=\dimen139
-\l__box_bottom_new_dim=\dimen140
-\l__box_left_new_dim=\dimen141
-\l__box_right_new_dim=\dimen142
+\l__box_top_dim=\dimen134
+\l__box_bottom_dim=\dimen135
+\l__box_left_dim=\dimen136
+\l__box_right_dim=\dimen137
+\l__box_top_new_dim=\dimen138
+\l__box_bottom_new_dim=\dimen139
+\l__box_left_new_dim=\dimen140
+\l__box_right_new_dim=\dimen141
 \l__box_internal_box=\box35
 \l__coffin_internal_box=\box36
-\l__coffin_internal_dim=\dimen143
-\l__coffin_offset_x_dim=\dimen144
-\l__coffin_offset_y_dim=\dimen145
-\l__coffin_x_dim=\dimen146
-\l__coffin_y_dim=\dimen147
-\l__coffin_x_prime_dim=\dimen148
-\l__coffin_y_prime_dim=\dimen149
+\l__coffin_internal_dim=\dimen142
+\l__coffin_offset_x_dim=\dimen143
+\l__coffin_offset_y_dim=\dimen144
+\l__coffin_x_dim=\dimen145
+\l__coffin_y_dim=\dimen146
+\l__coffin_x_prime_dim=\dimen147
+\l__coffin_y_prime_dim=\dimen148
 \c_empty_coffin=\box37
 \l__coffin_aligned_coffin=\box38
 \l__coffin_aligned_internal_coffin=\box39
@@ -436,50 +427,45 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l__coffin_display_coffin=\box42
 \l__coffin_display_coord_coffin=\box43
 \l__coffin_display_pole_coffin=\box44
-\l__coffin_display_offset_dim=\dimen150
-\l__coffin_display_x_dim=\dimen151
-\l__coffin_display_y_dim=\dimen152
-\g__file_internal_ior=\read1
-\l__coffin_bounding_shift_dim=\dimen153
-\l__coffin_left_corner_dim=\dimen154
-\l__coffin_right_corner_dim=\dimen155
-\l__coffin_bottom_corner_dim=\dimen156
-\l__coffin_top_corner_dim=\dimen157
-\l__coffin_scaled_total_height_dim=\dimen158
-\l__coffin_scaled_width_dim=\dimen159
-\l__seq_internal_a_int=\count191
-\l__seq_internal_b_int=\count192
+\l__coffin_display_offset_dim=\dimen149
+\l__coffin_display_x_dim=\dimen150
+\l__coffin_display_y_dim=\dimen151
+\l__coffin_bounding_shift_dim=\dimen152
+\l__coffin_left_corner_dim=\dimen153
+\l__coffin_right_corner_dim=\dimen154
+\l__coffin_bottom_corner_dim=\dimen155
+\l__coffin_top_corner_dim=\dimen156
+\l__coffin_scaled_total_height_dim=\dimen157
+\l__coffin_scaled_width_dim=\dimen158
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.d
-ef"
-File: l3pdfmode.def 2018-11-19 v L3 Experimental driver: PDF mode
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
 \l__driver_color_stack_int=\count193
+\l__driver_tmp_box=\box45
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xparse\xp
-arse.sty"
-Package: xparse 2018-10-17 L3 Experimental document command parser
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
+Package: xparse 2017/12/16 L3 Experimental document command parser
 \l__xparse_current_arg_int=\count194
 \g__xparse_grabber_int=\count195
 \l__xparse_m_args_int=\count196
 \l__xparse_mandatory_args_int=\count197
 \l__xparse_v_nesting_int=\count198
 )
-Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
+Package: siunitx 2017/11/26 v2.7k A comprehensive (SI) units package
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen160
-\extrarowheight=\dimen161
+\col@sep=\dimen159
+\extrarowheight=\dimen160
 \NC@list=\toks30
 \extratabsurround=\skip71
 \backup@length=\skip72
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\
-l3keys2e.sty"
-Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
+("C:\Program Files\MiKTeX 2.9\tex\latex\l3packages\l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2017/12/16 LaTeX2e option processing using LaTeX3 keys
 )
-\l__siunitx_tmp_box=\box45
-\l__siunitx_tmp_dim=\dimen162
+\l__siunitx_tmp_box=\box46
+\l__siunitx_tmp_dim=\dimen161
 \l__siunitx_tmp_int=\count199
 \l__siunitx_number_mantissa_length_int=\count266
 \l__siunitx_number_uncert_length_int=\count267
@@ -490,10 +476,10 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_process_integer_min_int=\count272
 \l__siunitx_process_precision_int=\count273
 \l__siunitx_group_min_int=\count274
-\l__siunitx_angle_marker_box=\box46
-\l__siunitx_angle_unit_box=\box47
-\l__siunitx_angle_marker_dim=\dimen163
-\l__siunitx_angle_unit_dim=\dimen164
+\l__siunitx_angle_marker_box=\box47
+\l__siunitx_angle_unit_box=\box48
+\l__siunitx_angle_marker_dim=\dimen162
+\l__siunitx_angle_unit_dim=\dimen163
 \l__siunitx_unit_int=\count275
 \l__siunitx_unit_denominator_int=\count276
 \l__siunitx_unit_numerator_int=\count277
@@ -503,67 +489,181 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 \l__siunitx_number_product_int=\count281
 \c__siunitx_one_fill_skip=\skip73
 \l__siunitx_table_unit_align_skip=\skip74
-\l__siunitx_table_exponent_dim=\dimen165
-\l__siunitx_table_integer_dim=\dimen166
-\l__siunitx_table_mantissa_dim=\dimen167
-\l__siunitx_table_marker_dim=\dimen168
-\l__siunitx_table_result_dim=\dimen169
-\l__siunitx_table_uncert_dim=\dimen170
-\l__siunitx_table_fill_pre_dim=\dimen171
-\l__siunitx_table_fill_post_dim=\dimen172
-\l__siunitx_table_fill_mid_dim=\dimen173
-\l__siunitx_table_pre_box=\box48
-\l__siunitx_table_post_box=\box49
-\l__siunitx_table_mantissa_box=\box50
-\l__siunitx_table_result_box=\box51
+\l__siunitx_table_exponent_dim=\dimen164
+\l__siunitx_table_integer_dim=\dimen165
+\l__siunitx_table_mantissa_dim=\dimen166
+\l__siunitx_table_marker_dim=\dimen167
+\l__siunitx_table_result_dim=\dimen168
+\l__siunitx_table_uncert_dim=\dimen169
+\l__siunitx_table_fill_pre_dim=\dimen170
+\l__siunitx_table_fill_post_dim=\dimen171
+\l__siunitx_table_fill_mid_dim=\dimen172
+\l__siunitx_table_pre_box=\box49
+\l__siunitx_table_post_box=\box50
+\l__siunitx_table_mantissa_box=\box51
+\l__siunitx_table_result_box=\box52
 \l__siunitx_table_number_align_skip=\skip75
 \l__siunitx_table_text_align_skip=\skip76
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7250.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7253.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7259.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7262.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7265.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7268.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7283.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \num with sig. 'om' on line 7292.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7301.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrange with sig. 'omm' on line 7310.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7322.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrange with sig. 'ommm' on line 7334.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SI with sig. 'omom' on line 7346.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sisetup with sig. 'm' on line 7349.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tablenum with sig. 'om' on line 7364.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \si with sig. 'om' on line 7376.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numInBookmark with sig. 'om' on line 7423.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \numrangeInBookmark with sig. 'omm' on line 7425.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIInBookmark with sig. 'omom' on line 7427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIlistInBookmark with sig. 'omm' on line 7429.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \SIrangeInBookmark with sig. 'ommm' on line 7431.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \siInBookmark with sig. 'om' on line 7432.
+.................................................
+\g__file_internal_ior=\read1
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translato
-r.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator.sty"
 Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen174
-\lightrulewidth=\dimen175
-\cmidrulewidth=\dimen176
-\belowrulesep=\dimen177
-\belowbottomsep=\dimen178
-\aboverulesep=\dimen179
-\abovetopsep=\dimen180
-\cmidrulesep=\dimen181
-\cmidrulekern=\dimen182
-\defaultaddspace=\dimen183
+\heavyrulewidth=\dimen173
+\lightrulewidth=\dimen174
+\cmidrulewidth=\dimen175
+\belowrulesep=\dimen176
+\belowbottomsep=\dimen177
+\aboverulesep=\dimen178
+\abovetopsep=\dimen179
+\cmidrulesep=\dimen180
+\cmidrulekern=\dimen181
+\defaultaddspace=\dimen182
 \@cmidla=\count282
 \@cmidlb=\count283
-\@aboverulesep=\dimen184
-\@belowrulesep=\dimen185
+\@aboverulesep=\dimen183
+\@belowrulesep=\dimen184
 \@thisruleclass=\count284
 \@lastruleclass=\count285
-\@thisrulewidth=\dimen186
+\@thisrulewidth=\dimen185
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.s
-ty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subfigure=\count286
 \c@subtable=\count287
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) ("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count288
 \float@exts=\toks31
-\float@box=\box52
+\float@box=\box53
 \@float@everytoks=\toks32
-\@floatcapt=\box53
-) (main.aux (00_frontpage.aux) (00_empty_page.aux) (00_eid_erkl.aux)
-(00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux) (01_einleitung.aux)
-(02_grundlagen.aux) (03_versuchsvorbereitung.aux) (04_widerstandsbestimmung.aux
-) (05_windkanalversuche.aux) (06_versuchsauswertung.aux) (07_fazit.aux)
+\@floatcapt=\box54
+) (main.aux
+(00_frontpage.aux) (00_empty_page.aux) (00_abstract.aux) (00_empty_page.aux)
+(00_nomenklatur.aux) (01_einleitung.aux) (02_grundlagen.aux)
+(03_versuchsvorbereitung.aux) (04_widerstandsbestimmung.aux)
+(05_windkanalversuche.aux) (06_versuchsauswertung.aux) (07_fazit.aux)
 (anhang1.aux) (anhang2.aux))
 \openout1 = `main.aux'.
 
@@ -583,46 +683,38 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mkii
-"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count289
-\scratchdimen=\dimen187
-\scratchbox=\box54
+\scratchdimen=\dimen186
+\scratchbox=\box55
 \nofMPsegments=\count290
 \nofMParguments=\count291
 \everyMPshowfont=\toks33
 \MPscratchCnt=\count292
-\MPscratchDim=\dimen188
+\MPscratchDim=\dimen187
 \MPnumerator=\count293
 \makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks34
-)
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-ba
-se.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinek
-eys.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys
-.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.
-sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -631,8 +723,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmd
-s.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -647,43 +738,41 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box55
+\AtBeginShipoutBox=\box56
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.s
-ty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.st
-y"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\translato
-r-basic-dictionary-English.dict"
+("C:\Program Files\MiKTeX 2.9\tex\latex\translator\translator-basic-dictionary-
+English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbr
-eviations.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\siunitx\siunitx-abbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
+\c__siunitx_mathsf_int=\count295
 LaTeX Font Info:    Try loading font information for U+msa on input line 96.
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 96.
 
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+\c__siunitx_mathtt_int=\count296
 \openout2 = `00_frontpage.aux'.
 
-
-(00_frontpage.tex
+ (00_frontpage.tex
 <./figures/TUBraunschweig_4C.pdf, id=1, 199.74625pt x 74.2775pt>
 File: ./figures/TUBraunschweig_4C.pdf Graphic file (type pdf)
 <use ./figures/TUBraunschweig_4C.pdf>
@@ -705,49 +794,46 @@ Non-PDF special ignored!
 <special> papersize=597.50787pt,845.04684pt
 
 
-{C:/Users/Flo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/TUB
-raunschweig_4C.pdf>])
+{C:/Users/Ti/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figures/TUBr
+aunschweig_4C.pdf>])
 \openout2 = `00_empty_page.aux'.
 
  (00_empty_page.tex) [2
 
 
 ]
-\openout2 = `00_eid_erkl.aux'.
-
- (00_eid_erkl.tex) [1
-
-
-
-]
 \openout2 = `00_abstract.aux'.
 
+ (00_abstract.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 3.
 
-(00_abstract.tex) [2
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
+) [1
 
 
 
 ]
 \openout2 = `00_empty_page.aux'.
 
- (00_empty_page.tex) [3
+
+(00_empty_page.tex) [2
 
 
 ] (main.toc)
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [4
+ [3
 
 
 ]
 \openout2 = `00_nomenklatur.aux'.
 
-
-(00_nomenklatur.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5
+ (00_nomenklatur.tex [4
 
 
 ])
@@ -757,7 +843,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[5]
 \openout2 = `01_einleitung.aux'.
 
  (01_einleitung.tex
@@ -771,21 +857,21 @@ Kapitel 1.
 
  (02_grundlagen.tex
 Kapitel 2.
-<figures/HuchoDV013.jpg, id=46, 862.72313pt x 462.97969pt>
+<figures/HuchoDV013.jpg, id=43, 862.72313pt x 462.97969pt>
 File: figures/HuchoDV013.jpg Graphic file (type jpg)
 <use figures/HuchoDV013.jpg>
 Package pdftex.def Info: figures/HuchoDV013.jpg  used on input line 30.
-(pdftex.def)             Requested size: 204.85844pt x 109.93056pt.
-<figures/HuchoDV026.jpg, id=47, 416.30531pt x 225.09094pt>
+(pdftex.def)             Requested size: 191.20168pt x 102.60468pt.
+<figures/HuchoDV026.jpg, id=44, 416.30531pt x 225.09094pt>
 File: figures/HuchoDV026.jpg Graphic file (type jpg)
 <use figures/HuchoDV026.jpg>
 Package pdftex.def Info: figures/HuchoDV026.jpg  used on input line 34.
-(pdftex.def)             Requested size: 204.85844pt x 110.76605pt.
-<figures/HuchoDV05.jpg, id=48, 414.79968pt x 225.09094pt>
+(pdftex.def)             Requested size: 191.20168pt x 103.38165pt.
+<figures/HuchoDV05.jpg, id=45, 414.79968pt x 225.09094pt>
 File: figures/HuchoDV05.jpg Graphic file (type jpg)
 <use figures/HuchoDV05.jpg>
 Package pdftex.def Info: figures/HuchoDV05.jpg  used on input line 38.
-(pdftex.def)             Requested size: 204.85844pt x 111.16447pt.
+(pdftex.def)             Requested size: 191.20168pt x 103.7526pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -794,12 +880,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ]
-<figures/HuchoschlankerKorper.jpg, id=53, 318.43968pt x 175.40532pt>
+<figures/HuchoschlankerKorper.jpg, id=50, 318.43968pt x 175.40532pt>
 File: figures/HuchoschlankerKorper.jpg Graphic file (type jpg)
 <use figures/HuchoschlankerKorper.jpg>
 Package pdftex.def Info: figures/HuchoschlankerKorper.jpg  used on input line 5
 7.
 (pdftex.def)             Requested size: 182.09485pt x 100.30324pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figures/HuchoStumpferKorper.jpg, id=51, 307.1475pt x 177.66376pt>
+File: figures/HuchoStumpferKorper.jpg Graphic file (type jpg)
+<use figures/HuchoStumpferKorper.jpg>
+Package pdftex.def Info: figures/HuchoStumpferKorper.jpg  used on input line 64
+.
+(pdftex.def)             Requested size: 182.09485pt x 105.33035pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -809,18 +907,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3 <./figures/HuchoDV013.jpg> <./figures/HuchoDV026.jpg> <./figures/HuchoDV05.j
 pg>]
-<figures/HuchoStumpferKorper.jpg, id=59, 307.1475pt x 177.66376pt>
-File: figures/HuchoStumpferKorper.jpg Graphic file (type jpg)
-<use figures/HuchoStumpferKorper.jpg>
-Package pdftex.def Info: figures/HuchoStumpferKorper.jpg  used on input line 64
-.
-(pdftex.def)             Requested size: 182.09485pt x 105.33035pt.
-
 Underfull \hbox (badness 10000) in paragraph at lines 73--76
 
  []
 
-<figures/Wirbelstrasse.jpg, id=60, 867.99281pt x 228.855pt>
+<figures/Wirbelstrasse.jpg, id=57, 867.99281pt x 228.855pt>
 File: figures/Wirbelstrasse.jpg Graphic file (type jpg)
 <use figures/Wirbelstrasse.jpg>
 Package pdftex.def Info: figures/Wirbelstrasse.jpg  used on input line 79.
@@ -835,22 +926,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./figures/HuchoschlankerKorper.jpg> <./figures/HuchoStumpferKorper.jpg>]
-<figures/ScherSzweiseitig.jpg, id=64, 894.34125pt x 443.40656pt>
+<figures/ScherSzweiseitig.jpg, id=61, 894.34125pt x 443.40656pt>
 File: figures/ScherSzweiseitig.jpg Graphic file (type jpg)
 <use figures/ScherSzweiseitig.jpg>
 Package pdftex.def Info: figures/ScherSzweiseitig.jpg  used on input line 98.
 (pdftex.def)             Requested size: 159.3382pt x 78.99783pt.
-<figures/ScherSeinseitig.jpg, id=65, 851.43094pt x 392.21532pt>
+<figures/ScherSeinseitig.jpg, id=62, 851.43094pt x 392.21532pt>
 File: figures/ScherSeinseitig.jpg Graphic file (type jpg)
 <use figures/ScherSeinseitig.jpg>
 Package pdftex.def Info: figures/ScherSeinseitig.jpg  used on input line 103.
 (pdftex.def)             Requested size: 159.3382pt x 73.39655pt.
-<figures/ScherSrot.jpg, id=66, 801.74532pt x 307.1475pt>
+<figures/ScherSrot.jpg, id=63, 801.74532pt x 307.1475pt>
 File: figures/ScherSrot.jpg Graphic file (type jpg)
 <use figures/ScherSrot.jpg>
 Package pdftex.def Info: figures/ScherSrot.jpg  used on input line 108.
 (pdftex.def)             Requested size: 159.3382pt x 61.03941pt.
-<figures/Nachlauf.jpg, id=67, 406.51875pt x 138.5175pt>
+<figures/Nachlauf.jpg, id=64, 406.51875pt x 138.5175pt>
 File: figures/Nachlauf.jpg Graphic file (type jpg)
 <use figures/Nachlauf.jpg>
 Package pdftex.def Info: figures/Nachlauf.jpg  used on input line 119.
@@ -867,21 +958,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5 <./figures/Wirbelstrasse.jpg> <./figures/ScherSzweiseitig.jpg> <./figures/Sc
 herSeinseitig.jpg> <./figures/ScherSrot.jpg>]
-<figures/LaminareAbloeseblase.jpg, id=73, 1445.4pt x 813.0375pt>
+<figures/LaminareAbloeseblase.jpg, id=69, 1445.4pt x 813.0375pt>
 File: figures/LaminareAbloeseblase.jpg Graphic file (type jpg)
 <use figures/LaminareAbloeseblase.jpg>
 Package pdftex.def Info: figures/LaminareAbloeseblase.jpg  used on input line 1
-33.
+35.
 (pdftex.def)             Requested size: 455.24408pt x 256.07095pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/Vorderkante.jpg, id=74, 591.71063pt x 526.96875pt>
-File: figures/Vorderkante.jpg Graphic file (type jpg)
-<use figures/Vorderkante.jpg>
-Package pdftex.def Info: figures/Vorderkante.jpg  used on input line 142.
-(pdftex.def)             Requested size: 273.14922pt x 243.26894pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -892,19 +975,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6 <./figures/Nachlauf.jpg>]
-<figures/coanda.jpg, id=78, 325.96782pt x 373.395pt>
-File: figures/coanda.jpg Graphic file (type jpg)
-<use figures/coanda.jpg>
-Package pdftex.def Info: figures/coanda.jpg  used on input line 173.
-(pdftex.def)             Requested size: 204.85844pt x 234.67033pt.
+<figures/Vorderkante.jpg, id=74, 591.71063pt x 526.96875pt>
+File: figures/Vorderkante.jpg Graphic file (type jpg)
+<use figures/Vorderkante.jpg>
+Package pdftex.def Info: figures/Vorderkante.jpg  used on input line 143.
+(pdftex.def)             Requested size: 273.14922pt x 243.26894pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<figures/coanda.jpg, id=75, 325.96782pt x 373.395pt>
+File: figures/coanda.jpg Graphic file (type jpg)
+<use figures/coanda.jpg>
+Package pdftex.def Info: figures/coanda.jpg  used on input line 174.
+(pdftex.def)             Requested size: 204.85844pt x 234.67033pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -913,9 +999,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7 <./figures/LaminareAbloeseblase.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -924,10 +1009,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [8 <./figures/Vorderkante.jpg>]
-<figures/Wandstrahl.jpg, id=87, 1070.49937pt x 547.2947pt>
+<figures/Wandstrahl.jpg, id=84, 1070.49937pt x 547.2947pt>
 File: figures/Wandstrahl.jpg Graphic file (type jpg)
 <use figures/Wandstrahl.jpg>
-Package pdftex.def Info: figures/Wandstrahl.jpg  used on input line 207.
+Package pdftex.def Info: figures/Wandstrahl.jpg  used on input line 193.
 (pdftex.def)             Requested size: 318.66946pt x 162.9203pt.
 
 
@@ -937,15 +1022,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./figures/coanda.jpg> <./figures/Wandstrahl.jpg>]
-<figures/KorperBearman.jpg, id=91, 210.03468pt x 93.34875pt>
+<figures/KorperBearman.jpg, id=88, 210.03468pt x 93.34875pt>
 File: figures/KorperBearman.jpg Graphic file (type jpg)
 <use figures/KorperBearman.jpg>
-Package pdftex.def Info: figures/KorperBearman.jpg  used on input line 232.
+Package pdftex.def Info: figures/KorperBearman.jpg  used on input line 218.
 (pdftex.def)             Requested size: 227.62204pt x 101.16553pt.
-<figures/KorperGeropp.jpg, id=92, 290.20921pt x 209.28188pt>
+<figures/KorperGeropp.jpg, id=89, 290.20921pt x 209.28188pt>
 File: figures/KorperGeropp.jpg Graphic file (type jpg)
 <use figures/KorperGeropp.jpg>
-Package pdftex.def Info: figures/KorperGeropp.jpg  used on input line 242.
+Package pdftex.def Info: figures/KorperGeropp.jpg  used on input line 228.
 (pdftex.def)             Requested size: 227.62204pt x 164.14929pt.
 
 
@@ -955,25 +1040,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./figures/KorperBearman.jpg> <./figures/KorperGeropp.jpg>]
-<figures/KorperBarros.jpg, id=96, 334.62515pt x 163.73672pt>
+<figures/KorperBarros.jpg, id=93, 334.62515pt x 163.73672pt>
 File: figures/KorperBarros.jpg Graphic file (type jpg)
 <use figures/KorperBarros.jpg>
-Package pdftex.def Info: figures/KorperBarros.jpg  used on input line 254.
+Package pdftex.def Info: figures/KorperBarros.jpg  used on input line 240.
 (pdftex.def)             Requested size: 318.66946pt x 155.94124pt.
-<figures/KoerperModi3.jpg, id=97, 240.14719pt x 73.77562pt>
+<figures/KoerperModi3.jpg, id=94, 240.14719pt x 73.77562pt>
 File: figures/KoerperModi3.jpg Graphic file (type jpg)
 <use figures/KoerperModi3.jpg>
-Package pdftex.def Info: figures/KoerperModi3.jpg  used on input line 265.
+Package pdftex.def Info: figures/KoerperModi3.jpg  used on input line 251.
 (pdftex.def)             Requested size: 273.14922pt x 83.92155pt.
-<figures/ModiStr1.jpg, id=98, 199.49532pt x 293.97328pt>
+<figures/ModiStr1.jpg, id=95, 199.49532pt x 293.97328pt>
 File: figures/ModiStr1.jpg Graphic file (type jpg)
 <use figures/ModiStr1.jpg>
-Package pdftex.def Info: figures/ModiStr1.jpg  used on input line 274.
+Package pdftex.def Info: figures/ModiStr1.jpg  used on input line 260.
 (pdftex.def)             Requested size: 127.46584pt x 187.83273pt.
-<figures/ModiStr2.jpg, id=99, 198.7425pt x 287.95078pt>
+<figures/ModiStr2.jpg, id=96, 198.7425pt x 287.95078pt>
 File: figures/ModiStr2.jpg Graphic file (type jpg)
 <use figures/ModiStr2.jpg>
-Package pdftex.def Info: figures/ModiStr2.jpg  used on input line 277.
+Package pdftex.def Info: figures/ModiStr2.jpg  used on input line 263.
 (pdftex.def)             Requested size: 127.46584pt x 184.6877pt.
 
 
@@ -983,15 +1068,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./figures/KorperBarros.jpg> <./figures/KoerperModi3.jpg>]
-<figures/KorperModi.jpg, id=104, 500.24391pt x 150.9389pt>
+<figures/KorperModi.jpg, id=100, 500.24391pt x 150.9389pt>
 File: figures/KorperModi.jpg Graphic file (type jpg)
 <use figures/KorperModi.jpg>
-Package pdftex.def Info: figures/KorperModi.jpg  used on input line 286.
+Package pdftex.def Info: figures/KorperModi.jpg  used on input line 272.
 (pdftex.def)             Requested size: 273.14922pt x 82.42012pt.
-<figures/KoerperModi2.jpg, id=105, 488.57532pt x 130.23656pt>
+<figures/KoerperModi2.jpg, id=101, 488.57532pt x 130.23656pt>
 File: figures/KoerperModi2.jpg Graphic file (type jpg)
 <use figures/KoerperModi2.jpg>
-Package pdftex.def Info: figures/KoerperModi2.jpg  used on input line 308.
+Package pdftex.def Info: figures/KoerperModi2.jpg  used on input line 294.
 (pdftex.def)             Requested size: 227.62204pt x 60.67662pt.
 
 
@@ -1002,10 +1087,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12 <./figures/ModiStr1.jpg> <./figures/ModiStr2.jpg> <./figures/KorperModi.jpg
 >]
-<figures/KoerperGong.jpg, id=109, 197.23688pt x 160.34906pt>
+<figures/KoerperGong.jpg, id=106, 197.23688pt x 160.34906pt>
 File: figures/KoerperGong.jpg Graphic file (type jpg)
 <use figures/KoerperGong.jpg>
-Package pdftex.def Info: figures/KoerperGong.jpg  used on input line 318.
+Package pdftex.def Info: figures/KoerperGong.jpg  used on input line 304.
 (pdftex.def)             Requested size: 227.62204pt x 185.05325pt.
 )
 
@@ -1026,48 +1111,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (03_versuchsvorbereitung.tex
 Kapitel 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-<figures/ModellSchema.jpg, id=116, 569.0058pt x 143.5764pt>
+<figures/ModellSchema.jpg, id=113, 569.0058pt x 143.5764pt>
 File: figures/ModellSchema.jpg Graphic file (type jpg)
 <use figures/ModellSchema.jpg>
-Package pdftex.def Info: figures/ModellSchema.jpg  used on input line 8.
+Package pdftex.def Info: figures/ModellSchema.jpg  used on input line 9.
 (pdftex.def)             Requested size: 364.19664pt x 91.89732pt.
-<figures/Walze1Graphik.jpg, id=117, 284.262pt x 341.5962pt>
+<figures/Walze1Graphik.jpg, id=114, 284.262pt x 341.5962pt>
 File: figures/Walze1Graphik.jpg Graphic file (type jpg)
 <use figures/Walze1Graphik.jpg>
-Package pdftex.def Info: figures/Walze1Graphik.jpg  used on input line 44.
+Package pdftex.def Info: figures/Walze1Graphik.jpg  used on input line 45.
 (pdftex.def)             Requested size: 145.67642pt x 175.06136pt.
-<figures/Walze2Graphik.jpg, id=118, 284.7438pt x 341.5962pt>
+<figures/Walze2Graphik.jpg, id=115, 284.7438pt x 341.5962pt>
 File: figures/Walze2Graphik.jpg Graphic file (type jpg)
 <use figures/Walze2Graphik.jpg>
-Package pdftex.def Info: figures/Walze2Graphik.jpg  used on input line 47.
+Package pdftex.def Info: figures/Walze2Graphik.jpg  used on input line 48.
 (pdftex.def)             Requested size: 145.67642pt x 174.76425pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--52
+Underfull \hbox (badness 10000) in paragraph at lines 23--53
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1661) has occurred while \output is active []
 
  [15
 
 
 
  <./figures/ModellSchema.jpg>]
-<figures/Spaltverlauf1.jpg, id=122, 399.894pt x 218.7372pt>
+<figures/Spaltverlauf1.jpg, id=119, 399.894pt x 218.7372pt>
 File: figures/Spaltverlauf1.jpg Graphic file (type jpg)
 <use figures/Spaltverlauf1.jpg>
-Package pdftex.def Info: figures/Spaltverlauf1.jpg  used on input line 69.
+Package pdftex.def Info: figures/Spaltverlauf1.jpg  used on input line 70.
 (pdftex.def)             Requested size: 318.66946pt x 174.31577pt.
-<figures/Spaltverlauf2.jpg, id=123, 394.1124pt x 218.7372pt>
+<figures/Spaltverlauf2.jpg, id=120, 394.1124pt x 218.7372pt>
 File: figures/Spaltverlauf2.jpg Graphic file (type jpg)
 <use figures/Spaltverlauf2.jpg>
-Package pdftex.def Info: figures/Spaltverlauf2.jpg  used on input line 72.
+Package pdftex.def Info: figures/Spaltverlauf2.jpg  used on input line 73.
 (pdftex.def)             Requested size: 318.66946pt x 176.87242pt.
 
 
@@ -1077,23 +1157,23 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16 <./figures/Walze1Graphik.jpg> <./figures/Walze2Graphik.jpg>]
-<figures/SignalWalze1.jpg, id=128, 129.6042pt x 21.681pt>
+<figures/SignalWalze1.jpg, id=125, 129.6042pt x 21.681pt>
 File: figures/SignalWalze1.jpg Graphic file (type jpg)
 <use figures/SignalWalze1.jpg>
-Package pdftex.def Info: figures/SignalWalze1.jpg  used on input line 81.
+Package pdftex.def Info: figures/SignalWalze1.jpg  used on input line 82.
 (pdftex.def)             Requested size: 273.14575pt x 45.69684pt.
 
-Overfull \hbox (45.52371pt too wide) in paragraph at lines 81--82
+Overfull \hbox (45.52371pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
-<figures/SignalWalze2.jpg, id=129, 124.3044pt x 21.681pt>
+<figures/SignalWalze2.jpg, id=126, 124.3044pt x 21.681pt>
 File: figures/SignalWalze2.jpg Graphic file (type jpg)
 <use figures/SignalWalze2.jpg>
-Package pdftex.def Info: figures/SignalWalze2.jpg  used on input line 84.
+Package pdftex.def Info: figures/SignalWalze2.jpg  used on input line 85.
 (pdftex.def)             Requested size: 273.14575pt x 47.65036pt.
 
-Overfull \hbox (45.52371pt too wide) in paragraph at lines 84--85
+Overfull \hbox (45.52371pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
@@ -1105,34 +1185,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17 <./figures/Spaltverlauf1.jpg> <./figures/Spaltverlauf2.jpg> <./figures/Sign
 alWalze1.jpg> <./figures/SignalWalze2.jpg>]
-Overfull \hbox (4.88414pt too wide) in paragraph at lines 94--96
+Overfull \hbox (4.88414pt too wide) in paragraph at lines 95--97
 \T1/cmr/m/n/10.95 be-stimmt wer-den. Wenn die-se nach der ge-wünsch-ten Va-ria-
 ble um-ge-stellt wird (sie-he Glei-chung 3.3[])
  []
 
 
-Overfull \hbox (8.83992pt too wide) in paragraph at lines 120--131
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-<figures/Integrationsskript.jpg, id=134, 405.38953pt x 405.01312pt>
+<figures/Integrationsskript.jpg, id=130, 405.38953pt x 405.01312pt>
 File: figures/Integrationsskript.jpg Graphic file (type jpg)
 <use figures/Integrationsskript.jpg>
-Package pdftex.def Info: figures/Integrationsskript.jpg  used on input line 143
+Package pdftex.def Info: figures/Integrationsskript.jpg  used on input line 145
 .
 (pdftex.def)             Requested size: 364.19664pt x 363.8657pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--147
+Underfull \hbox (badness 10000) in paragraph at lines 142--149
 
  []
 
 
-Underfull \vbox (badness 4752) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1158,7 +1233,7 @@ Kapitel 4.
 
 
 ]
-<figures/KontrollvolumenHucho.png, id=144, 346.29375pt x 234.1247pt>
+<figures/KontrollvolumenHucho.png, id=141, 346.29375pt x 234.1247pt>
 File: figures/KontrollvolumenHucho.png Graphic file (type png)
 <use figures/KontrollvolumenHucho.png>
 Package pdftex.def Info: figures/KontrollvolumenHucho.png  used on input line 4
@@ -1230,7 +1305,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (05_windkanalversuche.tex
 Kapitel 5.
-<figures/SkizzeModell.jpg, id=173, 1038.88126pt x 341.77687pt>
+<figures/SkizzeModell.jpg, id=170, 1038.88126pt x 341.77687pt>
 File: figures/SkizzeModell.jpg Graphic file (type jpg)
 <use figures/SkizzeModell.jpg>
 Package pdftex.def Info: figures/SkizzeModell.jpg  used on input line 10.
@@ -1240,17 +1315,17 @@ Package pdftex.def Info: figures/SkizzeModell.jpg  used on input line 10.
 
 
  <./figures/SkizzeModell.jpg>]
-<figures/ModellGeometrie.jpg, id=178, 1059.96pt x 350.81062pt>
+<figures/ModellGeometrie.jpg, id=174, 1059.96pt x 350.81062pt>
 File: figures/ModellGeometrie.jpg Graphic file (type jpg)
 <use figures/ModellGeometrie.jpg>
 Package pdftex.def Info: figures/ModellGeometrie.jpg  used on input line 27.
 (pdftex.def)             Requested size: 341.43306pt x 113.00038pt.
-<figures/DModell1.jpg, id=179, 1604.99625pt x 902.37125pt>
+<figures/DModell1.jpg, id=175, 1604.99625pt x 902.37125pt>
 File: figures/DModell1.jpg Graphic file (type jpg)
 <use figures/DModell1.jpg>
 Package pdftex.def Info: figures/DModell1.jpg  used on input line 48.
 (pdftex.def)             Requested size: 223.0721pt x 125.40858pt.
-<figures/DModell2.jpg, id=180, 1604.99625pt x 902.37125pt>
+<figures/DModell2.jpg, id=176, 1604.99625pt x 902.37125pt>
 File: figures/DModell2.jpg Graphic file (type jpg)
 <use figures/DModell2.jpg>
 Package pdftex.def Info: figures/DModell2.jpg  used on input line 53.
@@ -1264,16 +1339,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [30 <./figures/ModellGeometrie.jpg> <./figures/DModell1.jpg> <./figures/DModell
 2.jpg>]
-<figures/windkanal1.jpg, id=184, 4625.28pt x 2601.72pt>
+<figures/windkanal1.jpg, id=181, 4625.28pt x 2601.72pt>
 File: figures/windkanal1.jpg Graphic file (type jpg)
 <use figures/windkanal1.jpg>
-Package pdftex.def Info: figures/windkanal1.jpg  used on input line 84.
+Package pdftex.def Info: figures/windkanal1.jpg  used on input line 85.
 (pdftex.def)             Requested size: 273.14922pt x 153.63512pt.
-<figures/windkanal2.jpg, id=185, 4625.28pt x 2601.72pt>
+<figures/windkanal2.jpg, id=182, 4625.28pt x 2601.72pt>
 File: figures/windkanal2.jpg Graphic file (type jpg)
 <use figures/windkanal2.jpg>
-Package pdftex.def Info: figures/windkanal2.jpg  used on input line 87.
+Package pdftex.def Info: figures/windkanal2.jpg  used on input line 88.
 (pdftex.def)             Requested size: 273.14922pt x 153.63512pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--93
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1284,17 +1363,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [31
 
  <./figures/windkanal1.jpg> <./figures/windkanal2.jpg>]
-<figures/Fischmaulsonde.jpg, id=189, 1027.84pt x 533.995pt>
+<figures/Fischmaulsonde.jpg, id=186, 1027.84pt x 533.995pt>
 File: figures/Fischmaulsonde.jpg Graphic file (type jpg)
 <use figures/Fischmaulsonde.jpg>
-Package pdftex.def Info: figures/Fischmaulsonde.jpg  used on input line 134.
+Package pdftex.def Info: figures/Fischmaulsonde.jpg  used on input line 135.
 (pdftex.def)             Requested size: 273.14922pt x 141.90726pt.
-<figures/Druckmessrechen_mitModell.jpg, id=190, 1604.99625pt x 902.37125pt>
-File: figures/Druckmessrechen_mitModell.jpg Graphic file (type jpg)
-<use figures/Druckmessrechen_mitModell.jpg>
-Package pdftex.def Info: figures/Druckmessrechen_mitModell.jpg  used on input l
-ine 149.
-(pdftex.def)             Requested size: 273.14922pt x 153.56631pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1303,6 +1376,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32 <./figures/Fischmaulsonde.jpg>]
+<figures/Druckmessrechen_mitModell.jpg, id=190, 1604.99625pt x 902.37125pt>
+File: figures/Druckmessrechen_mitModell.jpg Graphic file (type jpg)
+<use figures/Druckmessrechen_mitModell.jpg>
+Package pdftex.def Info: figures/Druckmessrechen_mitModell.jpg  used on input l
+ine 150.
+(pdftex.def)             Requested size: 273.14922pt x 153.56631pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1310,13 +1390,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [33 <./figures/Druckmessrechen_mitModell.jpg>]
-<figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg, id=197, 177.0615pt x
+<figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg, id=194, 177.0615pt x
  213.8535pt>
 File: figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg Graphic file (ty
 pe jpg)
 <use figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg>
 Package pdftex.def Info: figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.j
-pg  used on input line 204.
+pg  used on input line 205.
 (pdftex.def)             Requested size: 182.09485pt x 219.9485pt.
 
 
@@ -1326,23 +1406,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34 <./figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg>]
-<figures/GFM_Druckverteilung_glatt_oben.jpg, id=201, 630.85687pt x 190.46156pt>
+<figures/GFM_Druckverteilung_glatt_oben.jpg, id=198, 630.85687pt x 190.46156pt>
 
 File: figures/GFM_Druckverteilung_glatt_oben.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_glatt_oben.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_glatt_oben.jpg  used on in
-put line 228.
+put line 229.
 (pdftex.def)             Requested size: 386.96024pt x 116.82654pt.
-<figures/GFM_Druckverteilung_glatt_unten.jpg, id=202, 630.85687pt x 205.5178pt>
-
-File: figures/GFM_Druckverteilung_glatt_unten.jpg Graphic file (type jpg)
-<use figures/GFM_Druckverteilung_glatt_unten.jpg>
-Package pdftex.def Info: figures/GFM_Druckverteilung_glatt_unten.jpg  used on i
-nput line 241.
-(pdftex.def)             Requested size: 386.96024pt x 126.06186pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1351,45 +1421,48 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35 <./figures/GFM_Druckverteilung_glatt_oben.jpg>]
-<figures/GFM_Druckverteilung_oval_oben_geschl.jpg, id=207, 630.85687pt x 208.52
+<figures/GFM_Druckverteilung_glatt_unten.jpg, id=202, 630.85687pt x 205.5178pt>
+
+File: figures/GFM_Druckverteilung_glatt_unten.jpg Graphic file (type jpg)
+<use figures/GFM_Druckverteilung_glatt_unten.jpg>
+Package pdftex.def Info: figures/GFM_Druckverteilung_glatt_unten.jpg  used on i
+nput line 242.
+(pdftex.def)             Requested size: 386.96024pt x 126.06186pt.
+<figures/GFM_Druckverteilung_oval_oben_geschl.jpg, id=203, 630.85687pt x 208.52
 907pt>
 File: figures/GFM_Druckverteilung_oval_oben_geschl.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_oben_geschl.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_oben_geschl.jpg  used
- on input line 257.
+ on input line 258.
 (pdftex.def)             Requested size: 386.96024pt x 127.90892pt.
-<figures/GFM_Druckverteilung_oval_unten_geschl.jpg, id=208, 630.85687pt x 211.5
+<figures/GFM_Druckverteilung_oval_unten_geschl.jpg, id=204, 630.85687pt x 211.5
 4031pt>
 File: figures/GFM_Druckverteilung_oval_unten_geschl.jpg Graphic file (type jpg)
 
 <use figures/GFM_Druckverteilung_oval_unten_geschl.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_unten_geschl.jpg  use
-d on input line 260.
+d on input line 261.
 (pdftex.def)             Requested size: 386.96024pt x 129.75597pt.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[36 <./figures/GFM_Druckverteilung_glatt_unten.jpg> <./figures/GFM_Druckverteil
-ung_oval_oben_geschl.jpg> <./figures/GFM_Druckverteilung_oval_unten_geschl.jpg>
-]
-<figures/GFM_Druckverteilung_oval_oben_offen.jpg, id=212, 630.85687pt x 229.607
+<figures/GFM_Druckverteilung_oval_oben_offen.jpg, id=205, 630.85687pt x 229.607
 82pt>
 File: figures/GFM_Druckverteilung_oval_oben_offen.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_oben_offen.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_oben_offen.jpg  used 
-on input line 274.
+on input line 275.
 (pdftex.def)             Requested size: 386.96024pt x 140.83835pt.
-<figures/GFM_Druckverteilung_oval_unten_offen.jpg, id=213, 630.85687pt x 249.18
+<figures/GFM_Druckverteilung_oval_unten_offen.jpg, id=206, 630.85687pt x 249.18
 094pt>
 File: figures/GFM_Druckverteilung_oval_unten_offen.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_unten_offen.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_unten_offen.jpg  used
- on input line 277.
+ on input line 278.
 (pdftex.def)             Requested size: 386.96024pt x 152.84422pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1397,19 +1470,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37 <./figures/GFM_Druckverteilung_oval_oben_offen.jpg> <./figures/GFM_Druckver
-teilung_oval_unten_offen.jpg>]
-<figures/Oberflaechendruecke_RK.jpg, id=217, 562.1pt x 421.575pt>
+[36 <./figures/GFM_Druckverteilung_glatt_unten.jpg>]
+<figures/Oberflaechendruecke_RK.jpg, id=211, 562.1pt x 421.575pt>
 File: figures/Oberflaechendruecke_RK.jpg Graphic file (type jpg)
 <use figures/Oberflaechendruecke_RK.jpg>
 Package pdftex.def Info: figures/Oberflaechendruecke_RK.jpg  used on input line
- 303.
-(pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
-<figures/Oberflaechendruecke_50erK.jpg, id=218, 562.1pt x 421.575pt>
-File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
-<use figures/Oberflaechendruecke_50erK.jpg>
-Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
-ine 319.
+ 304.
 (pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
 
 
@@ -1421,14 +1487,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./figures/Oberflaechendruecke_RK.jpg>])
+[37 <./figures/GFM_Druckverteilung_oval_oben_geschl.jpg> <./figures/GFM_Druckve
+rteilung_oval_unten_geschl.jpg>]
+<figures/Oberflaechendruecke_50erK.jpg, id=215, 562.1pt x 421.575pt>
+File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
+<use figures/Oberflaechendruecke_50erK.jpg>
+Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
+ine 320.
+(pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./figures/Oberflaechendruecke_50erK.jpg>]
+[38 <./figures/GFM_Druckverteilung_oval_oben_offen.jpg> <./figures/GFM_Druckver
+teilung_oval_unten_offen.jpg>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./figures/Oberflaechendruecke_RK.jpg> <./figures/Oberflaechendruecke_50erK
+.jpg>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
 \openout2 = `06_versuchsauswertung.aux'.
 
  (06_versuchsauswertung.tex
@@ -1439,73 +1532,21 @@ File: figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg  used on i
 nput line 11.
 (pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
-[40
+<figures/Materialabrieb.jpeg, id=226, 1604.99625pt x 1204.5pt>
+File: figures/Materialabrieb.jpeg Graphic file (type jpg)
+<use figures/Materialabrieb.jpeg>
+Package pdftex.def Info: figures/Materialabrieb.jpeg  used on input line 24.
+(pdftex.def)             Requested size: 341.43306pt x 256.22395pt.
+[41
 
 
 
  <./figures/Druckverlaeufe_Nachlauf_ohneAkt.jpg>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
-
-("C:\Users\Flo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
-<figures/Cw_ueber_n_ohneAB_beideKonf.jpg, id=229, 562.1pt x 421.575pt>
+<figures/Cw_ueber_n_ohneAB_beideKonf.jpg, id=230, 562.1pt x 421.575pt>
 File: figures/Cw_ueber_n_ohneAB_beideKonf.jpg Graphic file (type jpg)
 <use figures/Cw_ueber_n_ohneAB_beideKonf.jpg>
 Package pdftex.def Info: figures/Cw_ueber_n_ohneAB_beideKonf.jpg  used on input
- line 27.
-(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[41 <./figures/Cw_ueber_n_ohneAB_beideKonf.jpg>]
-<figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg, id=234, 562.1pt x 421.575
-pt>
-File: figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg Graphic file (type jp
-g)
-<use figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg>
-Package pdftex.def Info: figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg  u
-sed on input line 43.
-(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42 <./figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg>]
-<figures/Cw_ueber_Cmu_ohne_n.jpg, id=238, 878.28125pt x 658.46pt>
-File: figures/Cw_ueber_Cmu_ohne_n.jpg Graphic file (type jpg)
-<use figures/Cw_ueber_Cmu_ohne_n.jpg>
-Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n.jpg  used on input line 94
-.
-(pdftex.def)             Requested size: 227.62204pt x 170.65302pt.
-<figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg, id=239, 562.1pt x 421.575pt>
-File: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg Graphic file (type jpg)
-<use figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>
-Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg  used on inp
-ut line 122.
-(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43 <./figures/Cw_ueber_Cmu_ohne_n.jpg>]
-<figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg, id=243, 562.1pt x 421.575pt>
-File: figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg Graphic file (type jpg)
-<use figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg>
-Package pdftex.def Info: figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg  used 
-on input line 169.
+ line 39.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
 
 
@@ -1517,20 +1558,85 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>]
+[42 <./figures/Materialabrieb.jpeg>]
+<figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg, id=235, 562.1pt x 421.575
+pt>
+File: figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg Graphic file (type jp
+g)
+<use figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg>
+Package pdftex.def Info: figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg  u
+sed on input line 55.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <./figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg>]
-<figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg, id=250, 586.19pt x 422.57875pt
+[43 <./figures/Cw_ueber_n_ohneAB_beideKonf.jpg>]
+<figures/Cw_ueber_Cmu_ohne_n.jpg, id=239, 878.28125pt x 658.46pt>
+File: figures/Cw_ueber_Cmu_ohne_n.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_Cmu_ohne_n.jpg>
+Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n.jpg  used on input line 10
+6.
+(pdftex.def)             Requested size: 227.62204pt x 170.65302pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./figures/DeltaCw_ueberC_PowerM_ohne_AB_beideKonf.jpg>]
+<figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg, id=243, 562.1pt x 421.575pt>
+File: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg Graphic file (type jpg)
+<use figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg>
+Package pdftex.def Info: figures/Cw_ueber_Cmu_ohne_n_beideKonf.jpg  used on inp
+ut line 134.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./figures/Cw_ueber_Cmu_ohne_n.jpg> <./figures/Cw_ueber_Cmu_ohne_n_beideKon
+f.jpg>]
+<figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg, id=247, 562.1pt x 421.575pt>
+File: figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg Graphic file (type jpg)
+<use figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg>
+Package pdftex.def Info: figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg  used 
+on input line 181.
+(pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./figures/CwC0_ueber_CPowerJ_ohne_n_beideKonf.jpg>]
+<figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg, id=251, 586.19pt x 422.57875pt
 >
 File: figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg Graphic file (type jpg)
 <use figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg>
 Package pdftex.def Info: figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg  used o
-n input line 210.
+n input line 222.
 (pdftex.def)             Requested size: 227.62204pt x 164.08931pt.
 
 
@@ -1542,90 +1648,84 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
-<figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg, id=254, 562.1pt x 421.575pt>
+[47]
+<figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg, id=255, 562.1pt x 421.575pt>
 File: figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg Graphic file (type jpg)
 <use figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg>
 Package pdftex.def Info: figures/Cw_ueber_n_fuer_verschiedeneCmu_50.jpg  used o
-n input line 223.
+n input line 235.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-<figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg, id=255, 562.1pt x 421.575pt>
+<figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg, id=256, 562.1pt x 421.575pt>
 File: figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg Graphic file (type jpg)
 <use figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg>
 Package pdftex.def Info: figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg  used on input
- line 237.
+ line 251.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg, id=256, 562.1pt x 421.575pt>
+<figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg, id=257, 562.1pt x 421.575pt>
 File: figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg Graphic file (type jpg)
 <use figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg>
 Package pdftex.def Info: figures/CwCw0_ueber_n_fuer_Cmu3und4_RK.jpg  used on in
-put line 241.
+put line 255.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg, id=257, 562.1pt x 421.575pt>
+<figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg, id=258, 562.1pt x 421.575pt>
 File: figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg Graphic file (type jpg)
 <use figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg>
 Package pdftex.def Info: figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg  used on input 
-line 245.
+line 259.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/CwC0_ueber_n_fuer_Cmus_50.jpg, id=258, 562.1pt x 421.575pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48 <./figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg> <./figures/Cw_ueber_n_fu
+er_verschiedeneCmu_50.jpg>]
+<figures/CwC0_ueber_n_fuer_Cmus_50.jpg, id=263, 562.1pt x 421.575pt>
 File: figures/CwC0_ueber_n_fuer_Cmus_50.jpg Graphic file (type jpg)
 <use figures/CwC0_ueber_n_fuer_Cmus_50.jpg>
 Package pdftex.def Info: figures/CwC0_ueber_n_fuer_Cmus_50.jpg  used on input l
-ine 257.
+ine 273.
 (pdftex.def)             Requested size: 227.62204pt x 170.71764pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47 <./figures/Cw_ueber_n_fuer_verschiedeneCmu_RK.jpg> <./figures/Cw_ueber_n_fu
-er_verschiedeneCmu_50.jpg>]
-<figures/PR_uber_n_fuer_Cmu_RK.jpg, id=263, 562.1pt x 421.575pt>
+<figures/PR_uber_n_fuer_Cmu_RK.jpg, id=264, 562.1pt x 421.575pt>
 File: figures/PR_uber_n_fuer_Cmu_RK.jpg Graphic file (type jpg)
 <use figures/PR_uber_n_fuer_Cmu_RK.jpg>
 Package pdftex.def Info: figures/PR_uber_n_fuer_Cmu_RK.jpg  used on input line 
-268.
+284.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
-<figures/PR_ueber_n_fuer_Cmu_50.jpg, id=264, 562.1pt x 421.575pt>
+<figures/PR_ueber_n_fuer_Cmu_50.jpg, id=265, 562.1pt x 421.575pt>
 File: figures/PR_ueber_n_fuer_Cmu_50.jpg Graphic file (type jpg)
 <use figures/PR_ueber_n_fuer_Cmu_50.jpg>
 Package pdftex.def Info: figures/PR_ueber_n_fuer_Cmu_50.jpg  used on input line
- 273.
+ 289.
 (pdftex.def)             Requested size: 204.85844pt x 153.6388pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-)
+[49 <./figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg> <./figures/CwCw0_ueber_n_fuer_C
+mu3und4_RK.jpg> <./figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg> <./figures/CwC0_uebe
+r_n_fuer_Cmus_50.jpg>])
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48 <./figures/CwCw0_ueber_n_fuer_2Cmus_RK.jpg> <./figures/CwCw0_ueber_n_fuer_C
-mu3und4_RK.jpg> <./figures/CwCw0_ueber_n_fuer_Cmu5_RK.jpg>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[49 <./figures/CwC0_ueber_n_fuer_Cmus_50.jpg> <./figures/PR_uber_n_fuer_Cmu_RK.
-jpg> <./figures/PR_ueber_n_fuer_Cmu_50.jpg>]
+[50 <./figures/PR_uber_n_fuer_Cmu_RK.jpg> <./figures/PR_ueber_n_fuer_Cmu_50.jpg
+>]
 \openout2 = `07_fazit.aux'.
 
  (07_fazit.tex
 Kapitel 7.
-) [50
+) [51
 
 
 
@@ -1636,7 +1736,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51] (main.bbl [52
+[52] (main.bbl [53
 
 
 ])
@@ -1646,7 +1746,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53] (main.lof [54
+[54] (main.lof [55
 
 ])
 \tf@lof=\write4
@@ -1659,18 +1759,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] (main.lot)
+[56] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
- [56
+ [57
 
 ]
 \openout2 = `anhang1.aux'.
 
  (anhang1.tex
 Anhang A.
-<./figures/DrawingInnenwelle.pdf, id=293, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=294, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 4.
@@ -1681,7 +1781,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf  used on input line 4.
 
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-<./figures/DrawingInnenwelle.pdf, id=296, page=1, 845.0471pt x 597.51233pt>
+<./figures/DrawingInnenwelle.pdf, id=297, page=1, 845.0471pt x 597.51233pt>
 File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 <use ./figures/DrawingInnenwelle.pdf, page 1>
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
@@ -1692,7 +1792,7 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
-[57
+[58
 
 
 ]
@@ -1711,8 +1811,8 @@ File: ./figures/DrawingInnenwelle.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/DrawingInnenwelle.pdf , page1 used on input 
 line 4.
 (pdftex.def)             Requested size: 845.04504pt x 597.51086pt.
- [58 <./figures/DrawingInnenwelle.pdf>]
-<./figures/Mantel_A.pdf, id=318, 597.51233pt x 845.0471pt>
+ [59 <./figures/DrawingInnenwelle.pdf>]
+<./figures/Mantel_A.pdf, id=319, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 5.
@@ -1721,7 +1821,7 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf>
 Package pdftex.def Info: ./figures/Mantel_A.pdf  used on input line 5.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_A.pdf, id=321, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_A.pdf, id=322, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 5.
@@ -1742,8 +1842,8 @@ File: ./figures/Mantel_A.pdf Graphic file (type pdf)
 <use ./figures/Mantel_A.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_A.pdf , page1 used on input line 5.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [59 <./figures/Mantel_A.pdf>]
-<./figures/Mantel_B.pdf, id=339, 597.51233pt x 845.0471pt>
+ [60 <./figures/Mantel_A.pdf>]
+<./figures/Mantel_B.pdf, id=340, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 6.
@@ -1752,7 +1852,7 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf>
 Package pdftex.def Info: ./figures/Mantel_B.pdf  used on input line 6.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<./figures/Mantel_B.pdf, id=342, page=1, 597.51233pt x 845.0471pt>
+<./figures/Mantel_B.pdf, id=343, page=1, 597.51233pt x 845.0471pt>
 File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 <use ./figures/Mantel_B.pdf, page 1>
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 6.
@@ -1774,12 +1874,12 @@ File: ./figures/Mantel_B.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./figures/Mantel_B.pdf , page1 used on input line 6.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
 
-[60 <./figures/Mantel_B.pdf>])
+[61 <./figures/Mantel_B.pdf>])
 \openout2 = `anhang2.aux'.
 
  (anhang2.tex
 Anhang B.
-<figures/wake_n-1.jpg, id=359, 1660.2025pt x 2347.77126pt>
+<figures/wake_n-1.jpg, id=360, 1660.2025pt x 2347.77126pt>
 File: figures/wake_n-1.jpg Graphic file (type jpg)
 <use figures/wake_n-1.jpg>
 Package pdftex.def Info: figures/wake_n-1.jpg  used on input line 8.
@@ -1787,12 +1887,12 @@ Package pdftex.def Info: figures/wake_n-1.jpg  used on input line 8.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/wake_n-2.jpg, id=360, 1660.2025pt x 2347.77126pt>
+<figures/wake_n-2.jpg, id=361, 1660.2025pt x 2347.77126pt>
 File: figures/wake_n-2.jpg Graphic file (type jpg)
 <use figures/wake_n-2.jpg>
 Package pdftex.def Info: figures/wake_n-2.jpg  used on input line 13.
 (pdftex.def)             Requested size: 455.24408pt x 643.75835pt.
-) [61
+) [62
 
 
 
@@ -1803,54 +1903,50 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62 <./figures/wake_n-1.jpg>]
+[63 <./figures/wake_n-1.jpg>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63 <./figures/wake_n-2.jpg>] (main.aux (00_frontpage.aux) (00_empty_page.aux)
-(00_eid_erkl.aux) (00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux)
-(01_einleitung.aux) (02_grundlagen.aux) (03_versuchsvorbereitung.aux)
-(04_widerstandsbestimmung.aux) (05_windkanalversuche.aux)
-(06_versuchsauswertung.aux) (07_fazit.aux) (anhang1.aux) (anhang2.aux)) ) 
+[64 <./figures/wake_n-2.jpg>] (main.aux (00_frontpage.aux) (00_empty_page.aux)
+(00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux) (01_einleitung.aux)
+(02_grundlagen.aux) (03_versuchsvorbereitung.aux) (04_widerstandsbestimmung.aux
+) (05_windkanalversuche.aux) (06_versuchsauswertung.aux) (07_fazit.aux)
+(anhang1.aux) (anhang2.aux)) ) 
 Here is how much of TeX's memory you used:
- 18176 strings out of 493305
- 356425 string characters out of 3130672
- 366037 words of memory out of 3000000
- 21331 multiletter control sequences out of 15000+200000
- 553785 words of font info for 77 fonts, out of 3000000 for 9000
+ 17182 strings out of 493303
+ 343976 string characters out of 3138865
+ 357632 words of memory out of 3000000
+ 20342 multiletter control sequences out of 15000+200000
+ 551719 words of font info for 75 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
- 42i,20n,63p,1253b,969s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\U
-sers\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.p
-k> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-bx1440.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\d
-pi600\ecbx2074.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecti1095.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Flo\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Flo\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Flo\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk><C:/Users/Flo
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Flo/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Flo/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Flo/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
-Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb><C:/Users/Flo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (71 pages, 8398349 bytes).
+ 42i,20n,50p,10431b,963s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\l
+jfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fon
+ts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Ti\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Ti\AppData\Local\
+MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\Users\Ti\AppData
+\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Ti\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Us
+ers\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk>
+ <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1
+728.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\ecbx1200.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (71 pages, 8502897 bytes).
 PDF statistics:
- 872 PDF objects out of 1000 (max. 8388607)
+ 871 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 391 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 396 words of extra memory for PDF output out of 10000 (max. 10000000)
 
