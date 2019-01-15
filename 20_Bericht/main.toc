@@ -29,11 +29,11 @@
 \contentsline {section}{\numberline {6.1}Einleitung (KK)}{40}
 \contentsline {section}{\numberline {6.2}Konstellation 1: Reine Rotation (KK)}{41}
 \contentsline {section}{\numberline {6.3}Konstellation 2: Reine Ausblasung (AK)}{42}
-\contentsline {section}{\numberline {6.4}Konstellation 3: Kombinierte Aktuation (KK)}{45}
-\contentsline {chapter}{\numberline {7}Fazit}{49}
-\contentsline {chapter}{Literaturverzeichnis}{50}
-\contentsline {chapter}{Abbildungsverzeichnis}{52}
-\contentsline {chapter}{Tabellenverzeichnis}{54}
-\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{55}
-\contentsline {chapter}{\numberline {B}MATLAB-Code (AK, FT)}{59}
-\contentsline {section}{\numberline {B.1}Bestimmung der Druckverteilungen und des Widerstands}{59}
+\contentsline {section}{\numberline {6.4}Konstellation 3: Kombinierte Aktuation (KK)}{46}
+\contentsline {chapter}{\numberline {7}Fazit}{50}
+\contentsline {chapter}{Literaturverzeichnis}{52}
+\contentsline {chapter}{Abbildungsverzeichnis}{54}
+\contentsline {chapter}{Tabellenverzeichnis}{56}
+\contentsline {chapter}{\numberline {A}Technische Zeichnungen (NB, TG)}{57}
+\contentsline {chapter}{\numberline {B}MATLAB-Code (AK, FT)}{61}
+\contentsline {section}{\numberline {B.1}Bestimmung der Druckverteilungen und des Widerstands}{61}
