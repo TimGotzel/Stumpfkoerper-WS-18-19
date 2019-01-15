@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 17:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -905,6 +905,18 @@ Package pdftex.def Info: figures/HuchoStumpferKorper.jpg  used on input line 64
 .
 (pdftex.def)             Requested size: 182.09485pt x 105.33035pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+<figures/Wirbelstrasse.jpg, id=60, 867.99281pt x 228.855pt>
+File: figures/Wirbelstrasse.jpg Graphic file (type jpg)
+<use figures/Wirbelstrasse.jpg>
+Package pdftex.def Info: figures/Wirbelstrasse.jpg  used on input line 79.
+(pdftex.def)             Requested size: 318.66946pt x 84.022pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -912,30 +924,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4 <./figures/HuchoschlankerKorper.jpg> <./figures/HuchoStumpferKorper.jpg>]
-<figures/Wirbelstrasse.jpg, id=63, 867.99281pt x 228.855pt>
-File: figures/Wirbelstrasse.jpg Graphic file (type jpg)
-<use figures/Wirbelstrasse.jpg>
-Package pdftex.def Info: figures/Wirbelstrasse.jpg  used on input line 86.
-(pdftex.def)             Requested size: 273.14922pt x 72.01985pt.
 <figures/ScherSzweiseitig.jpg, id=64, 894.34125pt x 443.40656pt>
 File: figures/ScherSzweiseitig.jpg Graphic file (type jpg)
 <use figures/ScherSzweiseitig.jpg>
-Package pdftex.def Info: figures/ScherSzweiseitig.jpg  used on input line 97.
+Package pdftex.def Info: figures/ScherSzweiseitig.jpg  used on input line 98.
 (pdftex.def)             Requested size: 159.3382pt x 78.99783pt.
 <figures/ScherSeinseitig.jpg, id=65, 851.43094pt x 392.21532pt>
 File: figures/ScherSeinseitig.jpg Graphic file (type jpg)
 <use figures/ScherSeinseitig.jpg>
-Package pdftex.def Info: figures/ScherSeinseitig.jpg  used on input line 102.
+Package pdftex.def Info: figures/ScherSeinseitig.jpg  used on input line 103.
 (pdftex.def)             Requested size: 159.3382pt x 73.39655pt.
 <figures/ScherSrot.jpg, id=66, 801.74532pt x 307.1475pt>
 File: figures/ScherSrot.jpg Graphic file (type jpg)
 <use figures/ScherSrot.jpg>
-Package pdftex.def Info: figures/ScherSrot.jpg  used on input line 107.
+Package pdftex.def Info: figures/ScherSrot.jpg  used on input line 108.
 (pdftex.def)             Requested size: 159.3382pt x 61.03941pt.
 <figures/Nachlauf.jpg, id=67, 406.51875pt x 138.5175pt>
 File: figures/Nachlauf.jpg Graphic file (type jpg)
 <use figures/Nachlauf.jpg>
-Package pdftex.def Info: figures/Nachlauf.jpg  used on input line 120.
+Package pdftex.def Info: figures/Nachlauf.jpg  used on input line 119.
 (pdftex.def)             Requested size: 409.71689pt x 139.61198pt.
 
 
@@ -953,7 +960,7 @@ herSeinseitig.jpg> <./figures/ScherSrot.jpg>]
 File: figures/LaminareAbloeseblase.jpg Graphic file (type jpg)
 <use figures/LaminareAbloeseblase.jpg>
 Package pdftex.def Info: figures/LaminareAbloeseblase.jpg  used on input line 1
-34.
+33.
 (pdftex.def)             Requested size: 455.24408pt x 256.07095pt.
 
 
@@ -962,7 +969,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/Vorderkante.jpg, id=74, 591.71063pt x 526.96875pt>
 File: figures/Vorderkante.jpg Graphic file (type jpg)
 <use figures/Vorderkante.jpg>
-Package pdftex.def Info: figures/Vorderkante.jpg  used on input line 143.
+Package pdftex.def Info: figures/Vorderkante.jpg  used on input line 142.
 (pdftex.def)             Requested size: 273.14922pt x 243.26894pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -977,14 +984,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/coanda.jpg, id=78, 325.96782pt x 373.395pt>
 File: figures/coanda.jpg Graphic file (type jpg)
 <use figures/coanda.jpg>
-Package pdftex.def Info: figures/coanda.jpg  used on input line 172.
-(pdftex.def)             Requested size: 227.62204pt x 260.74799pt.
+Package pdftex.def Info: figures/coanda.jpg  used on input line 173.
+(pdftex.def)             Requested size: 204.85844pt x 234.67033pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
@@ -995,6 +1002,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [7 <./figures/LaminareAbloeseblase.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1187,7 +1198,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [17 <./figures/Spaltverlauf1.jpg> <./figures/Spaltverlauf2.jpg> <./figures/Sign
 alWalze1.jpg> <./figures/SignalWalze2.jpg>]
 Overfull \hbox (4.88414pt too wide) in paragraph at lines 94--96
-\T1/cmr/m/n/10.95 be-stimmt wer-den. Wenn die-se nach der ge-wï¿½nsch-ten Va-ria-
+\T1/cmr/m/n/10.95 be-stimmt wer-den. Wenn die-se nach der ge-wünsch-ten Va-ria-
 ble um-ge-stellt wird (sie-he Glei-chung 3.3[])
  []
 
@@ -1247,7 +1258,7 @@ Package pdftex.def Info: figures/KontrollvolumenHucho.png  used on input line 4
 (pdftex.def)             Requested size: 273.14922pt x 184.67783pt.
 
 Underfull \hbox (badness 2469) in paragraph at lines 42--42
-[][]|\T1/cmr/m/n/10.95 Kon-troll-vo-lu-men K um einen Kï¿½r-per mit Ge-schwin-dig
+[][]|\T1/cmr/m/n/10.95 Kon-troll-vo-lu-men K um einen Kör-per mit Ge-schwin-dig
 -keits-ver-tei-lun-gen
  []
 
@@ -1918,7 +1929,7 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (69 pages, 8391202 bytes).
+Output written on main.pdf (69 pages, 8391776 bytes).
 PDF statistics:
  863 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
