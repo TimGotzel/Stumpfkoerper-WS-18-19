@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 17:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 18:18
 entering extended mode
 **./main.tex
 (main.tex
@@ -1026,10 +1026,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9 <./figures/coanda.jpg> <./figures/Wandstrahl.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 224--227
-
- []
-
 <figures/KorperBearman.jpg, id=91, 210.03468pt x 93.34875pt>
 File: figures/KorperBearman.jpg Graphic file (type jpg)
 <use figures/KorperBearman.jpg>
@@ -1041,6 +1037,7 @@ File: figures/KorperGeropp.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/KorperGeropp.jpg  used on input line 242.
 (pdftex.def)             Requested size: 227.62204pt x 164.14929pt.
 
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
@@ -1050,22 +1047,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/KorperBarros.jpg, id=96, 334.62515pt x 163.73672pt>
 File: figures/KorperBarros.jpg Graphic file (type jpg)
 <use figures/KorperBarros.jpg>
-Package pdftex.def Info: figures/KorperBarros.jpg  used on input line 253.
+Package pdftex.def Info: figures/KorperBarros.jpg  used on input line 254.
 (pdftex.def)             Requested size: 318.66946pt x 155.94124pt.
 <figures/KoerperModi3.jpg, id=97, 240.14719pt x 73.77562pt>
 File: figures/KoerperModi3.jpg Graphic file (type jpg)
 <use figures/KoerperModi3.jpg>
-Package pdftex.def Info: figures/KoerperModi3.jpg  used on input line 263.
+Package pdftex.def Info: figures/KoerperModi3.jpg  used on input line 265.
 (pdftex.def)             Requested size: 273.14922pt x 83.92155pt.
 <figures/ModiStr1.jpg, id=98, 199.49532pt x 293.97328pt>
 File: figures/ModiStr1.jpg Graphic file (type jpg)
 <use figures/ModiStr1.jpg>
-Package pdftex.def Info: figures/ModiStr1.jpg  used on input line 271.
+Package pdftex.def Info: figures/ModiStr1.jpg  used on input line 274.
 (pdftex.def)             Requested size: 127.46584pt x 187.83273pt.
 <figures/ModiStr2.jpg, id=99, 198.7425pt x 287.95078pt>
 File: figures/ModiStr2.jpg Graphic file (type jpg)
 <use figures/ModiStr2.jpg>
-Package pdftex.def Info: figures/ModiStr2.jpg  used on input line 274.
+Package pdftex.def Info: figures/ModiStr2.jpg  used on input line 277.
 (pdftex.def)             Requested size: 127.46584pt x 184.6877pt.
 
 
@@ -1078,12 +1075,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/KorperModi.jpg, id=104, 500.24391pt x 150.9389pt>
 File: figures/KorperModi.jpg Graphic file (type jpg)
 <use figures/KorperModi.jpg>
-Package pdftex.def Info: figures/KorperModi.jpg  used on input line 283.
+Package pdftex.def Info: figures/KorperModi.jpg  used on input line 286.
 (pdftex.def)             Requested size: 273.14922pt x 82.42012pt.
 <figures/KoerperModi2.jpg, id=105, 488.57532pt x 130.23656pt>
 File: figures/KoerperModi2.jpg Graphic file (type jpg)
 <use figures/KoerperModi2.jpg>
-Package pdftex.def Info: figures/KoerperModi2.jpg  used on input line 305.
+Package pdftex.def Info: figures/KoerperModi2.jpg  used on input line 308.
 (pdftex.def)             Requested size: 227.62204pt x 60.67662pt.
 
 
@@ -1097,7 +1094,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/KoerperGong.jpg, id=109, 197.23688pt x 160.34906pt>
 File: figures/KoerperGong.jpg Graphic file (type jpg)
 <use figures/KoerperGong.jpg>
-Package pdftex.def Info: figures/KoerperGong.jpg  used on input line 315.
+Package pdftex.def Info: figures/KoerperGong.jpg  used on input line 318.
 (pdftex.def)             Requested size: 227.62204pt x 185.05325pt.
 )
 
@@ -1929,7 +1926,7 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (69 pages, 8391776 bytes).
+Output written on main.pdf (69 pages, 8391754 bytes).
 PDF statistics:
  863 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
