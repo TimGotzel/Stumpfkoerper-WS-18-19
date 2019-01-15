@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 23:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -1095,33 +1095,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  (03_versuchsvorbereitung.tex
 Kapitel 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
 <figures/ModellSchema.jpg, id=113, 569.0058pt x 143.5764pt>
 File: figures/ModellSchema.jpg Graphic file (type jpg)
 <use figures/ModellSchema.jpg>
-Package pdftex.def Info: figures/ModellSchema.jpg  used on input line 8.
+Package pdftex.def Info: figures/ModellSchema.jpg  used on input line 9.
 (pdftex.def)             Requested size: 364.19664pt x 91.89732pt.
 <figures/Walze1Graphik.jpg, id=114, 284.262pt x 341.5962pt>
 File: figures/Walze1Graphik.jpg Graphic file (type jpg)
 <use figures/Walze1Graphik.jpg>
-Package pdftex.def Info: figures/Walze1Graphik.jpg  used on input line 44.
+Package pdftex.def Info: figures/Walze1Graphik.jpg  used on input line 45.
 (pdftex.def)             Requested size: 145.67642pt x 175.06136pt.
 <figures/Walze2Graphik.jpg, id=115, 284.7438pt x 341.5962pt>
 File: figures/Walze2Graphik.jpg Graphic file (type jpg)
 <use figures/Walze2Graphik.jpg>
-Package pdftex.def Info: figures/Walze2Graphik.jpg  used on input line 47.
+Package pdftex.def Info: figures/Walze2Graphik.jpg  used on input line 48.
 (pdftex.def)             Requested size: 145.67642pt x 174.76425pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--52
+Underfull \hbox (badness 10000) in paragraph at lines 23--53
 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1661) has occurred while \output is active []
 
  [15
 
@@ -1131,12 +1126,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figures/Spaltverlauf1.jpg, id=119, 399.894pt x 218.7372pt>
 File: figures/Spaltverlauf1.jpg Graphic file (type jpg)
 <use figures/Spaltverlauf1.jpg>
-Package pdftex.def Info: figures/Spaltverlauf1.jpg  used on input line 69.
+Package pdftex.def Info: figures/Spaltverlauf1.jpg  used on input line 70.
 (pdftex.def)             Requested size: 318.66946pt x 174.31577pt.
 <figures/Spaltverlauf2.jpg, id=120, 394.1124pt x 218.7372pt>
 File: figures/Spaltverlauf2.jpg Graphic file (type jpg)
 <use figures/Spaltverlauf2.jpg>
-Package pdftex.def Info: figures/Spaltverlauf2.jpg  used on input line 72.
+Package pdftex.def Info: figures/Spaltverlauf2.jpg  used on input line 73.
 (pdftex.def)             Requested size: 318.66946pt x 176.87242pt.
 
 
@@ -1149,20 +1144,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/SignalWalze1.jpg, id=125, 129.6042pt x 21.681pt>
 File: figures/SignalWalze1.jpg Graphic file (type jpg)
 <use figures/SignalWalze1.jpg>
-Package pdftex.def Info: figures/SignalWalze1.jpg  used on input line 81.
+Package pdftex.def Info: figures/SignalWalze1.jpg  used on input line 82.
 (pdftex.def)             Requested size: 273.14575pt x 45.69684pt.
 
-Overfull \hbox (45.52371pt too wide) in paragraph at lines 81--82
+Overfull \hbox (45.52371pt too wide) in paragraph at lines 82--83
 [][] 
  []
 
 <figures/SignalWalze2.jpg, id=126, 124.3044pt x 21.681pt>
 File: figures/SignalWalze2.jpg Graphic file (type jpg)
 <use figures/SignalWalze2.jpg>
-Package pdftex.def Info: figures/SignalWalze2.jpg  used on input line 84.
+Package pdftex.def Info: figures/SignalWalze2.jpg  used on input line 85.
 (pdftex.def)             Requested size: 273.14575pt x 47.65036pt.
 
-Overfull \hbox (45.52371pt too wide) in paragraph at lines 84--85
+Overfull \hbox (45.52371pt too wide) in paragraph at lines 85--86
 [][] 
  []
 
@@ -1174,34 +1169,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [17 <./figures/Spaltverlauf1.jpg> <./figures/Spaltverlauf2.jpg> <./figures/Sign
 alWalze1.jpg> <./figures/SignalWalze2.jpg>]
-Overfull \hbox (4.88414pt too wide) in paragraph at lines 94--96
+Overfull \hbox (4.88414pt too wide) in paragraph at lines 95--97
 \T1/cmr/m/n/10.95 be-stimmt wer-den. Wenn die-se nach der ge-wünsch-ten Va-ria-
 ble um-ge-stellt wird (sie-he Glei-chung 3.3[])
  []
 
 
-Overfull \hbox (8.83992pt too wide) in paragraph at lines 120--131
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 <figures/Integrationsskript.jpg, id=130, 405.38953pt x 405.01312pt>
 File: figures/Integrationsskript.jpg Graphic file (type jpg)
 <use figures/Integrationsskript.jpg>
-Package pdftex.def Info: figures/Integrationsskript.jpg  used on input line 143
+Package pdftex.def Info: figures/Integrationsskript.jpg  used on input line 145
 .
 (pdftex.def)             Requested size: 364.19664pt x 363.8657pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--147
+Underfull \hbox (badness 10000) in paragraph at lines 142--149
 
  []
 
 
-Underfull \vbox (badness 4752) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1892,7 +1882,7 @@ c/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (68 pages, 8391915 bytes).
+Output written on main.pdf (68 pages, 8392092 bytes).
 PDF statistics:
  858 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
