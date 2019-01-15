@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 18:40
 entering extended mode
 **./main.tex
 (main.tex
@@ -1482,15 +1482,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36 <./figures/GFM_Druckverteilung_oval_oben_geschl.jpg> <./figures/GFM_Druckve
 rteilung_oval_unten_geschl.jpg>]
-
-LaTeX Warning: Reference `sec:modell' on page 37 undefined on input line 276.
-
 <figures/Oberflaechendruecke_RK.jpg, id=214, 562.1pt x 421.575pt>
 File: figures/Oberflaechendruecke_RK.jpg Graphic file (type jpg)
 <use figures/Oberflaechendruecke_RK.jpg>
 Package pdftex.def Info: figures/Oberflaechendruecke_RK.jpg  used on input line
  285.
 (pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1892,43 +1890,40 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 (00_eid_erkl.aux) (00_abstract.aux) (00_empty_page.aux) (00_nomenklatur.aux)
 (01_einleitung.aux) (02_grundlagen.aux) (03_versuchsvorbereitung.aux)
 (04_widerstandsbestimmung.aux) (05_windkanalversuche.aux)
-(06_versuchsauswertung.aux) (07_fazit.aux) (anhang1.aux) (anhang2.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(06_versuchsauswertung.aux) (07_fazit.aux) (anhang1.aux) (anhang2.aux)) ) 
 Here is how much of TeX's memory you used:
- 17161 strings out of 493303
- 343821 string characters out of 3138865
+ 17160 strings out of 493303
+ 343809 string characters out of 3138865
  358018 words of memory out of 3000000
- 20319 multiletter control sequences out of 15000+200000
+ 20318 multiletter control sequences out of 15000+200000
  551719 words of font info for 75 fonts, out of 3000000 for 9000
  1142 hyphenation exceptions out of 8191
  42i,20n,50p,10431b,963s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecr
-m1200.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecbx1440.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
-\ec\dpi600\ecbx2074.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecti1095.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\l
-jfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fon
-ts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Ti\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Ti\AppData\Local\
-MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Ti\AppData
-\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (69 pages, 8391724 bytes).
+ <C:\U
+sers\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
+1440.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecbx2074.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\ecti1095.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecbx1095.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\fonts\pk\lj
+four\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Ti\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Ti\AppData\Local\M
+iKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (69 pages, 8391362 bytes).
 PDF statistics:
- 863 PDF objects out of 1000 (max. 8388607)
+ 862 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  391 words of extra memory for PDF output out of 10000 (max. 10000000)
 
