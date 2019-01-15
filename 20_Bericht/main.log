@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.19)  15 JAN 2019 18:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -1340,12 +1340,12 @@ Package pdftex.def Info: figures/ModellGeometrie.jpg  used on input line 27.
 <figures/DModell1.jpg, id=179, 1604.99625pt x 902.37125pt>
 File: figures/DModell1.jpg Graphic file (type jpg)
 <use figures/DModell1.jpg>
-Package pdftex.def Info: figures/DModell1.jpg  used on input line 47.
+Package pdftex.def Info: figures/DModell1.jpg  used on input line 48.
 (pdftex.def)             Requested size: 223.0721pt x 125.40858pt.
 <figures/DModell2.jpg, id=180, 1604.99625pt x 902.37125pt>
 File: figures/DModell2.jpg Graphic file (type jpg)
 <use figures/DModell2.jpg>
-Package pdftex.def Info: figures/DModell2.jpg  used on input line 52.
+Package pdftex.def Info: figures/DModell2.jpg  used on input line 53.
 (pdftex.def)             Requested size: 223.0721pt x 125.40858pt.
 
 
@@ -1359,12 +1359,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/windkanal1.jpg, id=184, 4625.28pt x 2601.72pt>
 File: figures/windkanal1.jpg Graphic file (type jpg)
 <use figures/windkanal1.jpg>
-Package pdftex.def Info: figures/windkanal1.jpg  used on input line 83.
+Package pdftex.def Info: figures/windkanal1.jpg  used on input line 84.
 (pdftex.def)             Requested size: 273.14922pt x 153.63512pt.
 <figures/windkanal2.jpg, id=185, 4625.28pt x 2601.72pt>
 File: figures/windkanal2.jpg Graphic file (type jpg)
 <use figures/windkanal2.jpg>
-Package pdftex.def Info: figures/windkanal2.jpg  used on input line 86.
+Package pdftex.def Info: figures/windkanal2.jpg  used on input line 87.
 (pdftex.def)             Requested size: 273.14922pt x 153.63512pt.
 
 
@@ -1379,13 +1379,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <figures/Fischmaulsonde.jpg, id=189, 1027.84pt x 533.995pt>
 File: figures/Fischmaulsonde.jpg Graphic file (type jpg)
 <use figures/Fischmaulsonde.jpg>
-Package pdftex.def Info: figures/Fischmaulsonde.jpg  used on input line 133.
+Package pdftex.def Info: figures/Fischmaulsonde.jpg  used on input line 134.
 (pdftex.def)             Requested size: 273.14922pt x 141.90726pt.
 <figures/Druckmessrechen_mitModell.jpg, id=190, 1604.99625pt x 902.37125pt>
 File: figures/Druckmessrechen_mitModell.jpg Graphic file (type jpg)
 <use figures/Druckmessrechen_mitModell.jpg>
 Package pdftex.def Info: figures/Druckmessrechen_mitModell.jpg  used on input l
-ine 148.
+ine 149.
 (pdftex.def)             Requested size: 273.14922pt x 153.56631pt.
 
 
@@ -1408,7 +1408,7 @@ File: figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg Graphic file (ty
 pe jpg)
 <use figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.jpg>
 Package pdftex.def Info: figures/Modell_bei_Gleichfoermigkeitsmessungen_glatt.j
-pg  used on input line 185.
+pg  used on input line 186.
 (pdftex.def)             Requested size: 182.09485pt x 219.9485pt.
 
 
@@ -1423,14 +1423,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: figures/GFM_Druckverteilung_glatt_oben.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_glatt_oben.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_glatt_oben.jpg  used on in
-put line 209.
+put line 210.
 (pdftex.def)             Requested size: 386.96024pt x 116.82654pt.
 <figures/GFM_Druckverteilung_glatt_unten.jpg, id=202, 630.85687pt x 205.5178pt>
 
 File: figures/GFM_Druckverteilung_glatt_unten.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_glatt_unten.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_glatt_unten.jpg  used on i
-nput line 222.
+nput line 223.
 (pdftex.def)             Requested size: 386.96024pt x 126.06186pt.
 
 
@@ -1446,7 +1446,7 @@ ng_glatt_unten.jpg>]
 File: figures/GFM_Druckverteilung_oval_oben_geschl.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_oben_geschl.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_oben_geschl.jpg  used
- on input line 238.
+ on input line 239.
 (pdftex.def)             Requested size: 386.96024pt x 127.90892pt.
 <figures/GFM_Druckverteilung_oval_unten_geschl.jpg, id=208, 630.85687pt x 211.5
 4031pt>
@@ -1454,21 +1454,21 @@ File: figures/GFM_Druckverteilung_oval_unten_geschl.jpg Graphic file (type jpg)
 
 <use figures/GFM_Druckverteilung_oval_unten_geschl.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_unten_geschl.jpg  use
-d on input line 241.
+d on input line 242.
 (pdftex.def)             Requested size: 386.96024pt x 129.75597pt.
 <figures/GFM_Druckverteilung_oval_oben_offen.jpg, id=209, 630.85687pt x 229.607
 82pt>
 File: figures/GFM_Druckverteilung_oval_oben_offen.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_oben_offen.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_oben_offen.jpg  used 
-on input line 255.
+on input line 256.
 (pdftex.def)             Requested size: 386.96024pt x 140.83835pt.
 <figures/GFM_Druckverteilung_oval_unten_offen.jpg, id=210, 630.85687pt x 249.18
 094pt>
 File: figures/GFM_Druckverteilung_oval_unten_offen.jpg Graphic file (type jpg)
 <use figures/GFM_Druckverteilung_oval_unten_offen.jpg>
 Package pdftex.def Info: figures/GFM_Druckverteilung_oval_unten_offen.jpg  used
- on input line 258.
+ on input line 259.
 (pdftex.def)             Requested size: 386.96024pt x 152.84422pt.
 
 
@@ -1483,13 +1483,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [36 <./figures/GFM_Druckverteilung_oval_oben_geschl.jpg> <./figures/GFM_Druckve
 rteilung_oval_unten_geschl.jpg>]
 
-LaTeX Warning: Reference `sec:modell' on page 37 undefined on input line 275.
+LaTeX Warning: Reference `sec:modell' on page 37 undefined on input line 276.
 
 <figures/Oberflaechendruecke_RK.jpg, id=214, 562.1pt x 421.575pt>
 File: figures/Oberflaechendruecke_RK.jpg Graphic file (type jpg)
 <use figures/Oberflaechendruecke_RK.jpg>
 Package pdftex.def Info: figures/Oberflaechendruecke_RK.jpg  used on input line
- 284.
+ 285.
 (pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1506,7 +1506,7 @@ teilung_oval_unten_offen.jpg>]
 File: figures/Oberflaechendruecke_50erK.jpg Graphic file (type jpg)
 <use figures/Oberflaechendruecke_50erK.jpg>
 Package pdftex.def Info: figures/Oberflaechendruecke_50erK.jpg  used on input l
-ine 300.
+ine 301.
 (pdftex.def)             Requested size: 273.14922pt x 204.86244pt.
 
 
@@ -1926,7 +1926,7 @@ rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (69 pages, 8391754 bytes).
+Output written on main.pdf (69 pages, 8391724 bytes).
 PDF statistics:
  863 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
