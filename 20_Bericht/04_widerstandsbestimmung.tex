@@ -54,7 +54,7 @@ Infolgedessen kann die St"utzkraft nun also dem Nettoimpulsfluss gleichgesetzt w
 	\rho \int_{(K)} \, u_x \, \mathrm{d}Q	= -\rho b \int u_1(U_{\infty} - u_1) \mathrm{d}y = F_{Sx}.	
 \end{equation}
 lautet.\\
-Hier ist $b$ die Breite des Modells senkrecht zur Zeichenebene und $U_{\infty}$ die Geschwindigkeit der umgest"orten Anstr"omung.
+Hier ist $b$ die Breite des Modells senkrecht zur Zeichenebene $u_1$ die Geschwindigkeit am Querschnitt (1) und  $U_{\infty}$ die Geschwindigkeit der umgest"orten Anstr"omung.
 
 Die St"utzkraft des festen Teils des Kontrollvolumens - also des Stumpfk"orpers - h"angt mit dem Widerstand in der Form
 \begin{equation}
@@ -79,7 +79,7 @@ Der Widerstand l"asst sich f"ur bessere Vergleichbarkeit dimensionslos "uber den
 		C_w = \frac{W}{\frac{\rho}{2}\, U_{\infty}^2 \, bd}
 	\end{equation}
 \end{center}
-definiert.
+definiert. Dabei wird der Widerstand auf die Str"omung und den charakteristischen K"orperquerschnitt $bd$ mit $d$ als H"ohe des Modells bezogen.
 
 Nach Einsetzen der Gleichung \ref{eq:widerstand} ergibt sich f"ur den Widerstandsbeiwert
 \begin{equation}
@@ -110,9 +110,9 @@ Diese Mittlung gleicht zudem in gewissem Ma\ss{}e das unvermeidbare Messrauschen
 		u_{1}(y)= \sqrt{\frac{2}{\rho}(p_t - p_{\infty}) } = \sqrt{\frac{2}{\rho} q(y)}
 	\end{equation}
 \end{center}
-l"asst sich wie oben beschrieben der Geschwindigkeitsverlauf aus den gemessenen Dr"ucken bestimmen und in \glg{eq:Bestimmungsgleichung C_w} einsetzen.
+l"asst sich wie oben beschrieben der Geschwindigkeitsverlauf aus den gemessenen Dr"ucken bestimmen und in \glg{eq:Bestimmungsgleichung C_w} einsetzen. 
 
-Wobei $u_{1}(y)$ die Str"omungsgeschwindigkeit im Nachlauf in Abh"angigkeit der y-Koordinate und $q$ der gemessene dynamische Druck ist.\\
+Wobei $p_t$ der Totaldruck, $p_{\infty}$ der statische Druck der freien Anstr"omung und $q$ der dynamische Druck ist.\\
 Mit Hilfe dieser Formeln kann nun eine m"ogliche Reduktion des Widerstandsbeiwertes festgestellt werden.
 
 Diese gesamte Vorgehensweise zur Bestimmung des Widerstands ist legitim, wenn an der Messstelle im Nachlauf n"aherungsweise angenommen werden kann, dass der statische Druck wieder $p_\infty$ entspricht.In diesem Fall heben sich die Druckterme im Impulssatz auf  beiden Seiten des Kontrollvolumens gegenseitig auf.
@@ -134,7 +134,7 @@ F"ur den Widerstandsbeiwert erh"alt man
 \begin{equation}
 	\label{eq:C_w_korrigiert}
 	C_w = 2 \int_{(2)} \sqrt{\frac{p_{t2}(y) - p_2(y)}{q_{\infty}}}
-	\left(1 - \sqrt{\frac{p_{t2}(y) - p_{\infty}}{q_{\infty}}}\right)  \mathrm{d}\left(\frac{y}{d}\right).
+	\left(1 - \sqrt{\frac{p_{t2}(y) - p_{\infty}}{q_{\infty}}}\right)  \mathrm{d}\left(\frac{y_{2}}{d}\right).
 \end{equation}
 
 Der Rechen, der die Dr"ucke liefert, sollte zu diesem Zwecke m"oglichst so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
@@ -254,7 +254,7 @@ Mit \glg{eq:def-c_w} kann man die Leistungsrate auch als
 \end{equation}
 schreiben.
 
-Des Weiteren wird als weitere Gr"o\ss{}e noch der Leistungskoeffizient $C_{Power}$ ben"otigt, welcher als
+Des Weiteren wird noch als Gr"o\ss{}e der Leistungskoeffizient $C_{Power}$ ben"otigt, welcher als
 \begin{equation}
 	\label{eq:def-powercoefficient}
 	C_{Power,jet} = \frac{E_{jet}\dot{m}_{jet} + p_{jet}U_{jet}A_{jet} - (E_p\dot{m}_p + p_p U_p A_p)}{\frac{1}{2}\rho_{\infty}U^3_{\infty} A_{ref}}
@@ -279,18 +279,14 @@ Zun"achst treffen wir die Annahmen, dass die Temperatur innerhalb des ausgeblase
 	\label{eq:T-Vereinfachung}
 		T_{jet} = T_{Plenum}
 	\end{equation}
-
 und wir n"aherungsweise davon ausgehen k"onnen, dass im Plenum keine Str"omungsgeschwindigkeit 
-
 	\begin{equation}
 	\label{eq:Up}
 		U_{Plenum} \approx 0
 	\end{equation}
-
 vorliegt.
 
 Des Weiteren nehmen wir, wie zuvor, an, dass die Str"omung inkompressibel ist und somit
-
 	\begin{equation}
 	\label{eq:Inkompressibilitaet}
 		\rho_{jet} = \rho_{Plenum} = \rho_{\infty}
