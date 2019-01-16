@@ -25,7 +25,7 @@ Der Widerstand $W$ eines stumpfen K"orpers innerhalb einer Str"omung macht sich 
 
 Aus diesen "Uberlegungen folgt, dass die gesuchte Gr"o\ss{}e $W$ bestimmt werden kann, indem der Geschwindigkeitsverlauf der Str"omung im Nachlauf betrachtet und mittels des Impulssatzes ausgewertet wird. 
 
-Der Widerstand des K"orpers selbst l"asst sich also finden, wenn ein Kontrollvolumen wie in \abb{fig:HuchoKV} um den K"orper gelegt und eine Impulsbilanz aufgestellt wird~\cite{Hucho.2011}. Es wird im Folgenden vereinfacht von einer horizontalen, inkompressiblen 2D-Str"omung ausgegangen und der Impulssatz in x-Richtung
+Der Widerstand des K"orpers selbst l"asst sich finden, wenn ein Kontrollvolumen wie in \abb{fig:HuchoKV} um den K"orper gelegt und eine Impulsbilanz aufgestellt wird~\cite{Hucho.2011}. Es wird im Folgenden vereinfacht von einer horizontalen, inkompressiblen 2D-Str"omung ausgegangen und der Impulssatz in x-Richtung
 
 \begin{equation}
 	\label{eq:impulssatz_allg}
@@ -103,7 +103,7 @@ zeitlich gemittelt.
 Die Summe aller "uber einen Zeitraum genommenen Dr"ucke $p_i$ wird hierbei durch die Anzahl $n$ dieser Dr"ucke innerhalb dieses Zeitraums geteilt.
 Diese Mittlung gleicht zudem in gewissem Ma\ss{}e das unvermeidbare Messrauschen aus.
 
-"Uber den die Definition des dynamischen Drucks $q$ bzw. den Zusammenhang
+"Uber die Definition des dynamischen Drucks $q$ bzw. den Zusammenhang
 \begin{center}
 	\begin{equation}
 		\label{geschwindigkeitsformel}
@@ -120,7 +120,7 @@ Wird die Nachlaufdelle hingegen n"aher am K"orper gemessen, weicht der dort geme
 Solche Abweichungen lassen sich durch die messtechnische Anordnung h"aufig nicht vermeiden - 
 k"onnen nach \textit{B.M. Jones} aber durch eine Korrektur ber"ucksichtigt werden, wie sie beispielsweise bei \textit{Schlichting} \cite{Schlichting.2001} zu finden ist.
 
-Hierbei werden die Dr"ucke, die theoretisch an einem Querschnitt (1) \abb{fig:HuchoKV} weit genug weg vom K"orper und somit von der statischen Druckabweichung herrschen, auf Dr"ucke zuruckgef"uhrt, die n"aher am K"orper tats"achlich gemessen werden\cite{Schlichting.2001}.
+Hierbei werden die Dr"ucke, die theoretisch an einem Querschnitt (1) in \abb{fig:HuchoKV} weit genug weg vom K"orper und somit von der statischen Druckabweichung herrschen, auf Dr"ucke zuruckgef"uhrt, die n"aher am K"orper tats"achlich gemessen werden\cite{Schlichting.2001}.
 Der neue Querschnitt, bei welchem die Messung stattfindet, erh"alt den Index $(2)$.
 
 Der Widerstand in diesem Fall ergibt sich zu
@@ -140,15 +140,14 @@ F"ur den Widerstandsbeiwert erh"alt man
 Der Rechen, der die Dr"ucke liefert, sollte zu diesem Zwecke m"oglichst so platziert werden, dass die Nachlaufdelle komplett aufgenommen wird. 
 
 Da nur diskrete Werte der jeweiligen Druckverteilung auf diese Weise ermittelt werden, m"ussen die Druckverteilungen durch eine Fitting-Funktion angen"ahert werden. 
-Hierzu eignet sich - der bisherigen Erfahrung nach - der Ansatz
+Hierzu eignet sich - der bisherigen Erfahrung nach \cite{Oswald.2017} - der Ansatz
 
 	\begin{equation}
 	\label{eq:fitting-function}
 	\frac{p(y) - p_{\infty}}{p_{min}-p_{\infty}} = (1 +ay^2)^{by^2}.
 	\end{equation}
 In \glg{eq:fitting-function} entspricht $p_{min}$ dem niedrigsten Druck im Nachlauf und $a$ und $b$ sind Modellparameter \cite{Oswald.2017}.
-
-Diese Vorgehensweise hat sich beispielsweise bei einem "ahnlichem Modell durch \textit{Oswald} bew"ahrt \cite{Oswald.2017}.
+%Diese Vorgehensweise hat sich beispielsweise bei einem "ahnlichem Modell durch \textit{Oswald} bew"ahrt \cite{Oswald.2017}.
 
 Die \textit{Matlab}-Funktion \textit{nlinfit} wird hierbei genutzt, um die g"unstigsten Parameter f"ur die Druckverteilungen durch nichtlineare Regression zu bestimmen.\\
 Die von \textit{nlinfit} ermittelten Druckverteilungen k"onnen dann zur Bestimmung des Widerstandsbeiwerts in \glg{eq:C_w_korrigiert} eingesetzt werden.\\
@@ -178,8 +177,8 @@ In \glg{eq:momentum-coeff-oscill} steht der $\langle{}\rangle$-Operator f"ur die
 
 Da sowohl Plenumsdruck und somit auch die Ausblasegeschwindigkeit $U_{jet}$, als auch der Spaltquerschnitt "uber die Umdrehung der Walzen schwanken, m"ussen diese Einfl"usse wie in \glg{eq:momentum-coeff-oscill} Eingang in die Formel f"ur $C_{\mu}$ im Falle der periodischen Aktuation finden.
 
-F"ur das mit der Zeit variierende $A_{Spalt}$   wird die mittlere Spalth"ohe, die sich von dem Zeitpunkt der "Offnung des Spalts bis zu dem Zeitpunkt, an dem der Spalt gerade wieder geschlossen ist, ermittelt.  
-Durch die Betrachtung des in \kap{s:rotierendeWalzen} in \abb{fig:signal} dargestellten Spalth"ohenverlaufs ergibt sich ein $\langle{h_{Spalt,offen}}\rangle$ von ca. 0,19 \,mm.
+F"ur das mit der Zeit variierende $A_{Spalt}$ wird die mittlere Spalth"ohe, die sich von dem Zeitpunkt der "Offnung des Spalts bis zu dem Zeitpunkt, an dem der Spalt gerade wieder geschlossen ist, ermittelt.  
+Durch die Betrachtung des in \kap{s:rotierendeWalzen} in \abb{fig:signal} dargestellten Spalth"ohenverlaufs ergibt sich f"ur das Walzenpaar mit $\alpha = 0,5$ ein $\langle{h_{Spalt,offen}}\rangle$ von ca. 0,19 \,mm.
 
 Die mittlere Spalth"ohe "uber eine komplette Umdrehung ergibt sich durch die Multiplikation mit dem Tastgrad $\alpha$.
 
@@ -220,7 +219,7 @@ Mittels des Impulskoeffizienten kann die Effektivit"at der Ausblasung beschriebe
 Auch f"ur den Vergleich zwischen den untersuchten Walzenpaaren und mit den Daten von \textit{Bilges} \cite{Bilges.2018} ist die Betrachtung des Impulskoeffizienten ma\ss{}geblich.
 
 \subsection{Leistungskoeffizient und Leistungsrate}
-Eine alleinige Betrachtung und ein Vergleich der $C_w$-Werte f"ur den Fall ohne Druckluftzuf"uhrung und rotierende Walzen, sowie den Fall mit aktiver konstanter sowie periodischer Stro"mungsbeeinflussung ist nicht ausreichend, um eine vollst"andige Bewertung der unterschiedlichen Konfigurationen vorzunehmen.
+Eine alleinige Betrachtung und ein Vergleich der $C_w$-Werte f"ur den Fall ohne Druckluftzuf"uhrung und rotierende Walzen, sowie den Fall mit aktiver konstanter sowie periodischer Str"omungsbeeinflussung ist nicht ausreichend, um eine vollst"andige Bewertung der unterschiedlichen Konfigurationen vorzunehmen.
 
 Die durch eine Widerstandsreduktion bedingte Leistungseinsparung im Anwendungsfall k"onnte durchaus durch die extern aufzubringende Leistung f"ur Druckluft und Walzenrotation ausgeglichen oder "ubertroffen werden, sodass letztendlich zus"atzliche Energie aufgebracht und der Zweck der Anwendung verfehlt w"urde.
 
